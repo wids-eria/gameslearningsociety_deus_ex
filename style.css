@@ -1,0 +1,1162 @@
+/*--------------------------------------------------------- Global Styles ------------------------------------*/
+
+* { margin:0; padding:0; }
+html{ overflow:scroll; background:white; }
+body{  }
+
+a{ text-decoration:none; }
+    a:hover{  }
+
+p{  }
+
+ul{ list-style:none; }
+
+hr{  }
+
+h1{  }
+h2{  }
+h3{  }
+h4{  }
+h5{  }
+
+::selection{ background:#42494f; color:white;}
+
+/* End Global Styles */
+
+
+
+/*--------------------------------------------------------- Misc Classes ------------------------------------*/
+
+.clear{ clear: both; }
+
+.floatleft{ float:left; }
+.floatright{ float:right; }
+
+.bold{ font-weight:700 !important;}
+.italic{ font-style: italic; }
+
+.center_text{ text-align:center; }
+.all_caps{ text-transform:uppercase; }
+.lower_case{ text-transform:lowercase; }
+
+.arrow{
+    height: 20px;
+    width:  20px;
+    background:url(images/arrow.png);
+}
+    .arrow:hover{ background:url(images/arrow_hover.png); }
+    
+.topmargin{ margin-top:15px; }
+
+/* End Misc Classes */
+
+
+/*--------------------------------------------------------- Containers ------------------------------------*/
+
+.one_third{ width:300px; }
+.one_half{ width:460px; }
+.two_thirds{ width:625px; }
+.full_width{ width:960px; }
+
+.middle{ margin-left:30px;}
+
+/* End Containers */
+
+
+
+
+/*--------------------------------------------------------- Active Page ------------------------------------*/
+
+    /*
+      body#ID_NAME_HERE .Navigation_Name li.List_Item_Class_Here{ Style for active Nav button }
+    */
+
+/* End Active Page */
+
+
+
+
+.navigation_wrap{ width:960px; margin:0 auto; z-index:1000; position:relative; }
+
+
+.banner_image{
+    height: 400px;
+    width:  100%;
+    z-index:5;
+    position:relative;
+    
+    background:url(images/banner_images/progenitor_banner_image_01.png) 50% 0%;
+}
+
+.banner_image_contact{
+   height: 400px;
+    width:  100%;
+    z-index:5;
+    position:relative;
+    
+    background:url(images/banner_images/banner_image_contact.png) 50% 0%;
+}
+
+.banner_image_courses{
+   height: 400px;
+    width:  100%;
+    z-index:5;
+    position:relative;
+    
+    background:url(images/banner_images/banner_image_courses.png) 50% 0%;
+}
+
+.banner_project_progenitor_x{
+   height: 400px;
+    width:  100%;
+    z-index:5;
+    position:relative;
+    
+    background:url(images/game_page_banners/game_banner_progenitorx.png) 50% 0%;
+}
+
+.banner_text_container{ width:960px; margin:0 auto; padding-top:150px; }
+
+    .banner_header{
+        font-size:      12px;
+        font-family:    proxima-nova;
+        font-weight:    700;
+        color:          white;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-size:      55px;
+        
+        padding:    5px 15px 2px 15px;
+        
+        background: rgba( 0,0,0, 0.7);
+    }
+    
+    .banner_subheader{
+        font-size:      12px;
+        font-family:    proxima-nova;
+        font-weight:    700;
+        color:          #9ce9ff;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-size:      30px;
+        
+        margin:     0px 0 0 0;
+        padding:    5px 10px 5px 10px;
+        
+        background: rgba( 0,0,0, 0.7);
+    }
+
+
+
+/*--------------------------------------------------------- Navigation ------------------------------------*/
+
+.navigation_logo_link_box{
+    height: 55px;
+    width:  55px;
+    float:  left;
+    
+    margin: 0 0 0 16px;
+}
+
+.navigation_container{
+    height: 55px;
+    width:  960px;
+    float:  left;
+    
+    margin: 5px 0 0 0;
+    
+    background:url(images/navigation_background.png);
+}
+
+    .navigation{ width:884px; margin:11px 0 0 5px; float:left;  }
+    
+        .navigation li{
+            height: 33px;
+            
+            padding:    0 10px 0 10px;
+            
+            line-height:    34px;
+            font-size:      12px;
+            font-family:    proxima-nova;
+            font-weight:    700;
+            color:          white;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        
+            /*.navigation li:hover{ background:#c5173a; }*/ 
+            .navigation li:active{ background:#c5173a; }
+            
+            .navigation li img{ margin-top:7px; }
+            
+ 
+.box {
+  padding: 2em;
+  display: block;
+  height: 66px;
+  background:linear-gradient(  rgba(0,0,0,0), rgba(0,0,0,0) 50%, #c5173a 50%, #c5173a  );
+  background-size: 100% 202%;
+  transition: all 0.1s ease;
+  animation: down-bump 0.4s ease;
+}
+    
+    .box:hover {  background-position: 100% 100%; animation: up-bump 0.4s ease; }   
+ 
+@keyframes up-bump {
+  0% { padding-top: 2em; }
+  50% { padding-top: 1.5em; }
+  100% { padding-top: 2em; }
+}
+@keyframes down-bump {
+  0% { padding-top: 2em; }
+  50% { padding-top: 2.5em; }
+  100% { padding-top: 2em; }
+}   
+    
+
+/* End Navigation */
+
+
+
+
+.body_content_container{
+    width:  100%;
+    float:  left;
+    
+    background:url(images/body_content_background_tile.png) repeat-x #fff;
+}
+
+.body_content{ width:960px; margin:0 auto; border-top:2px solid white; }
+
+.tagline_container{
+    width:  100%;
+    margin: 35px 0 35px 0;
+}
+
+    p.tagline_header{
+        text-align:     center;
+        font-family:    proxima-nova;
+        color:          #42494f;
+        font-size:      50px;
+        font-weight:    800;
+        line-height:    45px;
+        
+        margin-bottom:  15px;
+    }
+    
+    p.tagline_description{
+        text-align:     center;
+        font-family:    proxima-nova;
+        color:          #74838d;
+        font-size:      19px;
+    }
+    
+
+.home_page_grid_container{
+    width:  100%;
+    float:  left;
+    
+    padding:    30px 0 10px 0;
+    margin:     0 0 20px 0;
+    
+    background:#f4f4f4;
+    
+    box-shadow:inset 0px 0px 30px #e9e9e9;
+}
+
+    .home_page_grid{ width:980px; margin:0 auto; }
+    
+        .hpgrid_innovative_video_games{
+            height: 206px;
+            width:  508px;
+            
+            margin-left:    -10px;
+            margin-right:   -10px;
+            
+            background:url(images/hp_grid/hpgrid_innovative_video_games.png);
+        }
+        
+        .hpgrid_cutting_edge_research{
+            height: 206px;
+            width:  508px;
+            
+            margin-left:    -10px;
+            margin-right:   -10px;
+            
+            background:url(images/hp_grid/hpgrid_cutting_edge_research.png);
+        }
+        
+        .hpgrid_industry_leaders{
+            height: 206px;
+            width:  508px;
+            
+            margin-left:    -10px;
+            margin-right:   -10px;
+            
+            background:url(images/hp_grid/hpgrid_industry_leaders.png);
+        }
+        
+        
+        .hpgrid_unique_culture{
+            height: 206px;
+            width:  508px;
+            
+            margin-left:    -10px;
+            margin-right:   -10px;
+            
+            background:url(images/hp_grid/hpgrid_unique_culture.png);
+        }
+        
+        .hpgrid_contact{
+            height: 206px;
+            width:  508px;
+            
+            margin-left:    -10px;
+            margin-right:   -10px;
+            
+            background:url(images/hp_grid/hpgrid_contact.png);
+        }
+        
+        .hpgrid_gls_conference{
+            height: 206px;
+            width:  508px;
+            
+            margin-left:    -10px;
+            margin-right:   -10px;
+            
+            background:url(images/hp_grid/hpgrid_gls_conference.png);
+        }
+
+
+.hpgrid_content{
+    height: 186px;
+    width:  471px;
+    
+    margin: 0 0 0 18px;
+}
+
+    .hpgrid_content:hover{ cursor:pointer; }
+
+.hpgrid_hover_content{
+    width:  451px;
+    height: 0px;
+    
+    padding:    10px;
+}
+
+    .hpgrid_hover_content p{
+        display:none;
+        
+        font-family:    proxima-nova;
+        color:          white;
+        font-size:      16px;
+    }
+    .hpgrid_content:hover p{ display:block; }
+
+    
+    .hpgrid_content:hover .hpgrid_hover_content{
+        width:  451px;
+        height: 166px;
+        
+        padding:10px;
+        
+        background:rgba(197,26,58, .80);
+        
+        -webkit-transition: all .1s ease-in-out;
+        -moz-transition:    all .1s ease-in-out; 
+        -o-transition:      all .1s ease-in-out; 
+        -ms-transition:     all .1s ease-in-out;
+         transition:        all .1s ease-in-out;  
+    }
+
+
+
+    .hpgrid_label_container_one_line{ margin:133px 10px 10px 10px; width:215px; }
+    .hpgrid_label_container_two_lines{ margin:92px 10px 10px 10px; width:215px; }
+    
+        .hpgrid_label{
+            font-size:      12px;
+            font-family:    proxima-nova;
+            font-weight:    700;
+            color:          white;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-size:      25px;
+            text-align:     right;
+            
+            margin:     6px 0 0 0;
+            padding:    3px 3px 2px 6px;
+            
+            background: rgba( 0,0,0, 0.7);
+        }
+        
+    .hpgrid_content:hover .hpgrid_label{
+        background: rgba( 0,0,0, 0.2);
+        
+        -webkit-transition: all .1s ease-in-out;
+        -moz-transition:    all .1s ease-in-out; 
+        -o-transition:      all .1s ease-in-out; 
+        -ms-transition:     all .1s ease-in-out;
+         transition:        all .1s ease-in-out;
+    }
+
+
+
+.blog_and_courses{ width:960px; margin:0 auto; }
+
+p.subhead_type{
+    width:  100%;
+    
+    font-size:      12px;
+    font-family:    proxima-nova;
+    font-weight:    700;
+    color:          #42494f;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size:      30px;
+    text-align:     left;
+    
+    margin:     0px 0 0 0;
+    padding:    5px 10px 5px 0;
+}
+
+.hp_courses_containter{
+    width:  940px;
+    
+    padding:10px 10px 0 10px;
+    margin: 10px 0 20px 0;
+    
+    background:#f4f4f4;
+    
+    box-shadow:inset 0px 0px 30px #e9e9e9;
+}
+
+    .hp_course_link{
+        background:rgba(255,255,255,.70);
+        
+        padding:5px;
+        margin: 0 0 10px 0;
+    }
+        .hp_course_link:hover{ background:white; }
+    
+    .course_title{
+        color:          #c5173a;
+        font-family:    proxima-nova;
+        font-weight:    700;
+        font-size:      17px;
+    }
+    
+    .course_instructor{
+        color:          #42494f;
+        font-family:    proxima-nova;
+        font-weight:    400;
+    }
+
+
+/*------------------------------------------------------ About Page ------------------------------------*/
+
+.about_container{ width:980px; margin:0 auto; z-index:999999; position:relative;}
+
+.about_item_container{
+    width:100%;
+    background:url(images/footer_background.png) no-repeat;
+}
+
+    .about_item_container .hpgrid_cutting_edge_research,
+    .about_item_container .hpgrid_industry_leaders,
+    .about_item_container .hpgrid_unique_culture,
+    .about_item_container .hpgrid_gls_conference
+        { margin:60px 0 50px 0; }
+
+    .about_game_collage{
+        height: 332px;
+        width:  519px;
+        
+        margin: -54px -30px 20px 30px;
+        
+        background:url(images/about_game_collage.png);
+    }
+    
+    .about_paragraph_container_right{
+        width:  425px;
+        
+        margin: 80px 30px 70px 0;
+    }
+    
+     .about_paragraph_container_left{
+        width:  425px;
+        
+        margin: 80px 0 70px 30px;
+    }
+    
+    .about_header,
+    .about_paragraph{
+        width: 100%;
+        float:left;
+    }
+    
+        .about_header p{
+            font-size:      12px;
+            font-family:    proxima-nova;
+            font-weight:    700;
+            color:          #42494f;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-size:      30px;
+        }
+        
+        .about_paragraph p{
+            font-family:    proxima-nova;
+            color:          #74838d;
+            font-size:      19px;
+        }
+
+/* end About Page */
+
+
+/*--------------------------------------------------------- Bios --------------------------------------*/
+
+
+.bio_navigation{ margin:10px 0 0 0; }
+
+.bio_navigation li{ display:inline; }
+
+    .bio_navigation li a{
+        font-size:      12px;
+        font-family:    proxima-nova;
+        font-weight:    600;
+        color:          #9ce9ff;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        
+        margin:     0px 0 0 5px;
+        padding:    7px 4px 7px 7px;
+        
+        background: rgba( 0,0,0, 0.7);
+    }
+        .bio_navigation li a:hover{ color:white; }
+    
+.biography{ width:100%; float:left; margin:30px 0 10px 0; }
+
+    .biography .bio_header_type{
+        font-family:    proxima-nova;
+        font-weight:    700;
+        color:          #42494f;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-size:      30px;
+    }
+    
+    .biography .bio_paragraph{
+        font-family:    proxima-nova;
+        color:          #74838d;
+        font-size:      19px;
+    }
+
+
+
+.grey_header_two_thirds{
+    width:  609px;
+    margin: 20px 0 10px 0;
+    padding:5px 5px 5px 10px;
+    background:#eee;
+}
+
+.grey_header_one_half{
+    width:  465px;
+    margin: 20px 0 10px 0;
+    padding:5px 5px 5px 10px;
+    background:#eee;
+}
+
+.grey_header_one_third{
+    width:  288px;
+    margin: 20px 0 10px 0;
+    padding:5px 5px 5px 10px;
+    background:#eee;
+}
+
+    p.grey_header_type{
+        font-family:    proxima-nova;
+        font-weight:    700;
+        color:          #42494f;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-size:      19px;
+    }
+    
+.bio_links a,
+.bio_links p{
+    float:left;
+    font-family:    proxima-nova;
+    color:          #74838d;
+    font-size:      15px;
+    margin-bottom:  10px;
+}
+   .bio_links a:hover,
+    .bio_links a:hover{
+        text-decoration:underline;
+        color:     #C5173A;     
+    }
+
+.kurt_bio_banner{
+    height: 400px;
+    width:  100%;
+    z-index:5;
+    position:relative;
+    
+    background:url(images/banner_images/kurt_bio_banner.png) 50% 0%; 
+}
+
+.kurt_bio_name_and_nav{
+    width:500px;
+    float:right;
+}
+
+.constance_bio_name_and_nav{
+    width:850px;
+    float:right;
+}
+
+.rich_bio_name_and_nav{
+    width:550px;
+    float:right;
+}
+
+.matthew_bio_name_and_nav{
+    width:600px;
+    float:right;
+}
+
+.brian_bio_name_and_nav{
+    margin-top:40px;
+    width:550px;
+    float:right;
+}
+
+.becky_bio_name_and_nav{
+    margin-top:40px;
+    width:500px;
+    float:right;
+}
+
+.kurt_bio_banner .banner_text_container{ width:960px; margin:0 auto; padding-top:270px; }
+
+    .kurt_bio_banner .banner_header{
+        font-size:      12px;
+        font-family:    proxima-nova;
+        font-weight:    700;
+        color:          white;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-size:      55px;
+        
+        padding:    5px 15px 2px 15px;
+        
+        background: rgba( 0,0,0, 0.7);
+    }
+
+.kurt_collage{
+    height: 677px;
+    width:  310px;
+    
+    margin:30px 0 30px 0;
+    
+    background:url(images/bio_collages/kurt_collage.png);
+}
+
+
+.becky_collage{
+    height: 514px;
+    width:  310px;
+    
+    margin:30px 0 30px 0;
+    
+    background:url(images/bio_collages/becky_collage.png);
+}
+
+
+
+
+/* End bios */
+
+
+
+/*--------------------------------------------------------- People ------------------------------------*/
+
+.people_header{ width:100%; float:left; margin:20px 0 10px 0; }
+
+    .people_header .people_header_type{
+        font-family:    proxima-nova;
+        font-weight:    700;
+        color:          #42494f;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-size:      30px;
+    }
+    
+    
+.people_label_container{ margin:92px 10px 10px 10px; width:100px; }
+    
+        .people_label{
+            font-size:      12px;
+            font-family:    proxima-nova;
+            font-weight:    700;
+            color:          white;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-size:      25px;
+            
+            margin:     6px 0 0 0;
+            padding:    3px 3px 2px 6px;
+            
+            background: rgba( 0,0,0, 0.7);
+        }
+
+
+.people_kurt{
+    height: 179px;
+    width:  302px;
+    
+    margin:10px 20px 20px 0;
+    
+    background:url(images/people/people_kurt.png);
+}
+
+
+.people_constance{
+    height: 179px;
+    width:  302px;
+    
+    margin:10px 20px 20px 7px;
+    
+    background:url(images/people/people_constance.png);
+}
+
+
+.people_rich{
+    height: 179px;
+    width:  302px;
+    
+    margin:10px 0 20px 0;
+    
+    background:url(images/people/people_rich.png);
+}
+
+
+.people_matthew{
+    height: 179px;
+    width:  302px;
+    
+    margin:8px 20px 20px 0;
+    
+    background:url(images/people/people_matthew.png);
+}
+
+
+.people_brian{
+    height: 179px;
+    width:  302px;
+    
+    margin:8px 0 20px 7px;
+    
+    background:url(images/people/people_brian.png);
+}
+
+.people_becky{
+    height: 179px;
+    width:  302px;
+    
+    margin:8px 0 20px 0;
+    
+    background:url(images/people/people_becky.png);
+}
+
+    .people_kurt:hover,
+    .people_constance:hover,
+    .people_rich:hover,
+    .people_matthew:hover,
+    .people_brian:hover,
+    .people_becky:hover{
+        opacity:.75;
+    }
+
+
+.people_everybody_contaienr{
+    width:960px;
+    background:url(images/footer_background.png) no-repeat;
+}
+
+
+.people_links a,
+.people_links p{
+    float:left;
+    width:100%;
+    font-family:    proxima-nova;
+    color:          #74838d;
+    font-size:      15px;
+    margin-bottom:  10px;
+}
+   .people_links a:hover,
+    .people_links a:hover{
+        text-decoration:underline;
+        color:     #C5173A;     
+    }
+
+
+/* End People */
+
+
+
+/*-------------------------------------------------------- Contact ------------------------------------*/
+
+.contact_content{ margin:20px 0 20px 0; }
+
+p.contact_header_type{
+    font-family:    proxima-nova;
+    font-weight:    700;
+    color:          #42494f;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size:      30px;
+}
+
+.contact_building_image{
+    height: 353px;
+    width:  470px;
+    
+    margin:20px 0 20px 0;
+
+    background:url(images/contact_building_image.png);
+}
+
+.mailing_address{
+    width:100%;
+    margin:5px 0 0px 0;
+    
+    font-family: proxima-nova;
+    color:      #74838d;
+    font-size:  19px;
+}
+
+/* End Contact */
+
+
+/*--------------------------------------------------------- Projects ------------------------------------*/
+
+.project_container_first{ width:960px; float:left; margin:20px 0 0 0; }
+
+.project_container{ width:960px; float:left; margin:20px 0 0 0; padding-top:20px; background: url(images/footer_background.png) no-repeat; }
+    .project_image{ float:left; }
+        .project_progenitor{
+            height:218px;
+            width:492px;
+            background: url(images/projects/project_progenitor.png);
+            float:left;
+        }
+        
+        .project_fair_play{
+            height:218px;
+            width:492px;
+            background: url(images/projects/project_fair_play.png);
+            float:left;
+        }
+        
+        .project_anatomy_browser{
+            height:218px;
+            width:492px;
+            background: url(images/projects/project_anatomy_browser.png);
+            float:left;
+        }
+        
+        .project_virulent{
+            height:218px;
+            width:492px;
+            background: url(images/projects/project_virulent.png);
+            float:left;
+        }
+        
+        .project_citizen_science{
+            height:218px;
+            width:492px;
+            background: url(images/projects/project_citizen_science.png);
+            float:left;
+        }
+        
+        .project_studiok{
+            height:218px;
+            width:492px;
+            background: url(images/projects/project_studiok.png);
+            float:left;
+        }
+        
+        .project_trails{
+            height:218px;
+            width:492px;
+            background: url(images/projects/project_trails.png);
+            float:left;
+        }
+
+    .project_description{
+        width:435px;
+        padding:25px 0 0 30px;
+        float:right;
+    }
+    
+    
+    .project_description_header{
+        float:left;
+        margin:0 0 0 0px;
+    }
+    
+        .project_description_header p{
+            font-size:      12px;
+            font-family:    proxima-nova;
+            font-weight:    700;
+            color:          #42494f;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-size:      30px;
+        }
+            
+    .project_description_paragraph{
+        float:left;
+        margin:0 0 0 0px;
+    }
+        .project_description_paragraph p{
+            font-family: proxima-nova;
+            color:      #74838d;
+            font-size:  15px;
+        }
+    
+.project_nav_container{
+        width: 950px;
+        float:left;
+        padding: 5px;
+        margin: 0px 0 0 0;
+        background: #f4f4f4;
+      
+}
+
+    .project_nav_container li{
+        
+        font-family:    proxima-nova;
+        text-transform: uppercase;
+        color:          #7f868d;
+        font-size:      17px;
+        font-weight:    700;
+
+    }
+        
+        .project_nav_container li:hover{
+            background: rgba(255,255,255,.70);
+            color:#ce1443 !important;
+
+        }
+
+
+    .view_trailer_button{
+        padding:10px 19px 10px 19px;
+        float:left;
+    }
+    
+    .view_screenshots_button{
+padding:10px 19px 10px 19px;
+        float:left;
+    }
+    
+    .view_on_appstore_button{
+       padding:10px 19px 10px 19px;
+        float:left;
+    }
+    
+    .view_resources_button{
+       padding:10px 19px 10px 19px;
+        float:left;
+    }
+    
+    .visit_microsite_button{
+        padding:10px;
+        float:right;
+    }
+        .visit_microsite_button:hover{ background: rgba(255,255,255,.70); }
+    
+.trailer_icon{
+    margin:2px 6px 0 0;
+    float:left;
+    background: url(images/game_nav.png) no-repeat -10px -7px;
+    width: 18px;
+    height: 17px;
+}
+
+.screenshot_icon{
+    margin:2px 6px 0 0;
+    float:left;
+    background: url(images/game_nav.png) no-repeat -36px -8px;
+    width: 22px;
+    height: 15px;
+}
+
+.microsite_icon{
+    margin:2px 6px 0 0;
+    float:left;
+    background: url(images/game_nav.png) no-repeat -68px -7px;
+    width: 18px;
+    height: 15px;
+}
+
+.apple_icon{
+    margin:0px 6px 0 0;
+    float:left;
+    background: url(images/game_nav.png) no-repeat -95px -7px;
+    width: 13px;
+    height: 17px;
+}
+
+.apple_icon_white{
+    margin:3px 6px 0 0;
+    float:left;
+    background: url(images/game_nav.png) no-repeat -114px -7px;
+    width: 13px;
+    height: 17px;
+}
+
+.play_icon{
+    margin:2px 6px 0 0;
+    float:left;
+    background: url(images/game_nav.png) no-repeat -134px -8px;
+    width: 13px;
+    height: 15px;
+}
+
+.resources_icon{
+    margin:2px 6px 0 0;
+    float:left;
+    background: url(images/game_nav.png) no-repeat -156px -9px;
+    width: 12px;
+    height: 12px;
+}
+
+
+.unity_embed_container{
+    float:left;
+    margin:-320px 0 0 85px;
+    box-shadow:0px 3px 15px rgba(0,0,0,.25);
+}
+
+
+/* End Projects */
+
+
+/*--------------------------------------------------------- Footer ------------------------------------*/
+
+
+.footer_container{ width:100%; float:left; margin:20px 0 50px 0; }
+
+    .footer{
+        width:  960px;
+        height: 100px;
+        
+        padding:30px 0 0 0;
+        margin: 0 auto;
+        
+        background:url(images/footer_background.png) no-repeat;
+    }
+    
+    .footer_copyright{ width:400px; }
+        .footer_copyright p{
+            font-size:      13px;
+            font-family:    proxima-nova;
+            color:          #7f868d;
+            letter-spacing: 1px;
+        }
+        
+        .footer_nav_links{ margin-top:5px;}
+        
+            .footer_nav_links li{ display:inline; }
+        
+            .footer_nav_links li a{
+                margin-right:7px;
+                
+                text-decoration:none;
+                font-size:      12px;
+                font-family:    proxima-nova;
+                color:          #c1c1c1;
+            }
+                .footer_nav_links li a:hover{ text-decoration:underline; color:#7f868d;}
+                
+                .footer_twitter{
+                    height: 18px;
+                    width:  18px;
+                    
+                    margin:0 10px 0 0;
+                    
+                    background:url(images/footer_twitter.png);
+                }
+                    .footer_twitter:hover{ background:url(images/footer_twitter_hover.png) }
+                    
+                .footer_flickr{
+                    height: 18px;
+                    width:  18px;
+                    
+                    background:url(images/footer_flickr.png);
+                }
+                    .footer_flickr:hover{ background:url(images/footer_flickr_hover.png) }
+                    
+                .footer_facebook{
+                    height: 18px;
+                    width:  18px;
+                    
+                    margin:0 10px 0 10px;
+                    
+                    background:url(images/footer_facebook.png);
+                }
+                    .footer_facebook:hover{ background:url(images/footer_facebook_hover.png) }
+    
+    .footer_logos{
+        
+    }
+    
+        .footer_logo_soe{
+            background: url(images/footer_logo_sprite.png) no-repeat -226px -76px;
+            width:  112px;
+            height: 33px;
+            
+            margin-left:40px;
+        }
+            .footer_logo_soe:hover{
+                background: url(images/footer_logo_sprite.png) no-repeat -226px -20px;
+            }
+        
+        .footer_logo_lgn{
+            background: url(images/footer_logo_sprite.png) no-repeat -135px -76px;
+            width:  56px;
+            height: 32px;
+            
+            margin-left:40px;
+        }
+            .footer_logo_lgn:hover{
+                background: url(images/footer_logo_sprite.png) no-repeat -135px -20px;
+            }
+        
+        .footer_logo_wid{
+            background: url(images/footer_logo_sprite.png) no-repeat -21px -75px;
+            width:  76px;
+            height: 35px;
+        }
+            .footer_logo_wid:hover{
+                background: url(images/footer_logo_sprite.png) no-repeat -21px -19px;
+            }
+            
+            
+
+/* End Footer */
+
+
+
+
+
+
+
+
+
