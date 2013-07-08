@@ -46,6 +46,19 @@ h5{  }
 }
     .arrow:hover{ background:url(images/arrow_hover.png); }
     
+.pinklink{
+    background:#C5173A;
+    padding:3px 3px 3px 8px;
+    
+    color:          white;
+    font-family:    proxima-nova;
+    font-weight:    700;
+    font-size:      14px;
+}
+    .pinklink:hover{
+        background:#e44f6d;
+    }
+    
 .topmargin{ margin-top:15px; }
 
 /* End Misc Classes */
@@ -113,6 +126,24 @@ h5{  }
     position:relative;
     
     background:url(images/game_page_banners/game_banner_progenitorx.png) 50% 0%;
+}
+
+.banner_project_virulent{
+   height: 400px;
+    width:  100%;
+    z-index:5;
+    position:relative;
+    
+    background:url(images/game_page_banners/game_banner_virulent.png) 50% 0%;
+}
+
+.banner_project_fairplay{
+   height: 400px;
+    width:  100%;
+    z-index:5;
+    position:relative;
+    
+    background:url(images/game_page_banners/game_banner_fairplay.png) 50% 0%;
 }
 
 .banner_text_container{ width:960px; margin:0 auto; padding-top:150px; }
@@ -335,7 +366,7 @@ h5{  }
     margin: 0 0 0 18px;
 }
 
-    .hpgrid_content:hover{ cursor:pointer; }
+    /*.hpgrid_content:hover{ cursor:pointer; }*/
 
 .hpgrid_hover_content{
     width:  451px;
@@ -346,6 +377,8 @@ h5{  }
 
     .hpgrid_hover_content p{
         display:none;
+        
+        margin-bottom:15px;
         
         font-family:    proxima-nova;
         color:          white;
@@ -535,10 +568,27 @@ p.subhead_type{
         background: rgba( 0,0,0, 0.7);
     }
         .bio_navigation li a:hover{ color:white; }
+        
+        
+    .bio_navigation li p{
+        font-size:      20px;
+        font-family:    proxima-nova;
+        font-weight:    600;
+        color:          #9ce9ff;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        
+        margin:     0px 0 0 5px;
+        padding:    7px 4px 7px 7px;
+        
+        background: rgba( 0,0,0, 0.7);
+    }
     
 .biography{ width:100%; float:left; margin:30px 0 10px 0; }
 
     .biography .bio_header_type{
+        width:100%;
+        
         font-family:    proxima-nova;
         font-weight:    700;
         color:          #42494f;
@@ -587,6 +637,7 @@ p.subhead_type{
     
 .bio_links a,
 .bio_links p{
+    width:  100%;
     float:left;
     font-family:    proxima-nova;
     color:          #74838d;
@@ -629,14 +680,12 @@ p.subhead_type{
 }
 
 .brian_bio_name_and_nav{
-    margin-top:40px;
-    width:550px;
+    width:650px;
     float:right;
 }
 
 .becky_bio_name_and_nav{
-    margin-top:40px;
-    width:500px;
+    width:600px;
     float:right;
 }
 
