@@ -61,6 +61,8 @@ h5{  }
     
 .topmargin{ margin-top:15px; }
 
+.hidden{ display:none;}
+
 /* End Misc Classes */
 
 
@@ -110,6 +112,15 @@ h5{  }
     background:url(images/banner_images/banner_image_contact.png) 50% 0%;
 }
 
+.banner_image_people{
+   height: 400px;
+    width:  100%;
+    z-index:5;
+    position:relative;
+    
+    background:url(images/banner_images/banner_image_people.png) 50% 0%;
+}
+
 .banner_image_courses{
    height: 400px;
     width:  100%;
@@ -137,6 +148,15 @@ h5{  }
     background:url(images/game_page_banners/game_banner_virulent.png) 50% 0%;
 }
 
+.banner_project_cs{
+   height: 400px;
+    width:  100%;
+    z-index:5;
+    position:relative;
+    
+    background:url(images/game_page_banners/game_banner_cs.png) 50% 0%;
+}
+
 .banner_project_fairplay{
    height: 400px;
     width:  100%;
@@ -145,6 +165,17 @@ h5{  }
     
     background:url(images/game_page_banners/game_banner_fairplay.png) 50% 0%;
 }
+
+.banner_project_anatomy_browser{
+   height: 400px;
+    width:  100%;
+    z-index:5;
+    position:relative;
+    
+    background:url(images/game_page_banners/game_banner_anatomy_browser.png) 50% 0%;
+}
+
+
 
 .banner_text_container{ width:960px; margin:0 auto; padding-top:150px; }
 
@@ -227,11 +258,29 @@ h5{  }
   height: 66px;
   background:linear-gradient(  rgba(0,0,0,0), rgba(0,0,0,0) 50%, #c5173a 50%, #c5173a  );
   background-size: 100% 202%;
-  transition: all 0.1s ease;
+
+  -webkit-transition: all .1s ease-in-out;
+  -moz-transition:    all .1s ease-in-out; 
+  -o-transition:      all .1s ease-in-out; 
+  -ms-transition:     all .1s ease-in-out;
+   transition:        all .1s ease-in-out;  
+  
+  -webkit-animation: down-bump 0.4s ease;
+  -moz-animation: down-bump 0.4s ease;
+  -ms-animation: down-bump 0.4s ease;
+  -o-animation: down-bump 0.4s ease;
   animation: down-bump 0.4s ease;
 }
     
-    .box:hover {  background-position: 100% 100%; animation: up-bump 0.4s ease; }   
+    .box:hover {  background-position: 100% 100%;
+    
+    -webkit-animation: down-bump 0.4s ease;
+  -moz-animation: down-bump 0.4s ease;
+  -ms-animation: down-bump 0.4s ease;
+  -o-animation: down-bump 0.4s ease;
+  animation: down-bump 0.4s ease;
+    
+    }   
  
 @keyframes up-bump {
   0% { padding-top: 2em; }
@@ -659,6 +708,35 @@ p.subhead_type{
     background:url(images/banner_images/kurt_bio_banner.png) 50% 0%; 
 }
 
+.brian_bio_banner{
+    height: 400px;
+    width:  100%;
+    z-index:5;
+    position:relative;
+    
+    background:url(images/banner_images/brian_bio_banner.png) 50% 0%; 
+}
+
+.constance_bio_banner{
+    height: 400px;
+    width:  100%;
+    z-index:5;
+    position:relative;
+    
+    background:url(images/banner_images/constance_bio_banner.png) 50% 0%; 
+}
+
+.becky_bio_banner{
+    height: 400px;
+    width:  100%;
+    z-index:5;
+    position:relative;
+    
+    background:url(images/banner_images/becky_bio_banner.png) 50% 0%; 
+}
+
+
+
 .kurt_bio_name_and_nav{
     width:500px;
     float:right;
@@ -688,10 +766,10 @@ p.subhead_type{
     width:600px;
     float:right;
 }
+.banner_text_container{ width:960px; margin:0 auto; padding-top:270px; }
 
-.kurt_bio_banner .banner_text_container{ width:960px; margin:0 auto; padding-top:270px; }
-
-    .kurt_bio_banner .banner_header{
+.banner_header
+    {
         font-size:      12px;
         font-family:    proxima-nova;
         font-weight:    700;
@@ -706,12 +784,21 @@ p.subhead_type{
     }
 
 .kurt_collage{
-    height: 677px;
+    height: 683px;
     width:  310px;
     
     margin:30px 0 30px 0;
     
     background:url(images/bio_collages/kurt_collage.png);
+}
+
+.constance_collage{
+    height: 677px;
+    width:  310px;
+    
+    margin:30px 0 30px 0;
+    
+    background:url(images/bio_collages/constance_collage.png);
 }
 
 
@@ -722,6 +809,16 @@ p.subhead_type{
     margin:30px 0 30px 0;
     
     background:url(images/bio_collages/becky_collage.png);
+}
+
+
+.brian_collage{
+    height: 664px;
+    width:  362px;
+    
+    margin:30px 0 30px -50px;
+    
+    background:url(images/bio_collages/brian_collage.png);
 }
 
 
@@ -911,6 +1008,13 @@ p.contact_header_type{
             float:left;
         }
         
+        .project_soul{
+            height:218px;
+            width:492px;
+            background: url(images/projects/project_soul.png);
+            float:left;
+        }
+        
         .project_anatomy_browser{
             height:218px;
             width:492px;
@@ -943,6 +1047,20 @@ p.contact_header_type{
             height:218px;
             width:492px;
             background: url(images/projects/project_trails.png);
+            float:left;
+        }
+        
+        .project_crystals{
+            height:218px;
+            width:492px;
+            background: url(images/projects/project_crystals_of_kaydor.png);
+            float:left;
+        }
+        
+        .project_tenacity{
+            height:218px;
+            width:492px;
+            background: url(images/projects/project_tenacity.png);
             float:left;
         }
 
@@ -1090,6 +1208,14 @@ padding:10px 19px 10px 19px;
 .unity_embed_container{
     float:left;
     margin:-320px 0 0 85px;
+    box-shadow:0px 3px 15px rgba(0,0,0,.25);
+}
+
+.unity_embed_container_cs{
+    float:left;
+    z-index:999999999;
+    position:relative;
+    margin:-320px 0 0 55px;
     box-shadow:0px 3px 15px rgba(0,0,0,.25);
 }
 

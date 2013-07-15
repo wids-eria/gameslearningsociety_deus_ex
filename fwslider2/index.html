@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<head>
+    <title>Full Width Slider 2.0 - Responsive Design</title>
+
+    <!-- ****************** STEP 1: INCLUDE FOLLOWING IN YOUR <HEAD> ****************** -->
+    <meta charset="utf-8">
+    <meta name="HandheldFriendly" content="True">
+
+    <link rel="stylesheet" href="css/fwslider.css" media="all">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+    <script src="js/css3-mediaqueries.js"></script>
+    <script src="js/fwslider.js"></script>
+    <script type="text/javascript">
+        $(window).load(function(){
+            new fwslider().init({
+                duration: "1000", /* Fade Speed (miliseconds) */
+                pause:    "6000"  /* Autoslide pause between slides (miliseconds)*/
+            });
+        });
+    </script>
+    <!-- ****************** /STEP 1: INCLUDE FOLLOWING IN YOUR <HEAD> ***************** -->
+</head>
+
+<body>
+
+    <!-- ****************** STEP 2: INCLUDE THE HTML PART ****************** -->
+    <div id="fwslider">
+        <div class="slider_container">
+
+
+            <!-- ****************** STEP 3: DUPLICATE TO ADD MORE SLIDES ****************** -->
+            <div class="slide"> 
+                <!-- Slide image -->
+                <img src="img/slide_1.jpg">
+                <!-- /Slide image -->
+                        
+                <!-- Texts container -->
+                <div class="slide_content">
+                    <div class="slide_content_wrap">
+                        <!-- Text title -->
+                        <h4 class="title">Slide 1</h4>
+                        <!-- /Text title -->
+                                
+                        <!-- Text description -->
+                        <p class="description">Nam sed porta est. Vestibulum id massa eu odio rhoncus eleifend.</p>
+                        <!-- /Text description -->
+                                
+                        <!-- Learn more button -->
+                        <a class="readmore" href="http://www.google.com">Learn More</a>
+                        <!-- /Learn more button -->
+                    </div>
+                </div>
+                <!-- /Texts container -->
+            </div>
+            <!-- ****************** /STEP 3: DUPLICATE TO ADD MORE SLIDES ****************** -->
+            
+            
+            <!-- demo slides (you can delete these) -->    
+            <div class="slide"> 
+                <img src="img/slide_2.jpg">
+                <div class="slide_content">
+                    <div class="slide_content_wrap">
+                        <h4 class="title">Slide 2</h4>
+                        <p class="description">Nam sed porta est. Vestibulum id massa eu odio rhoncus eleifend.</p>
+                        <a class="readmore" href="http://www.google.com">Learn More</a>
+                        <!-- /Learn more button -->
+                    </div>
+                </div>
+            </div>
+                    
+            <div class="slide"> 
+                <img src="img/slide_3.jpg">
+                <div class="slide_content">
+                    <div class="slide_content_wrap">
+                        <h4 class="title">Slide 3</h4>
+                        <p class="description">Nam sed porta est. Vestibulum id massa eu odio rhoncus eleifend.</p>
+                        <a class="readmore" href="http://www.google.com">Learn More</a>
+                        <!-- /Learn more button -->
+                    </div>
+                </div>
+            </div>
+            <!-- /demo slides (you can delete these) -->     
+            
+            
+
+        </div>
+        <div class="timers"></div>
+        <div class="slidePrev"><span></span></div>
+        <div class="slideNext"><span></span></div>
+    </div> 
+    <!-- ****************** /STEP 2: INCLUDE THE HTML PART ****************** -->
+
+</body>
+</html>
