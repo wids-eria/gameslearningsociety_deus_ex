@@ -85,15 +85,15 @@
                 
                 <div class="research_description_paragraph">
                     <p>                        
-                    You play the role of an advanced robot created to learn and explore.
-                    Using a simple touch interface to navigate an alien environment, you
-                    must carefully observe and study an alien culture. Through the
-                    interpretation of emotional signals, you must gain the trust of
-                    the aliens by helping them solve problems and in return they may help you.
-                    overcome obstacles and you protect yourself against dangers of the alien planet.
-                    Something about the crystals?  Some of the indigenous plant and animal life forms
-                    are dangerous. You must use defensive and evasive tactics to avoid confrontation
-                    and certain destruction.must use defensive and evasive tactics.
+                    The PopCosmo research lab at the Games+Learning+Society Center investigates
+                    cognition and learning around commercial game titles and games designed for
+                    impact. The current team consists of Principal Investigator Constance Steinkuehler,
+                    7 doctoral students, 2 independent researchers, and 1 undergraduate student, each
+                    specializing in their own interest area. PopCosmo practices a wide diversity of
+                    mixed research methods, including learning analytics, quantitative analyses,
+                    qualitative research, discourse and conversation analysis, and more. Focusing
+                    primarily around situated perspectives to learning, including how sociocultural
+                    learning theories can inform analysis of "big data."
                     </p>
                     
                 </div>
@@ -109,9 +109,7 @@
                     </div>
                     
                     <div class="bio_links">
-                        <p> Awesome Grant Award Name 505 </p>
-                        <p> Awesome Grant Award Name 505 </p>
-                        <p> Awesome Grant Award Name 505 </p>
+                        <p> Coming soon... </p>
                     </div>
                     
                 </div>
@@ -123,9 +121,9 @@
                     </div>
                     
                     <div class="bio_links">
-                        <p> Super Awesome Article Name Thinger .pdf  </p>
-                        <p> Super Awesome Article Name Thinger .pdf  </p>
-                        <p> Super Awesome Article Name Thinger .pdf  </p>
+                        <p> Steinkuehler, C. & Squire, K. (in press). Videogames and Learning. To appear in Keith Sawyer (Ed.), Cambridge Handbook of the Learning Sciences, Second Edition. New York: Cambridge University Press.  </p>
+                        <p>Anton, G., Harris, S., Ochsner, A., Rothschild, M., & Squire, K. (in press). Patterns of play: Understanding computational thinking through game design. To be published in Williams, C., Ochsner, A., Dietmeier, J., & Steinkuehler, C. (Eds.) Proceedings of the Games, Learning, and Society Conference: Vol. 3. Pittsburgh PA: ETC Press.  </p>
+                        <p> Halverson, R. & Owen, V.E. (in press). Game-based assessment: An integrated model for capturing evidence of learning in play. International Journal of Learning Technology.  </p>
                     </div>
                     
                 </div>
