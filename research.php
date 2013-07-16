@@ -93,7 +93,7 @@
                     overcome obstacles and you protect yourself against dangers of the alien planet.
                     Something about the crystals?  Some of the indigenous plant and animal life forms
                     are dangerous. You must use defensive and evasive tactics to avoid confrontation
-                    and certain destruction.must use defensive and evasive tactic s.
+                    and certain destruction.must use defensive and evasive tactics.
                     </p>
                     
                 </div>

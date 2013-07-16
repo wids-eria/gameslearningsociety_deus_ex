@@ -112,7 +112,7 @@
                     residents, and help them solve problems through interpreting body language and nonverbal
                     cues. In return, they may help you overcome obstacles of your own as you explore more
                     of the environment. As you gather your missing parts, can you help restore balance
-                    rto the planet?  
+                    to the planet?  
                     </p>
                     
                 </div>

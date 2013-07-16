@@ -97,34 +97,34 @@
                 </div>
                 
                 <div class="bio_links">
-                    <a href="">
+                    <p>
                         Berland, M., Smith, C.P., and Davis, D. (2013). Visualizing Live Collaboration in the
                         Classroom with AMOEBA. Proceedings of the International Conference on Computer-Supported
                         Collaborative Learning (CSCL-13). Madison, WI.
-                    </a>
+                    </p>
                     
-                    <a href="">
+                    <p>
                         Martin, T., Berland, M., Benton, T. & Smith, C.P. (2013). Learning Programming with IPRO:
                         The Effects of a Mobile, Social Programming Environment. Journal of Interactive Learning
                         Research, 24(3), 301-328.
-                    </a>
+                    </p>
                     
-                    <a href="">
+                    <p>
                         Bowers, A. J., & Berland, M. (2013). Does recreational computer use affect high school
                         achievement? Educational Technology Research and Development, 61(1), 51-69.
-                    </a>
+                    </p>
                     
-                    <a href="">
+                    <p>
                         Berland, M., Duncan, S., & Boecking, M. (2012). Supporting computational thinking by
                         modding strategic board games. Proceedings of the International Conference of the Learning
                         Sciences (ICLS-12). Sydney.
-                    </a>
+                    </p>
                     
-                    <a href="">
+                    <p>
                         Berland, M., & Lee, V. R. (2011). Collaborative strategic board games as a site for
                         distributed computational thinking. International Journal of Game-Based Learning, 1(2),
                         65-81.
-                    </a>
+                    </p>
                     
                 </div>
                 
@@ -140,17 +140,17 @@
                 </div>
                 
                 <div class="bio_links">
-                    <a href="">
+                    <p>
                         C&I 675: Constructionism
-                    </a>
+                    </p>
                     
-                    <a href="">
+                    <p>
                         C&I 975: Educational Data Mining & Learning Analytics
-                    </a>
+                    </p>
                     
-                    <a href="">
+                    <p>
                         C&I 675: Design of Interactive Learning Environments
-                    </a>
+                    </p>
                 </div>
                 
             </div>

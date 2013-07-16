@@ -71,7 +71,7 @@
                 <div class="slide_content">
                     <div class="slide_content_wrap">
                         <h4 class="title">Crystals of Kaydor</h4>
-                        <p class="readmore" href="project_progenitor_x.php">Space adventure!</p>
+                        <p class="readmore" href="project_progenitor_x.php">Help Restore Balance</p>
                         <!-- /Learn more button -->
                     </div>
                 </div>
@@ -107,7 +107,7 @@
         <div class="home_page_grid">
             
             
-            <a href="projects.php">
+            <a href="games.php">
                 <div class="hpgrid_innovative_video_games floatleft">
                     
                     <div class="hpgrid_content floatleft">
