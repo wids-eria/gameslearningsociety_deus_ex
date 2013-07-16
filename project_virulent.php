@@ -105,7 +105,7 @@
     
 </head>
 
-<body id="">
+<body id="game_page">
     
     
     

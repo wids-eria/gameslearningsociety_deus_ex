@@ -5,14 +5,14 @@
         <a href="index.php" class="navigation_logo_link_box"></a>
         
         <ul class="navigation">
-            <a href="about.php"> <li class="box floatleft">About</li> </a>
-            <a href="games.php"> <li class="box floatleft">Games</li> </a>
-            <a href="games.php"> <li class="box floatleft">Research</li> </a>
-            <a href="people.php"> <li class="box floatleft">People</li> </a>
-            <a href="courses.php"> <li class="box floatleft">Courses</li> </a>
+            <a href="about.php"> <li class="box floatleft about_page_link">About</li> </a>
+            <a href="games.php"> <li class="box floatleft game_page_link">Games</li> </a>
+            <a href="research.php"> <li class="box floatleft research_page_link">Research</li> </a>
+            <a href="people.php"> <li class="box floatleft people_page_link">People</li> </a>
+            <a href="courses.php"> <li class="box floatleft courses_page_link">Courses</li> </a>
             <a href="http://glsconference.org/" target="_blank"> <li class="box floatleft">Conference</li> </a>
             <!--<a href=""> <li class="box floatleft">Blog</li> </a>-->
-            <a href="contact.php"> <li class="box floatleft">Contact</li> </a>
+            <a href="contact.php"> <li class="box floatleft contact_page_link">Contact</li> </a>
             
             <!-- Social Media Nav Links -->
             <a href="https://secure.flickr.com/photos/gls-conference" target="_blank">

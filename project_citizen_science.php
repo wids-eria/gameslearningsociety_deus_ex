@@ -20,7 +20,7 @@
     
 </head>
 
-<body id="">
+<body id="game_page">
     
     
 <?php require "navigation.php";?>

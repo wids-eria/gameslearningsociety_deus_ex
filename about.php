@@ -35,7 +35,7 @@
     
 </head>
 
-<body id="">
+<body id="about_page">
     
     
     

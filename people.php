@@ -15,7 +15,7 @@
     
 </head>
 
-<body id="">
+<body id="people_page">
     
     
     
@@ -93,9 +93,11 @@
             
             
             <!-- Matthew -->
-            <a href="#">
+            <a href="bio_matthew.php">
                 
                 <div class="people_matthew floatleft">
+                    
+                    <div class="arrow_leadership floatright"></div>
                     
                     <div class="people_label_container floatleft">
                         
@@ -269,6 +271,19 @@
                         <a href="http://www.velizabethowen.com/" target="_blank">Liz Owen</a>
                         <a href="http://www.Dennisisawesome.com" target="_blank">Dennis Paiz-Ramirez</a>
                         <p>Caro Williams</p>
+                        
+                    </div>
+                </div>
+                
+                <!-- Affiliate -->
+                <div class="one_third floatleft">
+                    <div class="grey_header_one_third">
+                        <p class="grey_header_type">Affiliate</p>
+                    </div>
+                    
+                    <div class="people_links">
+
+                        <a href="http://www.regardingjohn.com/blog/" target="_blank">John Martin</a>
                         
                     </div>
                 </div>

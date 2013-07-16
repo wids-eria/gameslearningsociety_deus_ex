@@ -55,7 +55,7 @@
     
 </head>
 
-<body id="">
+<body id="game_page">
     
     
     
@@ -107,15 +107,12 @@
                 
                 <div class="project_description_paragraph">
                     <p>                        
-                    You play the role of an advanced robot created to learn and explore.
-                    Using a simple touch interface to navigate an alien environment, you
-                    must carefully observe and study an alien culture. Through the
-                    interpretation of emotional signals, you must gain the trust of
-                    the aliens by helping them solve problems and in return they may help you.
-                    overcome obstacles and you protect yourself against dangers of the alien planet.
-                    Something about the crystals?  Some of the indigenous plant and animal life forms
-                    are dangerous. You must use defensive and evasive tactics to avoid confrontation
-                    and certain destruction.  
+                    In Crystals of Kaydor, you play the role of an advanced robot created to explore
+                    and learn, who crash lands on an alien planet. Discover the flora, fauna, and local
+                    residents, and help them solve problems through interpreting body language and nonverbal
+                    cues. In return, they may help you overcome obstacles of your own as you explore more
+                    of the environment. As you gather your missing parts, can you help restore balance
+                    rto the planet?  
                     </p>
                     
                 </div>
@@ -163,17 +160,11 @@
                 
                 <div class="project_description_paragraph">
                     <p>
-                        Mindfulness is based on the meditative practice of breath counting,
-                        where you will be challenged to count your breaths from one to five,
-                        again and again, for 5, 10, 15, or 20 minutes.  As you play, you can
-                        choose from two different scenes.  In the first scene, you casually
-                        follow a path through ancient Egypt or Ancient Greece.  As you count
-                        your breaths, flowers will begin to grow along the path.  In the second
-                        scene you can ascend into the heavens on a spiral stairway.<br /><br />
-                        Follow the spiral stairway as  it rises above the treetops, as ducks
-                        and geese begin flying by.  Rising higher and higher. The stairs will
-                        continue rising into the clouds and then into space where you can see
-                        the moon, spaceships and even other planets.
+                        Tenacity is a meditative app designed to promote mental well-being through breath counting.
+                        In Tenacity, the focus is on learning practices of wellness and self-regulation.
+                        Relax and concentrate on your own breathing as you explore Greek ruins, Egyptian
+                        dunes, and staircases that ascend into the skies, and unlock rewards and achievements
+                        as you become a more mindful person
                     </p>
                     
                 </div>

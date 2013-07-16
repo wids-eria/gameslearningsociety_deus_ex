@@ -15,14 +15,14 @@
     
 </head>
 
-<body id="">
+<body id="people_page">
     
     
     
 <?php require "navigation.php";?>
 
 
-<div class="kurt_bio_banner">
+<div class="matthew_bio_banner">
 
     <div class="banner_text_container">
         
@@ -45,14 +45,20 @@
     <div class="body_content">
         
         <div class="one_third floatleft">
-            <div class="kurt_collage floatleft"></div>
+            <div class="matthew_collage floatleft"></div>
+            
+            <div class="bio_links center_text">
+                <a href="http://ci.education.wisc.edu/ci/people/faculty/matthew-berland" target="_blank"> Matthew's UW Madison Page</a>
+                <a href="http://wisc.academia.edu/MatthewBerland" target="_blank"> Matthew's academia.edu Page</a>
+            </div>
+            
         </div>
         
         <div class="two_thirds floatright">
             
             <div class="biography">
                 <p class="bio_header_type">About Matthew
-                    <a href="" class="pinklink floatright">View C.V.</a>
+                    <!--<a href="" class="pinklink floatright">View C.V.</a>-->
                 </p>
                 <p class="bio_paragraph">
                     Matthew Berland is an Assistant Professor of Digital Media in the
@@ -87,7 +93,7 @@
                 
                 <div class="grey_header_two_thirds floatleft">
                     <p class="grey_header_type floatleft">Recent Papers</p>
-                    <a href="" title="View All"> <div class="arrow floatright"></div> </a>
+                    
                 </div>
                 
                 <div class="bio_links">
@@ -130,7 +136,7 @@
                 
                 <div class="grey_header_two_thirds floatleft">
                     <p class="grey_header_type floatleft">Teaching</p>
-                    <a href="" title="View All"> <div class="arrow floatright"></div> </a>
+                    
                 </div>
                 
                 <div class="bio_links">

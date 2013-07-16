@@ -15,7 +15,7 @@
     
 </head>
 
-<body id="">
+<body id="peopl_page">
     
     
     

@@ -13,7 +13,7 @@
             <ul class="footer_nav_links floatleft">
                 <li> <a href="about.php">About</a> </li>
                 <li> <a href="games.php">Games</a> </li>
-                <li> <a href="games.php">Research</a> </li>
+                <li> <a href="research.php">Research</a> </li>
                 <li> <a href="people.php">People</a> </li>
                 <li> <a href="courses.php">Courses</a> </li>
                 <li> <a href="www.glsconference.net">Conference</a> </li>

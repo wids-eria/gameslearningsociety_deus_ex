@@ -15,7 +15,7 @@
     
 </head>
 
-<body id="">
+<body id="people_page">
     
     
     
@@ -52,7 +52,7 @@
             
             <div class="biography">
                 <p class="bio_header_type">About Constance
-                    <a href="" class="pinklink floatright">View C.V.</a>
+                    <!--<a href="" class="pinklink floatright">View C.V.</a>-->
                 </p>
                 <p class="bio_paragraph">
                     Constance Steinkuehler is an Associate Professor in Digital Media at the University of 
