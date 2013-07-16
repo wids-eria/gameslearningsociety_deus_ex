@@ -49,7 +49,7 @@
                 <div class="slide_content">
                     <div class="slide_content_wrap">
                         <h4 class="title">Fair Play</h4>
-                        <p class="readmore" href="project_fair_play.php">New Build Available</p>
+                        <a class="readmore" href="project_fair_play.php">Play the New Build</a>
                         <!-- /Learn more button -->
                     </div>
                 </div>
@@ -106,27 +106,30 @@
         
         <div class="home_page_grid">
             
-            <div class="hpgrid_innovative_video_games floatleft">
-                
-                <div class="hpgrid_content floatleft">
+            
+            <a href="projects.php">
+                <div class="hpgrid_innovative_video_games floatleft">
                     
-                    <div class="hpgrid_label_container_two_lines floatright">
-                            <p class="hpgrid_label floatright">Innovative</p>
-                            <p class="hpgrid_label floatright">Video Games</p>
-                        </div>
-                    
-                    <div class="hpgrid_hover_content">
-                        <p>Bacon ipsum dolor sit amet tenderloin tail spare ribs
-                        corned beef chicken fatback chuck capicola swine meatloaf
-                        pork belly. Filet mignon  pork belly. Filet mignon
-                        swine meatloaf pork belly. Filet mignon  pork belly.
-                        Filet mignon
-                        </p>
-                    </div>   
+                    <div class="hpgrid_content floatleft">
                         
+                        <div class="hpgrid_label_container_two_lines floatright">
+                                <p class="hpgrid_label floatright">Innovative</p>
+                                <p class="hpgrid_label floatright">Video Games</p>
+                            </div>
+                        
+                        <div class="hpgrid_hover_content">
+                            <p>Bacon ipsum dolor sit amet tenderloin tail spare ribs
+                            corned beef chicken fatback chuck capicola swine meatloaf
+                            pork belly. Filet mignon  pork belly. Filet mignon
+                            swine meatloaf pork belly. Filet mignon  pork belly.
+                            Filet mignon
+                            </p>
+                        </div>   
+                            
+                    </div>
+                    
                 </div>
-                
-            </div>
+            </a>
             
             
             <div class="hpgrid_cutting_edge_research floatright">
@@ -198,53 +201,61 @@
             </div>
             
             
-            <div class="hpgrid_contact floatleft">
-                
-                <div class="hpgrid_content floatleft">
+            <a href="contact.php">
+                <div class="hpgrid_contact floatleft">
                     
-                    <div class="hpgrid_label_container_one_line floatright">
-                            <p class="hpgrid_label floatright">Contact</p>
-                        </div>
+                    <div class="hpgrid_content floatleft">
+                        
+                        <div class="hpgrid_label_container_one_line floatright">
+                                <p class="hpgrid_label floatright">Contact</p>
+                            </div>
+                        
+                        <div class="hpgrid_hover_content">
+                            <p>1401 University Ave <br />
+                            2nd Floor<br />
+                            Madison, WI 53715
+                            </p>
+                            
+                            <p>Ph: ( 608 ) 265-8739</p>
+                            
+                            <p>Fax: ( 608 ) 265-6483</p>
+                            
+                            <p>glsadmin@discovery.wisc.edu</p>
+                        </div>   
+                            
+                    </div>
                     
-                    <div class="hpgrid_hover_content">
-                        <p>1401 University Ave <br />
-                        2nd Floor<br />
-                        Madison, WI 53715
-                        </p>
-                        
-                        <p>Ph: ( 608 ) 265-8739</p>
-                        
-                        <p>Fax: ( 608 ) 265-6483</p>
-                        
-                        <p>glsadmin@discovery.wisc.edu</p>
-                    </div>   
-                        
                 </div>
-                
-            </div>
+            </a>
             
             
-            <div class="hpgrid_gls_conference floatright">
+            <a href="http://www.glsconference.org" target="_blank">
                 
-                <div class="hpgrid_content floatleft">
+                <div class="hpgrid_gls_conference floatright">
                     
-                    <div class="hpgrid_label_container_two_lines floatright">
-                            <p class="hpgrid_label floatright">GLS</p>
-                            <p class="hpgrid_label floatright">Conference</p>
-                        </div>
-                    
-                    <div class="hpgrid_hover_content">
-                        <p>Bacon ipsum dolor sit amet tenderloin tail spare ribs
-                        corned beef chicken fatback chuck capicola swine meatloaf
-                        pork belly. Filet mignon  pork belly. Filet mignon
-                        swine meatloaf pork belly. Filet mignon  pork belly.
-                        Filet mignon
-                        </p>
-                    </div>   
+                    <div class="hpgrid_content floatleft">
                         
+                        <div class="hpgrid_label_container_two_lines floatright">
+                                <p class="hpgrid_label floatright">GLS</p>
+                                <p class="hpgrid_label floatright">Conference</p>
+                            </div>
+                        
+                        <div class="hpgrid_hover_content">
+                            <p>Bacon ipsum dolor sit amet tenderloin tail spare ribs
+                            corned beef chicken fatback chuck capicola swine meatloaf
+                            pork belly. Filet mignon  pork belly. Filet mignon
+                            swine meatloaf pork belly. Filet mignon  pork belly.
+                            Filet mignon
+                            </p>
+                        </div>   
+                            
+                    </div>
+                    
                 </div>
                 
-            </div>
+            </a>
+            
+            
             
         </div>
         
@@ -264,35 +275,35 @@
         
         <div class="hp_courses_containter floatleft">
             
-            <a href="">
+            <a href="courses.php">
                 <div class="hp_course_link">
                     <p class="course_title">C&I 277: Video games and Learning</p>
                     <p class="course_instructor">Instructor: Kurt Squire</p>
                 </div>
             </a>
             
-            <a href="">
+            <a href="courses.php">
                 <div class="hp_course_link">
                     <p class="course_title">C&I 675: Game Communities & Learning</p>
                     <p class="course_instructor">Instructor: Constance Steinkuehler</p>
                 </div>
             </a>
             
-            <a href="">
+            <a href="courses.php">
                 <div class="hp_course_link">
                     <p class="course_title">C&I 975: Games and National Policy</p>
                     <p class="course_instructor">Instructor: Constance Steinkuehler</p>
                 </div>
             </a>
             
-            <a href="">
+            <a href="courses.php">
                 <div class="hp_course_link">
                     <p class="course_title">C&I 975: Analyzing Online Social Interaction</p>
                     <p class="course_instructor">Instructor: Constance Steinkuehler</p>
                 </div>
             </a>
             
-            <a href="">
+            <a href="courses.php">
                 <div class="hp_course_link">
                     <p class="course_title">LIS 301: Information Literacies in Online Spaces</p>
                     <p class="course_instructor">Digital Studies Fig: Internet & Society</p>

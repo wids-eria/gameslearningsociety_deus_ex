@@ -78,7 +78,8 @@
                     <p>
                         Bacon ipsum dolor sit amet chicken shankle frankfurter leberkas
                         chuck. Drumstick tail boudin pancetta sirloin rump flank meatloaf
-                        tongue. Bacon ipsum dolor sit amet chicken shankle 
+                        tongue. Bacon ipsum dolor sit amet chicken shankle
+                        
                     </p>
                 </div>
             </div>
@@ -102,10 +103,21 @@
                 
                 <div class="about_paragraph">
                     <p>
-                        Bacon ipsum dolor sit amet chicken shankle frankfurter leberkas
-                        chuck. Drumstick tail boudin pancetta sirloin rump flank meatloaf
-                        tongue. Bacon ipsum dolor sit amet chicken shankle 
+                        Games Learning Society, GLS, is a group of videogame scholars and designers
+                        dedicated to the study and improvement of Interactive media environments, or
+                        videogames. GLS studies how videogames can be used to transform learning,
+                        and the impact this engaging medium has on society. Digital media is
+                        changing the way we think, learn, and interact, with important implications
+                        for our lives. Videogames are at the forefront of this push toward a
+                        participatory culture. Videogames let us relive historical eras, manage
+                        our favorite sports teams, or even lead organizations in virtual worlds
+                        consisting of hundreds of real people from around the world. Combining
+                        faculty, students, and academic staff from the Digital Media program in
+                        Curriculum & Instruction at UW-Madison with industry-tested game designers,
+                        we’ve discovered that well-designed, compelling games can improve learning
+                        outcomes while increasing engagement. 
                     </p>
+                    
                 </div>
             </div>
             

@@ -31,7 +31,7 @@
             <p class="banner_header floatright"> Becky Torrisi</p>
             
             <ul class="bio_navigation floatright">
-                <li> <p>Associate Professor, Co-Director</p> </li>
+                <li> <p>Project Manager, Director, Business Office</p> </li>
             </ul>
             
         </div>

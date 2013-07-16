@@ -37,7 +37,7 @@
             
             <div class="hp_courses_containter floatleft">
                 
-                <a href="">
+                
                     <div class="hp_course_link">
                         <p class="course_title">C&I 277: Video games and Learning</p>
                         <p class="course_instructor bold">Instructor: Kurt Squire</p>
@@ -62,9 +62,7 @@
                             learning intended to bridge that growing divide.
                         </p>
                     </div>
-                </a>
                 
-                <a href="">
                     <div class="hp_course_link">
                         <p class="course_title">C&I 675: Game Communities & Learning</p>
                         <p class="course_instructor bold">Instructor: Constance Steinkuehler</p>
@@ -86,9 +84,7 @@
                             their function for learning.
                         </p>
                     </div>
-                </a>
                 
-                <a href="">
                     <div class="hp_course_link">
                         <p class="course_title">C&I 975: Games and National Policy</p>
                         <p class="course_instructor bold">Instructor: Constance Steinkuehler</p>
@@ -118,9 +114,7 @@
                             initiatives and policies.
                         </p>
                     </div>
-                </a>
                 
-                <a href="">
                     <div class="hp_course_link">
                         <p class="course_title">C&I 975: Analyzing Online Social Interaction</p>
                         <p class="course_instructor bold">Instructor: Constance Steinkuehler</p>
@@ -139,9 +133,7 @@
                             in-depth analysis if one’s own data.
                         </p>
                     </div>
-                </a>
                 
-                <a href="">
                     <div class="hp_course_link">
                         <p class="course_title">LIS 301: Information Literacies in Online Spaces</p>
                         <p class="course_instructor bold">Digital Studies Fig: Internet & Society</p>
@@ -160,7 +152,7 @@
                             (video making, blogging, game making).
                         </p>
                     </div>
-                </a>
+                
                 
             </div>
             

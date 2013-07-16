@@ -6,6 +6,8 @@ body{  }
 
 a{ text-decoration:none; }
     a:hover{  }
+    
+    a img{ border:none;}
 
 p{  }
 
@@ -45,6 +47,14 @@ h5{  }
     background:url(images/arrow.png);
 }
     .arrow:hover{ background:url(images/arrow_hover.png); }
+    
+    .arrow_leadership{
+        height: 20px;
+        width:  20px;
+        margin:4px 4px 0 0;
+        background:url(images/arrow.png);
+    }
+        .arrow_leadership:hover{ background:url(images/arrow_hover.png); }
     
 .pinklink{
     background:#C5173A;
@@ -172,7 +182,7 @@ h5{  }
     z-index:5;
     position:relative;
     
-    background:url(images/game_page_banners/game_banner_anatomy_browser.png) 50% 0%;
+    background:url(images/game_page_banners/game_banner_anatomy_browser_2.png) 50% 0%;
 }
 
 
@@ -1206,6 +1216,8 @@ padding:10px 19px 10px 19px;
 
 
 .unity_embed_container{
+    z-index:999999999;
+    position:relative;
     float:left;
     margin:-320px 0 0 85px;
     box-shadow:0px 3px 15px rgba(0,0,0,.25);
@@ -1219,6 +1231,14 @@ padding:10px 19px 10px 19px;
     box-shadow:0px 3px 15px rgba(0,0,0,.25);
 }
 
+.unity_embed_container_ipad{
+    float:left;
+    z-index:999999999;
+    position:relative;
+    margin:-320px 0 0 -30px;
+    box-shadow:0px 3px 15px rgba(0,0,0,.25);
+}
+
 
 /* End Projects */
 
@@ -1226,11 +1246,10 @@ padding:10px 19px 10px 19px;
 /*--------------------------------------------------------- Footer ------------------------------------*/
 
 
-.footer_container{ width:100%; float:left; margin:20px 0 50px 0; }
+.footer_container{ width:100%; float:left; margin:20px 0 30px 0; }
 
     .footer{
         width:  960px;
-        height: 100px;
         
         padding:30px 0 0 0;
         margin: 0 auto;

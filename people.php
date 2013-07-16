@@ -42,6 +42,8 @@
                 
                 <div class="people_kurt floatleft">
                     
+                    <div class="arrow_leadership floatright"></div>
+                    
                     <div class="people_label_container floatleft">
                         
                         <p class="people_label floatleft">Kurt</p>
@@ -58,6 +60,8 @@
             <a href="bio_constance.php">
                 
                 <div class="people_constance floatleft">
+                    
+                    <div class="arrow_leadership floatright"></div>
                     
                     <div class="people_label_container floatleft">
                         
@@ -110,6 +114,8 @@
                 
                 <div class="people_brian floatleft">
                     
+                    <div class="arrow_leadership floatright"></div>
+                    
                     <div class="people_label_container floatleft">
                         
                         <p class="people_label floatleft">Brian</p>
@@ -126,6 +132,8 @@
             <a href="bio_becky.php">
                 
                 <div class="people_becky floatright">
+                    
+                    <div class="arrow_leadership floatright"></div>
                     
                     <div class="people_label_container floatleft">
                         
