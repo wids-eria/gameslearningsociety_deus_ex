@@ -130,7 +130,7 @@
                 
                 <div class="about_paragraph">
                     <p>
-                        RResearch at GLS is supported by leaderships and partners from the
+                        Research at GLS is supported by leaderships and partners from the
                         industry, such as game designer Doug Church and neuroscientist Richard
                         Davidson, as well as groups like Microsoft Research.
                     </p>
