@@ -130,66 +130,72 @@
             </a>
             
             
-            <div class="hpgrid_cutting_edge_research floatright">
-                
-                <div class="hpgrid_content floatleft">
+            <a href="research.php">
+                <div class="hpgrid_cutting_edge_research floatright">
                     
-                    <div class="hpgrid_label_container_two_lines floatright">
-                            <p class="hpgrid_label floatright">Cutting Edge</p>
-                            <p class="hpgrid_label floatright">Research</p>
-                        </div>
-                    
-                    <div class="hpgrid_hover_content">
-                        <p>By working in house with game artists, designers, programmers, and researchers, 
-                        GLS is able to tie together innovative game mechanics, data analysis, and assessment 
-                        methods in a way that is unique in the field.
-                        </p>
-                    </div>   
+                    <div class="hpgrid_content floatleft">
                         
-                </div>
-                
-            </div>
-            
-            
-            <div class="hpgrid_industry_leaders floatleft">
-                
-                <div class="hpgrid_content floatleft">
-                    
-                    <div class="hpgrid_label_container_two_lines floatright">
-                            <p class="hpgrid_label floatright">Industry</p>
-                            <p class="hpgrid_label floatright">Leaders</p>
-                        </div>
-                    
-                    <div class="hpgrid_hover_content">
-                        <p>Research at GLS is supported by leaderships and partners from the
-                        industry, such as game designer Doug Church and neuroscientist Richard
-                        Davidson, as well as groups like Microsoft Research.
-                        </p>
-                    </div>   
+                        <div class="hpgrid_label_container_two_lines floatright">
+                                <p class="hpgrid_label floatright">Cutting Edge</p>
+                                <p class="hpgrid_label floatright">Research</p>
+                            </div>
                         
+                        <div class="hpgrid_hover_content">
+                            <p>By working in house with game artists, designers, programmers, and researchers, 
+                            GLS is able to tie together innovative game mechanics, data analysis, and assessment 
+                            methods in a way that is unique in the field.
+                            </p>
+                        </div>   
+                            
+                    </div>
+                    
                 </div>
-                
-            </div>
+            </a>
             
             
-            <div class="hpgrid_unique_culture floatright">
-                
-                <div class="hpgrid_content floatleft">
+            <a href="people.php">
+                <div class="hpgrid_industry_leaders floatleft">
                     
-                    <div class="hpgrid_label_container_two_lines floatright">
-                            <p class="hpgrid_label floatright">Unique</p>
-                            <p class="hpgrid_label floatright">Culture</p>
-                        </div>
-                    
-                    <div class="hpgrid_hover_content">
-                        <p>Staff at the GLS Center maintain a healthy balance between work and play, hosting 
-                        cooperative and collaborative gameplay sessions in between projects.
-                        </p>
-                    </div>   
+                    <div class="hpgrid_content floatleft">
                         
+                        <div class="hpgrid_label_container_two_lines floatright">
+                                <p class="hpgrid_label floatright">Industry</p>
+                                <p class="hpgrid_label floatright">Leaders</p>
+                            </div>
+                        
+                        <div class="hpgrid_hover_content">
+                            <p>Research at GLS is supported by leaderships and partners from the
+                            industry, such as game designer Doug Church and neuroscientist Richard
+                            Davidson, as well as groups like Microsoft Research.
+                            </p>
+                        </div>   
+                            
+                    </div>
+                    
                 </div>
-                
-            </div>
+            </a>
+            
+            
+            <a href="about.php">
+                <div class="hpgrid_unique_culture floatright">
+                    
+                    <div class="hpgrid_content floatleft">
+                        
+                        <div class="hpgrid_label_container_two_lines floatright">
+                                <p class="hpgrid_label floatright">Unique</p>
+                                <p class="hpgrid_label floatright">Culture</p>
+                            </div>
+                        
+                        <div class="hpgrid_hover_content">
+                            <p>Staff at the GLS Center maintain a healthy balance between work and play, hosting 
+                            cooperative and collaborative gameplay sessions in between projects.
+                            </p>
+                        </div>   
+                            
+                    </div>
+                    
+                </div>
+            </a>
             
             
             <a href="contact.php">
