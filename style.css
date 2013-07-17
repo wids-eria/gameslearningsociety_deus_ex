@@ -570,6 +570,8 @@ p.subhead_type{
     background:url(images/footer_background.png) no-repeat;
 }
 
+    .about_header .arrow{ margin-top:8px;}
+
     .about_item_container .hpgrid_cutting_edge_research,
     .about_item_container .hpgrid_industry_leaders,
     .about_item_container .hpgrid_unique_culture,
@@ -588,13 +590,19 @@ p.subhead_type{
     .about_paragraph_container_right{
         width:  425px;
         
-        margin: 80px 30px 70px 0;
+        margin: 95px 30px 40px 0;
+    }
+    
+    .about_paragraph_container_right_first{
+        width:  425px;
+        
+        margin: 75px 30px 40px 0;
     }
     
      .about_paragraph_container_left{
         width:  425px;
         
-        margin: 80px 0 70px 30px;
+        margin: 95px 0 40px 30px;
     }
     
     .about_header,
@@ -616,7 +624,7 @@ p.subhead_type{
         .about_paragraph p{
             font-family:    proxima-nova;
             color:          #74838d;
-            font-size:      19px;
+            font-size:      17px;
         }
 
 /* end About Page */
@@ -1066,7 +1074,7 @@ p.contact_header_type{
             color:          #42494f;
             text-transform: uppercase;
             letter-spacing: 1px;
-            font-size:      30px;
+            font-size:      27px;
         }
             
     .research_description_paragraph{

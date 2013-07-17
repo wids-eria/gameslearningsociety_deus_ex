@@ -68,7 +68,7 @@
             
             <div class="about_game_collage floatleft"></div>
             
-            <div class="about_paragraph_container_right floatright">
+            <div class="about_paragraph_container_right_first floatright">
                 
                 <div class="about_header">
                     <p>Innovative Video Games</p>
@@ -76,10 +76,10 @@
                 
                 <div class="about_paragraph">
                     <p>
-                        Bacon ipsum dolor sit amet chicken shankle frankfurter leberkas
-                        chuck. Drumstick tail boudin pancetta sirloin rump flank meatloaf
-                        tongue. Bacon ipsum dolor sit amet chicken shankle
-                        
+                       GLS has produced over a dozen games designed around a range of content models.
+                       Our games promote engaging ways of learning about biological systems, civic activism,
+                       pro-social behavior, programming, and many other STEM domains.
+
                     </p>
                 </div>
             </div>
@@ -103,19 +103,9 @@
                 
                 <div class="about_paragraph">
                     <p>
-                        Games Learning Society, GLS, is a group of videogame scholars and designers
-                        dedicated to the study and improvement of Interactive media environments, or
-                        videogames. GLS studies how videogames can be used to transform learning,
-                        and the impact this engaging medium has on society. Digital media is
-                        changing the way we think, learn, and interact, with important implications
-                        for our lives. Videogames are at the forefront of this push toward a
-                        participatory culture. Videogames let us relive historical eras, manage
-                        our favorite sports teams, or even lead organizations in virtual worlds
-                        consisting of hundreds of real people from around the world. Combining
-                        faculty, students, and academic staff from the Digital Media program in
-                        Curriculum & Instruction at UW-Madison with industry-tested game designers,
-                        we’ve discovered that well-designed, compelling games can improve learning
-                        outcomes while increasing engagement. 
+                        By working in house with game artists, designers, programmers, and researchers, 
+                        GLS is able to tie together innovative game mechanics, data analysis, and assessment 
+                        methods in a way that is unique in the field.
                     </p>
                     
                 </div>
@@ -140,9 +130,9 @@
                 
                 <div class="about_paragraph">
                     <p>
-                        Bacon ipsum dolor sit amet chicken shankle frankfurter leberkas
-                        chuck. Drumstick tail boudin pancetta sirloin rump flank meatloaf
-                        tongue. Bacon ipsum dolor sit amet chicken shankle 
+                        RResearch at GLS is supported by leaderships and partners from the
+                        industry, such as game designer Doug Church and neuroscientist Richard
+                        Davidson, as well as groups like Microsoft Research.
                     </p>
                 </div>
             </div>
@@ -166,9 +156,8 @@
                 
                 <div class="about_paragraph">
                     <p>
-                        Bacon ipsum dolor sit amet chicken shankle frankfurter leberkas
-                        chuck. Drumstick tail boudin pancetta sirloin rump flank meatloaf
-                        tongue. Bacon ipsum dolor sit amet chicken shankle 
+                        Staff at the GLS Center maintain a healthy balance between work and play, hosting 
+                        cooperative and collaborative gameplay sessions in between projects.
                     </p>
                 </div>
             </div>
@@ -187,14 +176,16 @@
             <div class="about_paragraph_container_right floatright">
                 
                 <div class="about_header">
-                    <p>GLS Conference</p>
+                    <p class="floatleft">GLS Conference</p>
+                    <a href="http://www.glsconference.org" target="_blank"><div class="arrow floatright"></div></a>
                 </div>
                 
                 <div class="about_paragraph">
                     <p>
-                        Bacon ipsum dolor sit amet chicken shankle frankfurter leberkas
-                        chuck. Drumstick tail boudin pancetta sirloin rump flank meatloaf
-                        tongue. Bacon ipsum dolor sit amet chicken shankle 
+                        The GLS Conference, held annually in Madison, provides a forum for games
+                        researchers, game designers, and educators from around the world to share
+                        results from research and game design efforts. 
+
                     </p>
                 </div>
             </div>

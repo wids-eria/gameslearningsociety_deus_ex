@@ -118,11 +118,9 @@
                             </div>
                         
                         <div class="hpgrid_hover_content">
-                            <p>Bacon ipsum dolor sit amet tenderloin tail spare ribs
-                            corned beef chicken fatback chuck capicola swine meatloaf
-                            pork belly. Filet mignon  pork belly. Filet mignon
-                            swine meatloaf pork belly. Filet mignon  pork belly.
-                            Filet mignon
+                            <p>GLS has produced over a dozen games designed around a range of content models.
+                       Our games promote engaging ways of learning about biological systems, civic activism,
+                       pro-social behavior, programming, and many other STEM domains.
                             </p>
                         </div>   
                             
@@ -142,11 +140,9 @@
                         </div>
                     
                     <div class="hpgrid_hover_content">
-                        <p>Bacon ipsum dolor sit amet tenderloin tail spare ribs
-                        corned beef chicken fatback chuck capicola swine meatloaf
-                        pork belly. Filet mignon  pork belly. Filet mignon
-                        swine meatloaf pork belly. Filet mignon  pork belly.
-                        Filet mignon
+                        <p>By working in house with game artists, designers, programmers, and researchers, 
+                        GLS is able to tie together innovative game mechanics, data analysis, and assessment 
+                        methods in a way that is unique in the field.
                         </p>
                     </div>   
                         
@@ -165,11 +161,9 @@
                         </div>
                     
                     <div class="hpgrid_hover_content">
-                        <p>Bacon ipsum dolor sit amet tenderloin tail spare ribs
-                        corned beef chicken fatback chuck capicola swine meatloaf
-                        pork belly. Filet mignon  pork belly. Filet mignon
-                        swine meatloaf pork belly. Filet mignon  pork belly.
-                        Filet mignon
+                        <p>Research at GLS is supported by leaderships and partners from the
+                        industry, such as game designer Doug Church and neuroscientist Richard
+                        Davidson, as well as groups like Microsoft Research.
                         </p>
                     </div>   
                         
@@ -188,11 +182,8 @@
                         </div>
                     
                     <div class="hpgrid_hover_content">
-                        <p>Bacon ipsum dolor sit amet tenderloin tail spare ribs
-                        corned beef chicken fatback chuck capicola swine meatloaf
-                        pork belly. Filet mignon  pork belly. Filet mignon
-                        swine meatloaf pork belly. Filet mignon  pork belly.
-                        Filet mignon
+                        <p>Staff at the GLS Center maintain a healthy balance between work and play, hosting 
+                        cooperative and collaborative gameplay sessions in between projects.
                         </p>
                     </div>   
                         
@@ -241,11 +232,9 @@
                             </div>
                         
                         <div class="hpgrid_hover_content">
-                            <p>Bacon ipsum dolor sit amet tenderloin tail spare ribs
-                            corned beef chicken fatback chuck capicola swine meatloaf
-                            pork belly. Filet mignon  pork belly. Filet mignon
-                            swine meatloaf pork belly. Filet mignon  pork belly.
-                            Filet mignon
+                            <p>The GLS Conference, held annually in Madison, provides a forum for games
+                        researchers, game designers, and educators from around the world to share
+                        results from research and game design efforts. 
                             </p>
                         </div>   
                             

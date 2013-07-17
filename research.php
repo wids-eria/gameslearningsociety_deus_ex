@@ -85,15 +85,16 @@
                 
                 <div class="research_description_paragraph">
                     <p>                        
-                    The PopCosmo research lab at the Games+Learning+Society Center investigates
-                    cognition and learning around commercial game titles and games designed for
-                    impact. The current team consists of Principal Investigator Constance Steinkuehler,
-                    7 doctoral students, 2 independent researchers, and 1 undergraduate student, each
-                    specializing in their own interest area. PopCosmo practices a wide diversity of
-                    mixed research methods, including learning analytics, quantitative analyses,
-                    qualitative research, discourse and conversation analysis, and more. Focusing
-                    primarily around situated perspectives to learning, including how sociocultural
-                    learning theories can inform analysis of "big data."
+                    The PopCosmo research lab at the GLS Center investigates cognition
+                    and learning around commercial games and games for impact. The team
+                    consists of Principal Investigator Constance Steinkuehler, 7 doctoral
+                    students, 2 independent researchers, and 1 undergraduate student, each
+                    specializing in their own interest area. PopCosmo practices a diversity
+                    of both quantitative and qualitative research methods, including learning
+                    analytics, discourse analysis, and more. Focusing around situated perspectives
+                    to learning, and currently how sociocultural learning theories can inform
+                    analysis of "big data," PopCosmo seeks to tackle big challenges around
+                    games, learning, and assessment. 
                     </p>
                     
                 </div>
@@ -109,7 +110,14 @@
                     </div>
                     
                     <div class="bio_links">
-                        <p> Coming soon... </p>
+                        <p>BioSource: A Crowdsourcing Approach to Increasing Public Understanding in Biosciences, 2012 - 2015
+                            <br />National Science Foundation</p>
+                        
+                        <p>Workshop: Improving Capacity for Game-Based Research to Scale 2012- 2013
+                            <br />National Science Foundation</p>
+                        
+                        <p>Adolescent Online Games and Reading 2010 - 2012
+                            <br />MacArthur Foundation Grant</p>
                     </div>
                     
                 </div>
@@ -121,9 +129,16 @@
                     </div>
                     
                     <div class="bio_links">
-                        <p> Steinkuehler, C. & Squire, K. (in press). Videogames and Learning. To appear in Keith Sawyer (Ed.), Cambridge Handbook of the Learning Sciences, Second Edition. New York: Cambridge University Press.  </p>
-                        <p>Anton, G., Harris, S., Ochsner, A., Rothschild, M., & Squire, K. (in press). Patterns of play: Understanding computational thinking through game design. To be published in Williams, C., Ochsner, A., Dietmeier, J., & Steinkuehler, C. (Eds.) Proceedings of the Games, Learning, and Society Conference: Vol. 3. Pittsburgh PA: ETC Press.  </p>
-                        <p> Halverson, R. & Owen, V.E. (in press). Game-based assessment: An integrated model for capturing evidence of learning in play. International Journal of Learning Technology.  </p>
+                        <p>Steinkuehler, C. & Squire, K. (in press). Videogames and Learning.
+                        To appear in Keith Sawyer (Ed.), Cambridge Handbook of the Learning Sciences,
+                        Second Edition. New York: Cambridge University Press.  </p>
+                        
+                        <p>Steinkuehler, C., Squire, K., & Barab, S. (Eds.) (2012). Games, learning,
+                        and society: Learning and meaning in the digital age. Cambridge: Cambridge
+                        University Press.</p>
+                        
+                        <p>Steinkuehler, C. (2011). The mismeasure of boys: Reading and online
+                        videogames. WCER Working Paper. </p>
                     </div>
                     
                 </div>
