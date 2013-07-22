@@ -233,7 +233,8 @@
                     
                     <div class="people_links">
                         
-                        <p>Gabriella Anton <span class="bold floatright">Assoc Res Specialist</span></p>
+                        <p>Gabriella Anton <span class="bold floatright">Assoc Res Specialist</span></p>\
+                        <a href="http://www.sarahchu.com/" target="_blank">Sarah Chu</a>
                         <p>Matt Gaydos</p>
                         <p>Shannon Harris</p>
                         <p>Craig Kasemodel</p>
