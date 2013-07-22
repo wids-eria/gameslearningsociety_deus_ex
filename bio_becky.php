@@ -58,7 +58,7 @@
                     but is involved in multiple grant projects as well. Her expertise
                     in web-based administrative system development and process improvement
                     was gained from ten years as a system developer at the University of
-                    Wisconsin-Madison’s College of Engineering. Prior to that, she spent
+                    Wisconsin-Madison's College of Engineering. Prior to that, she spent
                     many years in office administration which provided invaluable insight
                     when it came to helping people re-think office processes. She received
                     a Bachelor of Science Degree in Computer Information Systems from Edgewood

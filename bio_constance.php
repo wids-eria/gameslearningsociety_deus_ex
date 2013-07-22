@@ -64,7 +64,7 @@
                     the coordination of cross-agency efforts to leverage games toward national priority areas 
                     (e.g. childhood obesity, early literacy, STEM education) and the creation of new partnerships 
                     to support an ecosystem for more diversified innovation in commercial and non-commercial 
-                    games. She also played a central role in recent meetings through the Vice President’s office on 
+                    games. She also played a central role in recent meetings through the Vice President's office on 
                     videogames and violence.
                     
                     <br /><br />

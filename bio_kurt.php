@@ -129,17 +129,17 @@
                     </p>
                     
                     <p>
-                        “Getting Civilized.” Panel organizer, moderator, and participant, Education
+                        "Getting Civilized." Panel organizer, moderator, and participant, Education
                         Arcade, Los Angeles , CA .
                     </p>
                     
                     <p>
-                        “Video Games: Toys to think, learn, and live in”. Keynote made to the Toys and
+                        "Video Games: Toys to think, learn, and live in". Keynote made to the Toys and
                         Games Conference, National Taipei Teachers College . Taipei , Taiwan .
                     </p>
                     
                     <p>
-                        “Games and the future of learning”. Invited keynote made at Educause Midwest March 23, 2005.
+                        "Games and the future of learning". Invited keynote made at Educause Midwest March 23, 2005.
                     </p>
                     
                 </div>
@@ -168,7 +168,7 @@
                     </p>
                     
                     <p>
-                        “C&I ***: Design Experiments.
+                        "C&I ***: Design Experiments.
                     </p>
                 </div>
                 
