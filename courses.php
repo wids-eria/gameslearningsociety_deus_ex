@@ -71,7 +71,7 @@
                         
                         <p class="course_instructor">
                             Games are both designed object but also emergent social practice,
-                            and it is both aspects of games that make them a powerful "sociotechnical”
+                            and it is both aspects of games that make them a powerful "sociotechnical"
                             means of learning. In this course, we will examine how game communities
                             function as naturally occurring, self-sustaining, indigenous online
                             communities of learning and practice, the conditions under which such
@@ -95,13 +95,13 @@
                             At the TechBoston event in March 2011, President Obama issued a call to
                             action, stating "I'm calling for investments in educational technology
                             that will help create… educational software that's as compelling as the
-                            best video game.” A growing number of universities, companies, and
+                            best video game." A growing number of universities, companies, and
                             philanthropic organizations have risen to the challenge, establishing
                             programs not only in game studies but also in game design and development.
                             In this seminar, students review the state of play in the games for impact
                             area, the role of various stakeholders (federal government, universities,
                             philanthropy, and industry) in this domain, and both opportunities and
-                            challenges to the movement. The course will function as a "do tank” (to
+                            challenges to the movement. The course will function as a "do tank" (to
                             borrow a term from Beth Noveck), where students do actual domain work
                             of immediate relevance for various stakeholders including a landscape
                             analysis of the various subareas within the games for impact domain.

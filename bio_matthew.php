@@ -62,7 +62,7 @@
                 </p>
                 <p class="bio_paragraph">
                     Matthew Berland is an Assistant Professor of Digital Media in the
-                    Department of Curriculum & Instruction at University of Wisconsin–Madison.
+                    Department of Curriculum & Instruction at University of Wisconsin-Madison.
                     He studies how to support computational thinking and learning though
                     constructionist learning environments (games, makerspaces) and how to
                     understand that learning by using mixed methods, educational data mining,
