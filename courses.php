@@ -48,7 +48,7 @@
                             Videogames have become one of the hottest topics in media, education,
                             and technology. Recent research across fields as disparate as science,
                             literacy, history, visual processing, curriculum, and computer science
-                            suggests that videogames aren't just fun – they're actually good for
+                            suggests that videogames aren't just fun - they're actually good for
                             your mind as well. In this three-credit course, we will discuss current
                             research on the kinds of thinking and learning that goes into videogames
                             and gaming culture. We'll investigate the benefits and drawbacks of this
@@ -94,7 +94,7 @@
                         <p class="course_instructor">
                             At the TechBoston event in March 2011, President Obama issued a call to
                             action, stating "I'm calling for investments in educational technology
-                            that will help create… educational software that's as compelling as the
+                            that will help create...educational software that's as compelling as the
                             best video game." A growing number of universities, companies, and
                             philanthropic organizations have risen to the challenge, establishing
                             programs not only in game studies but also in game design and development.
@@ -143,7 +143,7 @@
                         
                         <p class="course_instructor">
                             This course explores information and digital literacies needed by today's online
-                            consumers and producers.  Topics include ‘new literacies', media education,
+                            consumers and producers.  Topics include 'new literacies', media education,
                             digital divides, information quality, and online risks. To investigate these
                             issues, we complete four case studies: Wikipedia, blogs, online video, and
                             online videogames. Issues to be covered include access (digital divides,
