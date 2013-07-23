@@ -56,7 +56,7 @@
                 </p>
                 <p class="bio_paragraph">
                     Constance Steinkuehler is an Associate Professor in Digital Media at the University of 
-                    Wisconsin–Madison and co-directs the Games+Learning+Society (GLS) center at the Wisconsin
+                    Wisconsin-Madison and co-directs the Games+Learning+Society (GLS) center at the Wisconsin
                     Institute of Discovery and chairs their annual GLS Conference. Her research is on cognition and 
                     learning in commercial entertainment games and games designed for impact. In 2011-2012, 
                     she served as Senior Policy Analyst in the White House Office of Science and Technology Policy 
