@@ -273,7 +273,7 @@
                         <a href="https://twitter.com/AmandaOchsner" target="_blank">Amanda Ochsner</a>
                         <a href="http://www.velizabethowen.com/" target="_blank">Liz Owen</a>
                         <a href="http://www.Dennisisawesome.com" target="_blank">Dennis Paiz-Ramirez</a>
-                        <p>Caro Williams</p>
+                        <a href="http://therealca.ro" target="_blank">Caro Williams</a>
                         
                     </div>
                 </div>

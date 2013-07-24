@@ -348,15 +348,7 @@
                 <a class="fancybox hidden" rel="fair_play_gallery" href="images/projects/screenshots/fairplay/fairplay_screenshot_06.png"></a>
                 <a class="fancybox hidden" rel="fair_play_gallery" href="images/projects/screenshots/fairplay/fairplay_screenshot_07.png"></a>
                 <a class="fancybox hidden" rel="fair_play_gallery" href="images/projects/screenshots/fairplay/fairplay_screenshot_08.png"></a>
-                
-                
-                <a href="http://www.gameslearningsociety.org/fairplay/" target="_blank">
-                    <li class="visit_microsite_button">
-                        <div class="microsite_icon"></div>
-                        Visit Microsite
-                    </li>
-                </a>
-    
+
             </ul>
             
         </div>
