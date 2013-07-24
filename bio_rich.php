@@ -22,7 +22,7 @@
 <?php require "navigation.php";?>
 
 
-<div class="kurt_bio_banner">
+<div class="rich_bio_banner">
 
     <div class="banner_text_container">
         
@@ -45,37 +45,33 @@
     <div class="body_content">
         
         <div class="one_third floatleft">
-            <div class="kurt_collage floatleft"></div>
+            <div class="rich_collage floatleft"></div>
         </div>
         
         <div class="two_thirds floatright">
             
             <div class="biography">
                 <p class="bio_header_type">About Rich
-                    <a href="" class="pinklink floatright">View C.V.</a>
                 </p>
                 <p class="bio_paragraph">
-                    Kurt Squire is an assistant professor at the University of
-                    Wisconsin-Madison in the Educational Communications and
-                    Technology division of Curriculum and Instruction and a 
-                    esearch scientist a the Academic Advanced Distributed
-                    Learning Co-Lab. Squire is also a co-founder and current
-                    director of the Games, Learning, & Society Initiative,
-                    a group of over 50 faculty and students investigating
-                    game-based learning. Squire's research investigates the
-                    potential of video game-based technologies for systemic
-                    change in education. Squire's work integrates research
-                    and theory on digital media (particularly games) with
-                    theories of situated cognition in order to understand 
-                    ow to design educational environments in a digital age.
-                    Squire earned his doctorate in Instructional Systems Technology
-                    from Indiana University and is a former Montessori and primary
-                    school teacher. Before coming to Wisconsin, Squire was Research
-                    Manager of the Games-to-Teach Project at MIT, Co-Director of
-                    the Education Arcade, columnist for Computer Games magazine,
-                    and co-founder of Joystick101.org. In addition to writing over
-                    50 scholarly articles and book chapters, he has given dozens
-                    invited addresses in North America, Europe, and Asia.
+                    Rich Halverson is a Professor in Educational Leadership and Policy Analysis at the University
+                    of Wisconsin-Madison. His work involves documenting the practical wisdom of school
+                    leaders with the tools and ideas of distributed leadership, and understanding how
+                    digital media tools (can) change teaching and learning in schools.
+                    <br /><br />
+                    He co-directs two federally funded projects that guide his research. First, he works
+                    with Kurt Squire on the National Science Foundation funded CyberSTEM project,
+                    which develops video-games for learning and investigates how the data that
+                    results from game-play can become evidence for learning and a catalyst for
+                    social interaction.
+                    <br /><br />
+                    Second, he works with Carolyn Kelley on the Institute for Education Sciences
+                    funded Collaborative Assessment of Leadership for Learning (CALL) project
+                    to develop an on-line 360-degree formative feedback system to inform and
+                    support the work of school leaders. From 2004-2009, he directed a study funded
+                    by a National Science Foundation Early Career Award to investigate how school
+                    leaders work with teachers to create the capacity for using student achievement
+                    data to improve teaching and learning.
                 </p>
                 
             </div>
@@ -84,92 +80,73 @@
                 
                 <div class="grey_header_two_thirds floatleft">
                     <p class="grey_header_type floatleft">Recent Papers</p>
-                    <a href="" title="View All"> <div class="arrow floatright"></div> </a>
                 </div>
                 
                 <div class="bio_links">
-                    <a href="">
-                        Squire, K.D. (2005). Educating the fighter. On the Horizon 13(2), 75-88.
-                    </a>
+                    <p>
+                        Collins, A. & Halverson, R (2009). The second educational revolution:
+                        How technology is transforming education again. New York: Teachers College Press.
+                    </p>
                     
-                    <a href="">
-                        SKlopfer, E. & Squire, K. (in press). Developing a platform for augmented reality
-                        gaming. To appear in Educational Technology Research & Development.
-                    </a>
+                    <p>
+                        Kelley, C., Halverson, R., Blitz, M., Salisbury, J., Modeste, M.,
+                        Dikkers, S. & Camburn, E. (in press). Comprehensive Assessment of
+                        Leadership for Learning (CALL): A next generation formative feedback
+                        system. Journal of Applied Research on Children.
+                    </p>
                     
-                    <a href="">
-                        Shaffer, D. W., Squire, K.D., Halverson, R., & Gee, J.P. (2005). Video
-                        games and the future of learning. To appear in Phi Delta Kappan, October.
-                    </a>
+                    <p>
+                        Halverson, R. & Clifford, M. (in press). Distributed instructional
+                        leadership: How distributed leadership can help us better understand
+                        high schools. Journal of School Leadership.
+                    </p>
                     
-                    <a href="">
-                        Squire, K.D. Giovanetto, L., Devane, B. & Durga, S. (in press). Technology Trends.
-                    </a>
+                    <p>
+                        SHalverson, R. & Shapiro, R. B. (in press) Technologies for educators
+                        and technologies for learners: How information technologies are (and should be)
+                        changing schools. In S. Rutledge & D. Anagnostopolus (Eds.) The Infrastructure
+                        of Accountability.  Harvard Education Press.
+                    </p>
                     
-                    <a href="">
-                        Squire, K.D. (2005). Educating the fighter. On the Horizon 13(2), 75-88.
-                    </a>
+                    <p>
+                        Halverson, R. (2012) Games and the future of education research. In C.
+                        Steinkuehler, K. Squire & S. Barab (Eds). Games, Learning and Society.
+                        Cambridge Press: London.
+                    </p>
                     
                 </div>
                 
             </div>
             
-            
-            <div class="one_third floatleft">
-                
-                <div class="grey_header_one_third floatleft">
-                    <p class="grey_header_type floatleft">Speaking</p>
-                    <a href="" title="View All"> <div class="arrow floatright"></div> </a>
-                </div>
-                
-                <div class="bio_links">
-                    <a href="">
-                        With Henry Jenkins, Jonathan Frome, & David Bordwell Four generations of media
-                        scholars. Games, Learning & Society, Madison , WI, June 24, 2005.
-                    </a>
-                    
-                    <a href="">
-                        “Getting Civilized.” Panel organizer, moderator, and participant, Education
-                        Arcade, Los Angeles , CA .
-                    </a>
-                    
-                    <a href="">
-                        “Video Games: Toys to think, learn, and live in”. Keynote made to the Toys and
-                        Games Conference, National Taipei Teachers College . Taipei , Taiwan .
-                    </a>
-                    
-                    <a href="">
-                        “Games and the future of learning”. Invited keynote made at Educause Midwest March 23, 2005.
-                    </a>
-                    
-                </div>
-                
-            </div>
+
             
             
-            <div class="one_third floatright">
+            <div class="two_thirds floatright">
                     
-                <div class="grey_header_one_third floatright">
+                <div class="grey_header_two_thirds floatright">
                     <p class="grey_header_type floatleft">Teaching</p>
-                    <a href="" title="View All"> <div class="arrow floatright"></div> </a>
                 </div>
                 
                 <div class="bio_links">
-                    <a href="">
-                        C&I 514: Instructional Computing I.
-                    </a>
+                    <p>
+                        Technology and School Leadership
+                    </p>
                     
-                    <a href="">
-                        C&I 614: Instructional Computing II.
-                    </a>
+                    <p>
+                        Introduction to K-12 School Leadership
+                    </p>
                     
-                    <a href="">
-                        C&I 801:Advanced Multimedia in the Curriculum
-                    </a>
+                    <p>
+                        School-level Leadership
+                    </p>
                     
-                    <a href="">
-                        “C&I ***: Design Experiments.
-                    </a>
+                    <p>
+                        Teacher Evaluation
+                    </p>
+                    
+                     <p>
+                        he UW-Madison School of Education Doctoral Research Program
+                    </p>
                 </div>
                 
             </div>

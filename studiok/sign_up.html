@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>Studio K</title>
+    <meta content="" name="description">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script><!-- validations -->
+
+    <script src="parsley.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('.parsley-form').parsley({
+                errors: {
+                    container: function (element, isRadioOrCheckbox) {
+                        var $container = element.parents().children(".parsley-error-container");
+                        if ($container.length === 0) {
+                            $container = $("<div class='parsley-error-container'><\/div>").insertAfter(element);
+                        }
+                        return $container;
+                    }
+                }
+            });
+        });
+    </script><!-- typekit -->
+
+    <script src="//use.typekit.net/qkw7frk.js" type="text/javascript"></script>
+    <script type="text/javascript">
+try{Typekit.load();}catch(e){}
+    </script>
+</head>
+
+<body id="">
+    <div class="page_wrap">
+        <br>
+        <br>
+
+        <div class="full_width">
+            <div class="ss-form-container">
+                <div class="ss-top-of-page">
+                    <div class="ss-form-heading">
+                        <p class="header_type" dir="ltr">Site Signup Request</p>
+
+                        <div class="ss-form-desc ss-no-ignore-whitespace">
+                            <p>To ensure that Studio K remains a safe environment for all of our users, please complete this request in order to register as a facilitator. All data gathered from this form will be secured on password protected servers within the Games+Learning+Society Center at the University of Wisconsin-Madison. Data will solely be used in order to maintain user safety, seen only by those on the Studio K Project. Please email <a href="mailto:support.studiok@learninggamesnetwork.org">support.studiok@learninggamesnetwork.org</a> with questions or concerns.</p>
+                        </div>
+                        <hr>
+                        <hr class="ss-email-break" style="display:none;">
+
+                        <div class="ss-required-asterisk">
+                            <p class="orange">* Required</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ss-form">
+                    <form action="https://docs.google.com/a/pixelflow.org/forms/d/1ppKg2LNVeKeV1QntD4hMJF98tqpQV6JH-giC_FvVEYE/formResponse" id="ss-form" method="post" name="ss-form" onsubmit="" target="_self" novalidate class="parsley-form">
+                            <div class="ss-form-question errorbox-good">
+                                <div class="ss-item ss-item-required ss-text" dir="ltr">
+                                    <div class="ss-form-entry">
+                                        <label class="ss-q-item-label" for="entry_1127865709"></label>
+
+                                        <div class="ss-q-title">
+                                            <label class="ss-q-item-label" for="entry_1127865709">Name: <label for="itemView.getDomIdToLabel()"></label> <span class="ss-required-asterisk orange">*</span></label>
+                                        </div>
+
+                                        <div class="ss-q-help ss-secondary-text" dir="ltr"></div><input class="ss-q-short" dir="auto" id="entry_1127865709" name="entry.1127865709" type="text" value="" required />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="ss-form-question errorbox-good">
+                                <div class="ss-item ss-item-required ss-text" dir="ltr">
+                                    <div class="ss-form-entry">
+                                        <label class="ss-q-item-label" for="entry_1757145751"></label>
+
+                                        <div class="ss-q-title">
+                                            <label class="ss-q-item-label" for="entry_1757145751">Email: <label for="itemView.getDomIdToLabel()"></label> <span class="ss-required-asterisk orange">*</span></label>
+                                        </div>
+
+                                        <div class="ss-q-help ss-secondary-text" dir="ltr"></div><input class="ss-q-short" dir="auto" id="entry_1757145751" name="entry.1757145751" type="email" value="" required />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="ss-form-question errorbox-good">
+                                <div class="ss-item ss-item-required ss-text" dir="ltr">
+                                    <div class="ss-form-entry">
+                                        <label class="ss-q-item-label" for="entry_1515628620"></label>
+
+                                        <div class="ss-q-title">
+                                            <label class="ss-q-item-label" for="entry_1515628620">City: <label for="itemView.getDomIdToLabel()"></label> <span class="ss-required-asterisk orange">*</span></label>
+                                        </div>
+
+                                        <div class="ss-q-help ss-secondary-text" dir="ltr"></div><input class="ss-q-short" dir="auto" id="entry_1515628620" name="entry.1515628620" type="text" value="" required />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="ss-form-question errorbox-good">
+                                <div class="ss-item ss-item-required ss-select" dir="ltr">
+                                    <div class="ss-form-entry">
+                                        <label class="ss-q-item-label" for="entry_1941042694"></label>
+
+                                        <div class="ss-q-title">
+                                            <label class="ss-q-item-label" for="entry_1941042694">State: <label for="itemView.getDomIdToLabel()"></label> <span class="ss-required-asterisk orange">*</span></label>
+                                        </div>
+
+                                        <div class="ss-q-help ss-secondary-text" dir="ltr"></div><select id="entry_1941042694" name="entry.1941042694" required>
+                                            <option value="">
+                                                </option>
+
+                                            <option value="Non-US"> Non-US </option>
+                                            <option value="Alabama"> Alabama </option>
+                                            <option value="Alaska"> Alaska </option>
+                                            <option value="Arizona"> Arizona </option>
+                                            <option value="Arkansas"> Arkansas </option>
+                                            <option value="California"> California </option>
+                                            <option value="Colorado"> Colorado </option>
+                                            <option value="Connecticut"> Connecticut </option>
+                                            <option value="Delaware"> Delaware </option>
+                                            <option value="Florida"> Florida </option>
+                                            <option value="Georgia"> Georgia </option>
+                                            <option value="Hawaii"> Hawaii </option>
+                                            <option value="Idaho"> Idaho </option>
+                                            <option value="Illinois"> Illinois </option>
+                                            <option value="Indiana"> Indiana </option>
+                                            <option value="Iowa"> Iowa </option>
+                                            <option value="Kansas"> Kansas </option>
+                                            <option value="Kentucky"> Kentucky </option>
+                                            <option value="Louisiana"> Louisiana </option>
+                                            <option value="Maine"> Maine </option>
+                                            <option value="Maryland"> Maryland </option>
+                                            <option value="Massachusetts"> Massachusetts </option>
+                                            <option value="Michigan"> Michigan </option>
+                                            <option value="Minnesota"> Minnesota </option>
+                                            <option value="Mississippi"> Mississippi </option>
+                                            <option value="Missouri"> Missouri </option>
+                                            <option value="Montana"> Montana </option>
+                                            <option value="Nebraska"> Nebraska </option>
+                                            <option value="Nevada"> Nevada </option>
+                                            <option value="New Hampshire"> New Hampshire </option>
+                                            <option value="New Jersey"> New Jersey </option>
+                                            <option value="New Mexico"> New Mexico </option>
+                                            <option value="New York"> New York </option>
+                                            <option value="North Carolina"> North Carolina </option>
+                                            <option value="North Dakota"> North Dakota </option>
+                                            <option value="Ohio"> Ohio </option>
+                                            <option value="Oklahoma"> Oklahoma </option>
+                                            <option value="Oregon"> Oregon </option>
+                                            <option value="Pennsylvania"> Pennsylvania </option>
+                                            <option value="Rhode Island"> Rhode Island </option>
+                                            <option value="South Carolina"> South Carolina </option>
+                                            <option value="South Dakota"> South Dakota </option>
+                                            <option value="Tennessee"> Tennessee </option>
+                                            <option value="Texas"> Texas </option>
+                                            <option value="Utah"> Utah </option>
+                                            <option value="Vermont"> Vermont </option>
+                                            <option value="Virginia"> Virginia </option>
+                                            <option value="Washington"> Washington </option>
+                                            <option value="West Virginia"> West Virginia </option>
+                                            <option value="Wisconsin"> Wisconsin </option>
+                                            <option value="Wyoming"> Wyoming </option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="ss-form-question errorbox-good">
+                                <div class="ss-item ss-item-required ss-text" dir="ltr">
+                                    <div class="ss-form-entry">
+                                        <label class="ss-q-item-label" for="entry_1824488019"></label>
+
+                                        <div class="ss-q-title">
+                                            <label class="ss-q-item-label" for="entry_1824488019">Zip Code: <label for="itemView.getDomIdToLabel()"></label> <span class="ss-required-asterisk orange">*</span></label>
+                                        </div>
+
+                                        <div class="ss-q-help ss-secondary-text" dir="ltr"></div><input class="ss-q-short" dir="auto" id="entry_1824488019" name="entry.1824488019" type="text" value="" required />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="ss-form-question errorbox-good">
+                                <div class="ss-item ss-item-required ss-text" dir="ltr">
+                                    <div class="ss-form-entry">
+                                        <label class="ss-q-item-label" for="entry_2020033178"></label>
+
+                                        <div class="ss-q-title">
+                                            <label class="ss-q-item-label" for="entry_2020033178">Country: <label for="itemView.getDomIdToLabel()"></label> <span class="ss-required-asterisk orange">*</span></label>
+                                        </div>
+
+                                        <div class="ss-q-help ss-secondary-text" dir="ltr"></div><input class="ss-q-short" dir="auto" id="entry_2020033178" name="entry.2020033178" type="text" value="" required />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="ss-form-question errorbox-good">
+                                <div class="ss-item ss-item-required ss-text" dir="ltr">
+                                    <div class="ss-form-entry">
+                                        <label class="ss-q-item-label" for="entry_141131567"></label>
+
+                                        <div class="ss-q-title">
+                                            <label class="ss-q-item-label" for="entry_141131567">In what school or organization will this be used? <label for="itemView.getDomIdToLabel()"></label> <span class="ss-required-asterisk orange">*</span></label>
+                                        </div>
+
+                                        <div class="ss-q-help ss-secondary-text" dir="ltr"></div><input class="ss-q-short" dir="auto" id="entry_141131567" name="entry.141131567" type="text" value="" required />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="ss-form-question errorbox-good">
+                                <div class="ss-item ss-item-required ss-checkbox" dir="ltr">
+                                    <div class="ss-form-entry">
+                                        <label class="ss-q-item-label" for="entry_1515557889"></label>
+
+                                        <div class="ss-q-title">
+                                            <label class="ss-q-item-label" for="entry_1515557889">Position: <label for="itemView.getDomIdToLabel()"></label> <span class="ss-required-asterisk orange">*</span></label>
+                                        </div>
+
+                                        <div class="ss-q-help ss-secondary-text" dir="ltr"></div>
+
+                                        <div class="ss-printable-hint" aria-hidden>
+                                            <p class="white">Check all that apply.</p>
+                                        </div>
+
+                                        <div class="parsley-error-container"></div>
+
+                                        <ul class="ss-choices">
+                                            <li class="ss-choice-item"><label><span class="ss-choice-item-control goog-inline-block"><input class="ss-q-checkbox" id="group_354329058_1" name="entry.354329058" type="checkbox" value="Teacher, Facilitator, or Instructor" required /></span> <span class="ss-choice-label">Teacher, Facilitator, or Instructor</span></label></li>
+
+                                            <li class="ss-choice-item"><label><span class="ss-choice-item-control goog-inline-block"><input class="ss-q-checkbox" id="group_354329058_2" name="entry.354329058" type="checkbox" value="Parent" required /></span> <span class="ss-choice-label">Parent</span></label></li>
+
+                                            <li class="ss-choice-item"><label><span class="ss-choice-item-control goog-inline-block"><input class="ss-q-checkbox" id="group_354329058_3" name="entry.354329058" type="checkbox" value="Youth Program Advisor" required /></span> <span class="ss-choice-label">Youth Program Advisor</span></label></li>
+
+                                            <li class="ss-choice-item"><label><span class="ss-choice-item-control goog-inline-block"><input class="ss-q-checkbox" id="group_354329058_4" name="entry.354329058" type="checkbox" value="Administrator" required /></span> <span class="ss-choice-label">Administrator</span></label></li>
+
+                                            <li class="ss-choice-item"><label><span class="ss-choice-item-control goog-inline-block"><input class="ss-q-checkbox" id="group_354329058_5" name="entry.354329058" type="checkbox" value="Researcher" required /></span> <span class="ss-choice-label">Researcher</span></label></li>
+
+                                            <li class="ss-choice-item"><label><span class="ss-choice-item-control goog-inline-block"><input class="ss-q-checkbox" id="group_354329058_6" name="entry.354329058" type="checkbox" value="Student" required /></span> <span class="ss-choice-label">Student</span></label></li>
+
+                                            <li class="ss-choice-item"><label><span class="ss-choice-item-control goog-inline-block"><input class="ss-q-checkbox ss-q-other-toggle" id="group_354329058_7" name="entry.354329058" type="checkbox" value="__other_option__"></span> Other:</label> <span class="ss-q-other-container goog-inline-block"><input class="ss-q-other" dir="auto" id="entry_354329058_other_option_response" name="entry.354329058.other_option_response" type="text" value=""></span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="ss-form-question errorbox-good">
+                                <div class="ss-item ss-item-required ss-checkbox" dir="ltr">
+                                    <div class="ss-form-entry">
+                                        <label class="ss-q-item-label" for="entry_496010086"></label>
+
+                                        <div class="ss-q-title">
+                                            <label class="ss-q-item-label" for="entry_496010086">What type of school or organization is it? <label for="itemView.getDomIdToLabel()"></label> <span class="ss-required-asterisk orange">*</span></label>
+                                        </div>
+
+                                        <div class="ss-q-help ss-secondary-text" dir="ltr"></div>
+
+                                        <div class="ss-printable-hint" aria-hidden>
+                                            <p class="white">Check all that apply.</p>
+                                        </div>
+
+                                        <div class="parsley-error-container"></div>
+
+
+                                        <ul class="ss-choices">
+                                            <li class="ss-choice-item"><label><span class="ss-choice-item-control goog-inline-block"><input class="ss-q-checkbox" id="group_1954963265_1" name="entry.1954963265" type="checkbox" value="Pre-K" required /></span> <span class="ss-choice-label">Pre-K</span></label></li>
+
+                                            <li class="ss-choice-item"><label><span class="ss-choice-item-control goog-inline-block"><input class="ss-q-checkbox" id="group_1954963265_2" name="entry.1954963265" type="checkbox" value="Primary" required /></span> <span class="ss-choice-label">Primary</span></label></li>
+
+                                            <li class="ss-choice-item"><label><span class="ss-choice-item-control goog-inline-block"><input class="ss-q-checkbox" id="group_1954963265_3" name="entry.1954963265" type="checkbox" value="Middle" required /></span> <span class="ss-choice-label">Middle</span></label></li>
+
+                                            <li class="ss-choice-item"><label><span class="ss-choice-item-control goog-inline-block"><input class="ss-q-checkbox" id="group_1954963265_4" name="entry.1954963265" type="checkbox" value="Secondary" required /></span> <span class="ss-choice-label">Secondary</span></label></li>
+
+                                            <li class="ss-choice-item"><label><span class="ss-choice-item-control goog-inline-block"><input class="ss-q-checkbox" id="group_1954963265_5" name="entry.1954963265" type="checkbox" value="College or University" required /></span> <span class="ss-choice-label">College or University</span></label></li>
+
+                                            <li class="ss-choice-item"><label><span class="ss-choice-item-control goog-inline-block"><input class="ss-q-checkbox" id="group_1954963265_6" name="entry.1954963265" type="checkbox" value="After-School or Club" required /></span> <span class="ss-choice-label">After-School or Club</span></label></li>
+
+                                            <li class="ss-choice-item"><label><span class="ss-choice-item-control goog-inline-block"><input class="ss-q-checkbox" id="group_1954963265_7" name="entry.1954963265" type="checkbox" value="Non-Profit Business" required /></span> <span class="ss-choice-label">Non-Profit Business</span></label></li>
+
+                                            <li class="ss-choice-item"><label><span class="ss-choice-item-control goog-inline-block"><input class="ss-q-checkbox" id="group_1954963265_8" name="entry.1954963265" type="checkbox" value="For-Profit Business" required /></span> <span class="ss-choice-label">For-Profit Business</span></label></li>
+
+                                            <li class="ss-choice-item"><label><span class="ss-choice-item-control goog-inline-block"><input class="ss-q-checkbox ss-q-other-toggle" id="group_1954963265_9" name="entry.1954963265" type="checkbox" value="__other_option__"></span> Other:</label> <span class="ss-q-other-container goog-inline-block"><input class="ss-q-other" dir="auto" id="entry_1954963265_other_option_response" name="entry.1954963265.other_option_response" type="text" value=""></span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="ss-form-question errorbox-good">
+                                <div class="ss-item ss-item-required ss-paragraph-text" dir="ltr">
+                                    <div class="ss-form-entry">
+                                        <label class="ss-q-item-label" for="entry_936656290"></label>
+
+                                        <div class="ss-q-title">
+                                            <label class="ss-q-item-label" for="entry_936656290">Please describe the context for using Studio K: <label for="itemView.getDomIdToLabel()"></label> <span class="ss-required-asterisk orange">*</span></label>
+                                        </div>
+
+                                        <div class="ss-q-help ss-secondary-text" dir="ltr"></div>
+                                        <textarea class="ss-q-long" cols="0" dir="auto" id="entry_936656290" name="entry.936656290" rows="8" required>
+</textarea>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="ss-form-question errorbox-good">
+                                <div class="ss-item ss-item-required ss-checkbox" dir="ltr">
+                                    <div class="ss-form-entry">
+                                        <label class="ss-q-item-label" for="entry_1462344335"></label>
+
+                                        <div class="ss-q-title">
+                                            <label class="ss-q-item-label" for="entry_1462344335">How did you hear about Studio K? <label for="itemView.getDomIdToLabel()"></label> <span class="ss-required-asterisk orange">*</span></label>
+                                        </div>
+
+                                        <div class="ss-q-help ss-secondary-text" dir="ltr"></div>
+
+                                        <div class="ss-printable-hint" aria-hidden>
+                                            <p class="white">Check all that apply.</p>
+                                        </div>
+
+                                        <div class="parsley-error-container"></div>
+
+                                        <ul class="ss-choices">
+                                            <li class="ss-choice-item"><label><span class="ss-choice-item-control goog-inline-block"><input class="ss-q-checkbox" id="group_262132082_1" name="entry.262132082" type="checkbox" value="Professional Referral" required /></span> <span class="ss-choice-label">Professional Referral</span></label></li>
+
+                                            <li class="ss-choice-item"><label><span class="ss-choice-item-control goog-inline-block"><input class="ss-q-checkbox" id="group_262132082_2" name="entry.262132082" type="checkbox" value="Personal Referral" required /></span> <span class="ss-choice-label">Personal Referral</span></label></li>
+
+                                            <li class="ss-choice-item"><label><span class="ss-choice-item-control goog-inline-block"><input class="ss-q-checkbox" id="group_262132082_3" name="entry.262132082" type="checkbox" value="Press Release/Advertisement" required /></span> <span class="ss-choice-label">Press Release/Advertisement</span></label></li>
+
+                                            <li class="ss-choice-item"><label><span class="ss-choice-item-control goog-inline-block"><input class="ss-q-checkbox" id="group_262132082_4" name="entry.262132082" type="checkbox" value="Conference" required /></span> <span class="ss-choice-label">Conference</span></label></li>
+
+                                            <li class="ss-choice-item"><label><span class="ss-choice-item-control goog-inline-block"><input class="ss-q-checkbox" id="group_262132082_5" name="entry.262132082" type="checkbox" value="Games+Learning+Society Center Event" required /></span> <span class="ss-choice-label">Games+Learning+Society Center Event</span></label></li>
+
+                                            <li class="ss-choice-item"><label><span class="ss-choice-item-control goog-inline-block"><input class="ss-q-checkbox ss-q-other-toggle" id="group_262132082_6" name="entry.262132082" type="checkbox" value="__other_option__"></span> Other:</label> <span class="ss-q-other-container goog-inline-block"><input class="ss-q-other" dir="auto" id="entry_262132082_other_option_response" name="entry.262132082.other_option_response" type="text" value=""></span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div><input name="draftResponse" type="hidden" value="[] "> <input name="pageHistory" type="hidden" value="0">
+
+                            <div class="ss-item ss-navigate">
+                                <div class="ss-form-entry" dir="ltr">
+                                    <input class="login_button button_text" id="ss-submit" name="submit" type="submit" value="Submit">
+
+                                    <div class="ss-secondary-text hidden">
+                                        Never submit passwords through Google Forms.
+                                    </div>
+                                </div>
+                            </div>
+                    </form>
+                </div>
+
+                <div class="ss-footer hidden">
+                    <div class="ss-attribution"></div>
+
+                    <div class="ss-legal hidden">
+                        <div class="disclaimer-separator"></div>
+
+                        <div class="disclaimer hidden" dir="ltr">
+                            <div class="powered-by-logo">
+                                <span class="powered-by-text">Powered by</span> <a class="ss-logo-link" href="http://docs.google.com"><img alt="Google Drive" class="ss-logo" src="https://ssl.gstatic.com/docs/forms/drive_logo_small.png"></a>
+                            </div>
+
+                            <div class="ss-terms hidden">
+                                <span class="disclaimer-msg">This form was created inside of Learning Games Network.</span><br>
+                                <a href="https://docs.google.com/forms/d/1ppKg2LNVeKeV1QntD4hMJF98tqpQV6JH-giC_FvVEYE/reportabuse?source=https://docs.google.com/forms/d/1ppKg2LNVeKeV1QntD4hMJF98tqpQV6JH-giC_FvVEYE/viewform">Report Abuse</a> - <a href="http://www.google.com/accounts/TOS">Terms of Service</a> - <a href="http://www.google.com/google-d-s/terms.html">Additional Terms</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!-- end full_width -->
+
+        <div class="footer_logo_container">
+            <div class="gls_footer_logo"></div>
+
+            <div class="microsoft_footer_logo"></div>
+        </div>
+    </div><!-- end page wrap -->
+</body>
+</html>
