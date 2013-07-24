@@ -1,0 +1,909 @@
+/* Global Styles */
+
+* { margin:0; padding:0; }
+
+
+
+html{
+    overflow:scroll;
+    background:url(images/bg_tile.png);
+}
+
+body{ background:url(images/top_texture.png) no-repeat 50% 0%;  }
+
+a{ text-decoration:none; }
+    a:hover{  }
+    
+        a p:hover{ color:white;}
+
+p{
+    font-family:museo-slab;
+    color:#84c7e6;
+    font-size:14px;
+    font-weight:500;
+    text-shadow:0px 1px 0px #0f3756; }
+
+ul{ list-style:none; }
+
+hr{
+    width:100%;
+    float:left;
+    height:0px;
+    border-top:1px solid #0b253e;
+    border-bottom:1px solid #3a82a9;
+    border-right:none;
+    border-left:none;
+    margin:20px 0 20px 0;
+}
+
+    hr.challenge_hr{
+        width:100%;
+        float:left;
+        height:0px;
+        border-top:1px solid black;
+        border-bottom:1px solid #214150;
+        border-right:none;
+        border-left:none;
+        margin:10px 0 10px 0;
+    }
+
+    .vertical_hr{
+        width:0;
+        float:left;
+        height:30px;
+        border-left:1px solid #0b253e;
+        border-right:1px solid #3a82a9;
+        border-top:none;
+        border-bottom:none;
+        margin:0 20px 0 20px;
+    }
+
+h1{  }
+h2{  }
+h3{  }
+h4{  }
+h5{  }
+
+::selection{ background:#1a405c; color:white; text-shadow:none; }
+/* typekit 
+    font-family:museo-slab;
+    font-family:bebas-neue;
+
+
+
+/* Misc Classes */
+
+    .clear{ clear: both; }
+    
+    .floatleft{ float:left; }
+    .floatright{ float:right; }
+    
+    .bold{ font-weight:bold;}
+    .italic{ font-style: italic; }
+    
+    .center_text{ text-align:center; }
+    .all_caps{ text-transform:uppercase; }
+    .lower_case{ text-transform:lowercase; }
+    
+    .header_type{
+        font-family:bebas-neue;
+        color:white;
+        text-shadow:0px 1px 0px #0f3756;
+        font-size:26px;
+        letter-spacing:1px;
+        font-weight:400;
+    }
+    
+    .breakout_header_type{
+        font-family:bebas-neue;
+        color:#7b7b7b;
+        text-shadow:0px 1px 0px #0f3756;
+        text-shadow:0px 1px 0px white;
+        font-size:26px;
+        letter-spacing:1px;
+        font-weight:400;
+    }
+    
+    .email_text{
+        font-family:bebas-neue;
+        color:white;
+        font-size:19px;
+        letter-spacing:1px;
+    }
+    
+    .no_right_border{ border-right:none !important; }
+    .right_button_margin{ margin-right:10px; }
+    .extra_top_margin{ margin-top:20px; }
+    .no_bottom_margin{ margin-bottom:0px !important;}
+    .hidden{ display:none; }
+    
+    .orange{ color:#ffcb94;}
+    .white{ color:white; margin-bottom:5px; }
+    
+
+/* End Misc Classes*/
+
+
+/* Containers */
+
+    .one_third{  }
+    .one_half{
+    }
+    .two_thirds{  }
+    .full_width{
+        background:rgba( 0,0,0,.32);
+        padding:20px;
+        width:940px;
+        
+        box-shadow:inset 0px 0px 15px rgba( 0,0,0,.75);
+        border-bottom:1px solid #3dc7e2;
+    }
+    
+    .login_container{
+        margin-top:50px;
+        background:rgba( 0,0,0,.32);
+        padding:20px;
+        width:442px;
+        
+        box-shadow:inset 0px 0px 15px rgba( 0,0,0,.75);
+        border-bottom:1px solid #3dc7e2;
+    }
+    
+    .studio_k_info_container{
+        background:rgba( 0,0,0,.32);
+        padding:20px;
+        width:645px;
+        float:left;
+        margin:30px 0 0 120px;
+        
+        box-shadow:inset 0px 0px 15px rgba( 0,0,0,.75);
+        border-bottom:1px solid #3dc7e2;
+    }
+    
+    .studio_k_info_container .login_button{ margin:0 0 0 170px;}
+
+/* End Containers */
+
+
+
+
+/* Active Page */
+
+    /*
+      body#ID_NAME_HERE .Navigation_Name li.List_Item_Class_Here{ Style for active Nav button }
+    */
+    
+    body#home .navigation a.home_button,
+    body#missions .navigation a.missions_button,
+    body#help .navigation a.help_button,
+    body#gallery .navigation a.gallery_button{ color:white; box-shadow:inset 0px 3px 0px white;  }
+
+/* End Active Page */
+
+
+
+
+.page_wrap{ width:980px; margin:0 auto; }
+
+.user_information_container{
+    margin:10px 0 0 0;
+}
+
+    .user_information_container p{ color:white; text-shadow:0px 1px 0px #2180b6; }
+
+.navigation{ float:right; margin:10px 0 0 0; }
+.navigation li{ display:block; float:left;}
+
+.navigation li a{
+    font-family:bebas-neue;
+    color:#d6eef7;
+    text-shadow:0px 1px 0px #167bb5;
+    font-size:26px;
+    letter-spacing:1px;
+    font-weight:400;
+    
+    background:rgba(255,255,255,.25);
+    border:1px solid #abe2f1;
+    padding:5px 25px 3px 25px ;
+}
+
+    .navigation li a:hover{
+        color:white;
+        box-shadow:inset 0px 3px 0px white;
+    }
+
+
+
+
+
+
+.studiok_logo_large{
+    width:980px;
+    float:left;
+    margin-top:170px;
+}
+    .studiok_logo_large img{ margin:0 0 0 250px; }
+
+.studiok_logo_small{
+    height:55px;
+    width:192px;
+    background:url(images/studiok_logo_small.png);
+    float:left;
+    margin:20px 0 20px 0;
+}
+    
+input[type=text].textfield{
+    width:428px;
+    padding:6px;
+    float:left;
+    margin:20px 0 0 0;
+    border:1px solid #123b4b;
+    
+    color:#90a4af;
+    font-size:16px;
+    font-family:museo-slab;  
+}
+
+input[type=checkbox].checkbox{
+    margin:7px 10px 0 0;
+}
+
+.teacher_student_login_container{
+    width:100%;
+    float:left;
+    margin:20px 0 0 0;
+}
+
+.login_button{
+    background:url(images/login_button_tile.png) repeat-x;
+    border-top:1px solid #ffff00;
+    box-shadow:0px 2px 5px rgba(0,0,0,.55);
+}
+    
+    .login_button:hover{
+        background:url(images/login_button_tile_hover.png) repeat-x;
+        border-top:1px solid #ffff84;  
+    }
+
+    .button_text{
+        margin:4px 12px 4px 12px;
+        font-family:bebas-neue;
+        color:white;
+        text-shadow:0px 1px 0px #ff2b00;
+        font-size:25px;
+        letter-spacing:1px;
+        font-weight:400;
+    }
+
+.footer_logo_container{
+    width:980px;
+    float:left;
+    margin-top:30px;
+}
+
+    .gls_footer_logo{
+        height:102px;
+        width:216px;
+        float:left;
+        margin:0 0 0 140px;
+        background:url(images/gls_footer_logo.png);
+    }
+    
+    .microsoft_footer_logo{
+        height:60px;
+        width:211px;
+        float:right;
+        margin:20px 180px 0 0px;
+        background:url(images/microsoft_footer_logo.png);
+    }
+
+    .amd_footer_logo{
+        height:75px;
+        width:155px;
+        float:right;
+        margin:20px 60px 0 0px;
+        background:url(images/amd_footer_logo.png);
+    }
+
+
+
+/* profile and newsfeed */
+
+.profile_pic_container{ width:156px; }
+.profile_pic{
+    height:170px;
+    width:146px;
+    float:left;
+    border:5px solid white;
+    margin-bottom:10px;
+    
+    box-shadow:0px 2px 5px rgba(0,0,0,.35),
+                inset 0px 0px 50px rgba(0,0,0,.45);
+}
+
+
+.student_hub_container{ width:770px; height:225px; }
+    .name_and_status_container{ width:770px; }
+        .user_name{
+        font-family:bebas-neue;
+        color:white;
+        text-shadow:0px 2px 3px #0f3756;
+        font-size:35px;
+        letter-spacing:2px;
+        font-weight:400;
+        }
+
+input[type=text].statusbox{
+    width:400px;
+    padding:3px 3px 3px 6px;
+    float:left;
+    margin:5px 0 0 20px;
+    border:1px solid #123b4b;
+    
+    color:#90a4af;
+    font-size:16px;
+    font-family:museo-slab;  
+}
+
+.submit_status_button{
+    background:url(images/post_button.png);
+    margin-top:6px;
+    height:25px;
+    width:56px;
+    border:none !important;
+    float:right;
+    cursor:pointer;
+}
+    .submit_status_button:hover{ background:url(images/post_button_hover.png); }
+    
+.newsfeed_container{
+    width:770px;
+    margin:10px 0 0 0;
+}
+
+    .newsfeed_header{
+        width:770px;
+        float:right;
+        margin:-1px 0 0 -30px;
+        
+        box-shadow:0px 3px 3px rgba(0,0,0,.25);
+        background:#ededed;
+        border-top:1px solid white;
+    }
+    
+    .newsfeed_header_type{
+        font-family:bebas-neue;
+        color:#7b7b7b;
+        text-shadow:0px 1px 0px #0f3756;
+        text-shadow:0px 1px 0px white;
+        font-size:19px;
+        font-weight:400;
+        padding:6px 0 0 8px;
+    }
+    
+        .refresh_newsfeed_button{
+            height:35px;
+            width:40px;
+            background:url(images/refresh_newsfeed_button.png);
+            border-left:1px solid #AFAFAF;
+        }
+            .refresh_newsfeed_button:hover{
+                background:url(images/refresh_newsfeed_button_hover.png);
+            }
+    
+    .newsfeed{
+        padding:10px;
+        height:124px;
+        width:751px;
+        background:rgba( 0,0,0,.32);
+    }
+    
+        .news_container{ width:735px; margin:0 0 10px 0; }
+        .news{ width:735px; background:rgba(0,0,0,.35); padding:5px 5px 5px 10px; line-height:23px; }
+    
+        
+        
+/* end profile and newsfeed */
+
+
+
+/* game page */
+
+.game_pic_container{ width:240px; }
+.game_pic{
+    height:170px;
+    width:230px;
+    float:left;
+    border:5px solid white;
+    margin-bottom:10px;
+    
+    box-shadow:0px 2px 5px rgba(0,0,0,.35),
+                inset 0px 0px 50px rgba(0,0,0,.45);
+}
+
+.gamepage_game_description_container{ width:680px; height:225px; }
+    .name_and_status_container{ width:770px; }
+    
+
+.gamepage_game_description{
+        padding:10px;
+        height:108px;
+        width:660px;
+        margin-bottom:10px;
+        background:rgba( 0,0,0,.32);
+    }
+
+.game_description_container{
+    width:680px;
+    margin:10px 0 0 0;
+}    
+    
+
+/* end game page */
+
+
+/* missions */
+
+.mission_container{
+    width:296px;
+    margin:0 auto;
+    float:left;
+}
+
+.mission_row_container a .mission_container .mission_title_boss_fight:hover{
+    box-shadow:inset 0px 0px 30px white,
+                inset 0px -1px 0px white,
+                inset 1px 0px 0px white,
+                inset -1px 0px 0px white,
+                inset 0px 1px 0px white;
+    }
+    
+.mission_row_container a .mission_container .mission_title:hover{
+    box-shadow:inset 0px 0px 30px #a3a3a3,
+                inset 0px -1px 0px #a3a3a3,
+                inset 1px 0px 0px #a3a3a3,
+                inset -1px 0px 0px #a3a3a3,
+                inset 0px 1px 0px #a3a3a3;  
+    }
+
+.mission_right_margin{ margin-right:16px; }
+.center_mission{ margin-left:315px;}
+
+    .complete_header{
+        background:url(images/complete_header.png);
+        height:23px;
+        width:106px;
+        margin:0 0 0 90px;    
+    }
+    
+    .arrows_bottom{
+        background:url(images/arrows_bottom.png) no-repeat;
+        margin-left:165px;
+        height:70px;
+        width:940px;
+    }
+    
+    .arrows_top{
+        background:url(images/arrows_top.png) no-repeat;
+        margin-left:165px;
+        height:70px;
+        width:940px;
+    }
+    
+    .mission_row_container{ width:940px; margin:10px; }
+    
+    .mission_header_purple{ width:296px; height:8px; background:url(images/mission_header_purple.png); }
+    .mission_header_orange{ width:296px; height:8px; background:url(images/mission_header_orange.png); }
+    .mission_header_yellow{ width:296px; height:8px; background:url(images/mission_header_yellow.png); }
+    .mission_header_pink{ width:296px; height:8px; background:url(images/mission_header_pink.png); }
+    
+    .mt_purple, .mt_purple:hover{ color:#624c68; }
+    .mt_orange, .mt_orange:hover{ color:#653928; }
+    .mt_yellow, .mt_yellow:hover{ color:#5c5b3a; }
+    .mt_pink, .mt_pink:hover{ color:#6d1a49; }
+    .mt_boss_fight{ color:white; text-shadow:0px 1px 0px black;
+        font-family:bebas-neue;
+        font-size:35px;
+    }
+    
+    .mission_title{
+        width:296px;
+        height:70px;
+        line-height:70px;
+        text-align:center;
+        
+        box-shadow:0px 3px 3px rgba(0,0,0,.25);
+        
+        background: rgb(255,255,255); /* Old browsers */
+        background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(227,227,227,1) 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(227,227,227,1))); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(227,227,227,1) 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(227,227,227,1) 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(227,227,227,1) 100%); /* IE10+ */
+        background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(227,227,227,1) 100%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e3e3e3',GradientType=0 ); /* IE6-9 */
+    }
+    
+    .mission_title_boss_fight{
+        width:296px;
+        height:70px;
+        line-height:70px;
+        text-align:center;
+        
+        background:url(images/bossfight_header.png);
+        
+        box-shadow:0px 3px 3px rgba(0,0,0,.25);
+    }
+    
+        .mission_title p{
+            font-family:bebas-neue;
+            font-size:35px;
+            text-shadow:0px 1px 0px white;
+        }
+        
+    .mission_description_container{
+        width:274px;
+        padding:10px;
+        background:rgba(255,255,255,.13);
+        
+        border-left:1px solid #aac4db;
+        border-right:1px solid #aac4db;
+        border-bottom:1px solid #aac4db;
+        
+        box-shadow:0px 3px 3px rgba(0,0,0,.25);  
+    }
+    
+        .mission_description_container p{
+            color:white;
+            font-size:13px;
+        }
+
+/* end missions */
+
+
+
+/* upload game  */
+
+.upload_game_container{
+    background:rgba( 0,0,0,.25);
+    width:920px;
+    padding:10px;
+}
+
+textarea.description_container{
+    width:910px;
+    height:100px;
+    padding:3px 3px 3px 6px;
+    float:left;
+    margin:5px 0 0 0;
+    border:1px solid #123b4b;
+    margin:0 0 10px 0;
+    
+    color:#90a4af;
+    font-size:16px;
+    font-family:museo-slab;
+    font-style:italic;
+}
+
+.select_file_container{
+    width:915px;
+    margin:10px 0 0 0;
+}
+
+.select_file_button{
+    float:left;
+    background:url(images/select_file_button.png);
+    height:25px;
+    width:94px;
+}
+    .select_file_button:hover{ background:url(images/select_file_button_hover.png); }
+    
+    
+input[type=text].file_upload_box{
+    width:400px;
+    padding:3px 0 3px 6px;
+    margin:-1px 0 0 0;
+    border:1px solid #123b4b;
+    
+    color:#90a4af;
+    font-size:16px;
+    font-family:museo-slab;  
+}
+
+
+/* end upload game */
+
+
+.breakout_container{
+    height:182px;
+    width:1020px;
+    padding:10px;
+    float:left;
+    margin:-1px 0 0 -30px;
+    
+    box-shadow:0px 3px 3px rgba(0,0,0,.25);
+    background:#ededed;
+    border-top:1px solid white;
+}
+    .breakout_header_container a p{ color:#7b7b7b; text-shadow:0px 1px 0px white; }
+        .breakout_header_container a p:hover{ color:#cbcbcb; }
+    .under_breakout{ margin-top:-12px !important; }
+    .triangle_container{ width:1040px; float:left; margin-left:-30px; }
+
+.triangle_left{
+    float:left;    
+    width: 0;
+    height: 0;
+    border-top: 12px solid #252424;
+    border-left: 30px solid transparent;
+}
+
+.triangle_right{
+    float:right;    
+    width: 0;
+    height: 0;
+    border-top: 12px solid #252424;
+    border-right: 30px solid transparent;
+}
+
+
+
+/* challenges */
+
+.challenge_description_container p a{ color:white; }
+    .challenge_description_container p a:hover{ text-decoration:underline; }
+
+.challenges_container{ width:635px; float:right; }
+.challenge_download_or{ float:left; line-height:38px; margin:0 10px 0 10px; }
+
+.challenge-arrow_container{ width:10px; height:100%; float:left;}
+    .challenge_arrow{
+        margin-top:30px;
+        float:left;    
+        width: 0;
+        height: 0;
+        border-top: 10px solid transparent;
+        border-right: 13px solid rgba( 0,0,0,.50);
+        border-bottom: 10px solid transparent;
+    }
+
+.challenges{
+    background:rgba( 0,0,0,.50);
+    padding:10px;
+    width:602px;
+    border-bottom:1px solid #3dc7e2;
+}
+
+
+.individual_challenge_container{
+    float:right;
+    background:rgba( 0,0,0,.32);
+    padding:10px;
+    margin:0 0 15px 0;
+    width:582px;
+    border-bottom:1px solid #2e7091;
+    box-shadow:inset 0px 0px 15px rgba( 0,0,0,.75);
+}
+
+.vid_placeholder{
+    height:85px;
+    width:135px;
+    float:right;
+    background:black;
+    margin-left:10px;
+}
+
+.challenge_description_container{
+    width:437px;
+}
+
+.challenge_download_button_container{
+    width:580px;
+}
+
+.mission_back_button{
+    height:47px;
+    width:70px;
+    float:left;
+    margin:13px -50px 0 -50px;
+    background:url(images/mission_back_button.png);
+}
+
+    .mission_back_button:hover{ background:url(images/mission_back_button_hover.png); }
+
+/* end challenges */
+
+
+
+
+/* reviews */
+
+.reviews_container{ width:940px; margin:10px 0 0 0; }
+.review{ width:925px; background:rgba(0,0,0,.35); padding:5px 5px 5px 10px; line-height:23px; }
+
+.review_date{ color:#ffcb94; }
+.review_comment{ color:#eee; }
+
+.go_to_game_button{ height:22px; width:31px; background:url(images/go_to_game_button.png);}
+    .go_to_game_button:hover{ background:url(images/go_to_game_button_hover.png);}
+
+/* end reviews */
+
+
+
+
+
+/* gallery */
+
+
+.all_gallery_items_container{ width:960px; margin:10px 0 -20px -20px; }
+
+.gallery_item{
+    margin:0 0 20px 20px; 
+    background:rgba( 0,0,0,.50);
+    padding:10px;
+    
+    border-bottom:1px solid #3dc7e2;
+    border-top:1px solid rgba( 0,0,0,.20);
+    border-left:1px solid rgba( 0,0,0,.20);
+    border-right:1px solid rgba( 0,0,0,.20);
+}
+
+    .gallery_item:hover{
+        border-top:1px solid #7fe9fe;
+        border-left:1px solid #7fe9fe;
+        border-right:1px solid #7fe9fe;
+        border-bottom:1px solid #7fe9fe;
+        
+        cursor:pointer;
+    }
+
+.mission_text_color, .mission_text_color:hover{ color:#ffcb94; text-transform:uppercase;  }
+.white_text{ color:white; text-transform:none; }
+
+.placeholder_image{
+    height:128px;
+    width:128px;
+    background:white;
+}
+
+.gallery_information_container{
+    width:286px;
+    margin:0 0 -20px 20px;
+}
+    .gallery_information_container p{
+        letter-spacing:1px;
+        font-size:17px;
+        background: rgba(0,0,0,.35);
+        padding: 8px 5px 8px 10px;
+        margin:0 0 10px 0;
+    }
+    
+
+
+/* end gallery */
+
+
+
+/* ------------------------------------------ Google Form ------------------------------*/
+
+
+.ss-form-container{  }
+
+    .ss-form-container a{ color:#ffcb94; }
+        .ss-form-container a:hover{ text-decoration:underline; }
+        
+    .ss-form-container .ss-choice-label,
+    .ss-form-container .ss-q-title,
+    .ss-choice-item{
+        font-family:museo-slab;
+        color:#84c7e6;
+        font-size:14px;
+        font-weight:500;
+        text-shadow:0px 1px 0px #0f3756;
+        padding:0 0 3px 0;
+    }
+    
+    .ss-form-entry{ padding:10px 0 10px 0; }
+    
+    .ss-form-container input[type=text].ss-q-short, .ss-form-container input[type=email].ss-q-short{
+        width:930px;
+        padding:3px 3px 3px 6px;
+        float:left;
+        margin:5px 0 0 0;
+        border:1px solid #123b4b;
+        margin:0 0 10px 0;
+    
+        color:#90a4af;
+        font-size:16px;
+        font-family:museo-slab;
+        font-style:italic;
+    }
+    
+    .ss-form-container input[type=text].ss-q-other{
+        width:860px;
+        padding:3px 3px 3px 6px;
+        margin:5px 0 0 0;
+        border:1px solid #123b4b;
+        margin:0 0 10px 0;
+    
+        color:#90a4af;
+        font-size:16px;
+        font-family:museo-slab;
+        font-style:italic;
+    }
+    
+    .ss-form-container textarea.ss-q-long{
+        width:930px;
+        height:125px;
+        padding:3px 3px 3px 6px;
+        float:left;
+        margin:5px 0 0 0;
+        border:1px solid #123b4b;
+        margin:0 0 10px 0;
+    
+        color:#90a4af;
+        font-size:16px;
+        font-family:museo-slab;
+        font-style:italic;
+    }
+    
+    .ss-item{ padding:0 0 10px 0;}
+    
+    .ss-form-container input[type=submit]{
+        border:none;
+        padding:3px 10px 3px 10px;
+        margin-left:0px;
+    }
+        .ss-form-container input[type=submit]:hover{ cursor:pointer; }
+        
+.parsley-error-container li{
+    padding:3px;
+    margin:3px 0 5px 0;
+    border-radius:3px;
+    background:rgba(145,0,0,.5);
+    border:1px solid #ff4343;
+    
+    font-family:museo-slab;
+    text-transform:uppercase;
+    color:#ffc3c3;
+    clear: both;
+}
+
+
+/* End Google Form */
+
+
+
+.footer{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

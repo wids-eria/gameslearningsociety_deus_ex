@@ -742,6 +742,15 @@ p.subhead_type{
     background:url(images/banner_images/kurt_bio_banner.png) 50% 0%; 
 }
 
+.rich_bio_banner{
+    height: 400px;
+    width:  100%;
+    z-index:5;
+    position:relative;
+    
+    background:url(images/banner_images/rich_bio_banner.png) 50% 0%; 
+}
+
 .brian_bio_banner{
     height: 400px;
     width:  100%;
@@ -832,6 +841,15 @@ p.subhead_type{
     margin:30px 0 30px 0;
     
     background:url(images/bio_collages/kurt_collage.png);
+}
+
+.rich_collage{
+    height: 536px;
+    width:  310px;
+    
+    margin:30px 0 30px 0;
+    
+    background:url(images/bio_collages/rich_collage.png);
 }
 
 .constance_collage{

@@ -76,9 +76,11 @@
             
             
             <!-- Rich -->
-            <a href="#">
+            <a href="bio_rich.php">
                 
                 <div class="people_rich floatright">
+                    
+                    <div class="arrow_leadership floatright"></div>
                     
                     <div class="people_label_container floatleft">
                         

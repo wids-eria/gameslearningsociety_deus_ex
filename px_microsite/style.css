@@ -1,0 +1,304 @@
+/* Global Styles */
+
+* { margin:0; padding:0; }
+html{ overflow:scroll; background:url(images/bg_tile.png); }
+body{ background:url(images/cityscape.png) 50% 0% no-repeat; }
+
+a{  }
+    a:hover{  }
+
+a img{ border:none;}
+
+p{  }
+
+ul{ list-style:none; }
+
+hr{  }
+
+h1{  }
+h2{  }
+h3{  }
+h4{  }
+h5{  }
+
+::selection{ color:white; background:#333; }
+
+
+/* Misc Classes */
+
+    .clear{ clear: both; }
+    
+    .floatleft{ float:left; }
+    .floatright{ float:right; }
+    
+    .bold{ font-weight:bold;}
+    .italic{ font-style: italic; }
+    
+    .center_text{ text-align:center; }
+    .all_caps{ text-transform:uppercase; }
+    .lower_case{ text-transform:lowercase; }
+
+
+/* End Misc Classes*/
+
+
+/* Containers */
+
+    .one_third{  }
+    .one_half{  }
+    .two_thirds{  }
+    .full_width{  }
+
+/* End Containers */
+
+
+
+
+/* Active Page */
+
+    /*
+      body#ID_NAME_HERE .Navigation_Name li.List_Item_Class_Here{ Style for active Nav button }
+    */
+
+/* End Active Page */
+
+
+
+
+
+
+
+.page_wrap{
+    width:996px;
+    margin:0 auto;
+    padding-top:30px;
+    position:relative;
+    z-index:100;
+}
+
+.progenitor_logo{
+    height:464px;
+    width:514px;
+    background:url(images/progenitor_logo.png);
+    margin:0 0 0 250px;
+    z-index:999999;
+    position:relative;
+
+}
+
+.play_demo_button{
+    height:122px;
+    width:190px;
+    float:right;
+    margin:-50px 30px 0 0;
+    position:relative;
+    z-index:999999;
+    background:url(images/play_demo_up.png);
+}
+
+    .play_demo_button:hover{
+        background:url(images/play_demo_hover.png);
+    }
+
+
+.main_content_top{
+    height:24px;
+    width:996px;
+    float:left;
+    background:url(images/main_content_top.png);
+    margin-top:-110px;
+    z-index:999;
+    position:relative; 
+}
+
+    .main_content{
+        float:left;
+        width:996px;
+        position:relative;
+        background:url(images/main_bg_tile.png) repeat-y;
+        margin:-86px 0 0 0;
+    }
+
+
+.trailer_container{
+    height:464px;
+    width:634px;
+    float:left;
+    margin:-30px 0 0 20px;
+    background:url(images/trailer_container.png);
+}
+    .trailer_container iframe{
+        float:left;
+        margin:130px 0 0 51px;
+    }
+
+.join_the_fight_container{
+    height:219px;
+    width:629px;
+    float:left;
+    margin:30px 0 0 30px;
+    background:url(images/join_the_fight_container.png);
+}
+    .join_the_fight_container p{
+        width:415px;
+        float:right;
+        color:#73878f;
+        font-family:verdana;
+        font-size:13px;
+        
+        margin:80px 30px 0 0;
+    }
+
+
+.images_container{
+    height:672px;
+    width:286px;
+    float:right;
+    margin:-60px 25px 0 0;
+    position:relative;
+    background:url(images/images_container.png);
+}
+
+
+.experience_container{
+    height:410px;
+    float:left;
+    width:913px;
+    margin:0 0 0 41px;
+    z-index:999999;
+    position:relative;
+    background:url(images/experience_container.png);
+}
+
+.gallery{
+    float:left;
+    margin:155px 0 0 20px;
+}
+    .gallery a{ margin:0 10px 5px 15px; float:left; }
+
+    .experience_container p.ex_1{
+        width:585px;
+        float:left;
+        color:#73878f;
+        font-family:verdana;
+        font-size:13px;
+        
+        margin:120px 0 0 35px;
+    }
+    
+    .experience_container p.ex_2{
+        width:825px;
+        float:left;
+        color:#73878f;
+        font-family:verdana;
+        font-size:13px;
+        
+        margin:85px 0 0 50px;
+    }
+
+
+.hidden{ display:none; }
+
+
+.footer_container{
+    height:595px;
+    width:1974px;
+    float:left;
+    margin:-110px 0 0 -485px;
+    z-index:999;
+    position:relative;
+    background:url(images/footer_background.png);
+}
+
+.learn_more_container{
+    height:334px;
+    width:805px;
+    margin-top:150px;
+    margin-left:610px;
+    background:url(images/learn_more_container.png) no-repeat;
+}
+
+    .learn_more_container p{
+        width:685px;
+        float:right;
+        color:#73878f;
+        font-family:verdana;
+        font-size:13px;
+        
+        margin:235px 30px 0 0;
+    }
+
+.footer_logo_container{
+    margin:30px 0 0 720px;
+    width:775px;
+    float:left;
+}
+
+    .gls_logo{  
+        background: url(images/footer_logo_sprite.png) no-repeat -10px -12px;
+	width: 139px;
+	height: 59px;
+    }
+        .gls_logo:hover{
+        background: url(images/footer_logo_sprite.png) no-repeat -10px -85px;
+	width: 139px;
+	height: 59px;
+        }
+
+    .lgn_logo{
+        margin:0 0 0 22px;
+        
+        background: url(images/footer_logo_sprite.png) no-repeat -176px -17px;
+	width: 90px;
+	height: 51px;
+    }
+        .lgn_logo:hover{
+            background: url(images/footer_logo_sprite.png) no-repeat -176px -90px;
+	width: 90px;
+	height: 51px;
+        }
+        
+    .wid_logo{
+        margin:0 0 0 22px;
+        
+        background: url(images/footer_logo_sprite.png) no-repeat -295px -16px;
+	width: 115px;
+	height: 53px;
+    }
+        .wid_logo:hover{
+            background: url(images/footer_logo_sprite.png) no-repeat -295px -89px;
+	width: 115px;
+	height: 53px;
+        }
+        
+    .nsf_logo{
+        margin:0 0 0 22px;
+        
+       background: url(images/footer_logo_sprite.png) no-repeat -432px -6px;
+	width: 67px;
+	height: 66px; 
+    }
+        .nsf_logo:hover{
+            background: url(images/footer_logo_sprite.png) no-repeat -432px -79px;
+	width: 67px;
+	height: 66px;
+        }
+        
+    .soe_logo{
+        margin:0 0 0 22px;
+        
+       background: url(images/footer_logo_sprite.png) no-repeat -527px -10px;
+	width: 206px;
+	height: 59px; 
+    }
+        .soe_logo:hover{
+           background: url(images/footer_logo_sprite.png) no-repeat -527px -83px;
+            width: 206px;
+            height: 59px; 
+        }
+
+
+
+
+
+
