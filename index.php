@@ -45,6 +45,17 @@
         <div class="slider_container">
             
             <div class="slide"> 
+                <img src="images/banner_images/banner_WSJ.png">
+                <div class="slide_content">
+                    <div class="slide_content_wrap">
+                        <h4 class="title">In the News</h4>
+                        <a class="readmore" href="http://host.madison.com/wsj/news/local/know-your-madisonian-kurt-squire-and-constance-steinkuehler/article_88f4e9ae-4ee8-5bee-b192-3f825b9b54ed.html" target="_blank">Leadership in the WSJ</a>
+                        <!-- /Learn more button -->
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slide"> 
                 <img src="images/banner_images/banner_image_fairplay_01.png">
                 <div class="slide_content">
                     <div class="slide_content_wrap">
