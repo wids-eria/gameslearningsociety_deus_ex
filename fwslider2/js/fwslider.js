@@ -161,7 +161,7 @@ function fwslider(){
             });
             
             $("#fwslider .slide:eq("+glob.cs+")").fadeIn({
-                duration:500, 
+                duration:0, 
                 easing: "swing"
             });
             
