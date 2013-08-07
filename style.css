@@ -605,6 +605,12 @@ p.subhead_type{
         margin: 95px 0 40px 30px;
     }
     
+    .about_paragraph_container_left_research{
+        width:  425px;
+        
+        margin: 65px 0 40px 30px;
+    }
+    
     .about_header,
     .about_paragraph{
         width: 100%;
