@@ -95,7 +95,7 @@
             
             <div class="hpgrid_cutting_edge_research floatright"></div>
             
-            <div class="about_paragraph_container_left floatleft">
+            <div class="about_paragraph_container_left_research floatleft">
                 
                 <div class="about_header">
                     <p>Cutting Edge Research</p>
@@ -103,9 +103,11 @@
                 
                 <div class="about_paragraph">
                     <p>
-                        By working in house with game artists, designers, programmers, and researchers, 
-                        GLS is able to tie together innovative game mechanics, data analysis, and assessment 
-                        methods in a way that is unique in the field.
+                        By working in house with game artists, designers, programmers, and
+                        researchers, GLS ties together innovative game mechanics, data analysis,
+                        and assessment methods in a way that is unique in the field. GLS also
+                        leverages its unique position in the Wisconsin Institute for Discovery to
+                        develop new methods of assessing learning through game play.
                     </p>
                     
                 </div>
