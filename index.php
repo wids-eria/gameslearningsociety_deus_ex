@@ -45,11 +45,11 @@
         <div class="slider_container">
             
             <div class="slide"> 
-                <img src="images/banner_images/banner_WSJ.png">
+                <img src="images/banner_images/banner_image_crystals_01.png">
                 <div class="slide_content">
                     <div class="slide_content_wrap">
-                        <h4 class="title">In the News</h4>
-                        <a class="readmore" href="http://host.madison.com/wsj/news/local/know-your-madisonian-kurt-squire-and-constance-steinkuehler/article_88f4e9ae-4ee8-5bee-b192-3f825b9b54ed.html" target="_blank">Leadership in the WSJ</a>
+                        <h4 class="title">Crystals of Kaydor</h4>
+                        <a class="readmore" href="http://www.edweek.org/ew/articles/2013/08/07/37games_ep.h32.html" target="_blank">Featured in Education Week!</a>
                         <!-- /Learn more button -->
                     </div>
                 </div>
@@ -72,17 +72,6 @@
                     <div class="slide_content_wrap">
                         <h4 class="title">Progenitor X</h4>
                         <a class="readmore" href="project_progenitor_x.php">Play the Demo Now!</a>
-                        <!-- /Learn more button -->
-                    </div>
-                </div>
-            </div>
-                    
-            <div class="slide"> 
-                <img src="images/banner_images/banner_image_crystals_01.png">
-                <div class="slide_content">
-                    <div class="slide_content_wrap">
-                        <h4 class="title">Crystals of Kaydor</h4>
-                        <p class="readmore" href="project_progenitor_x.php">Help Restore Balance</p>
                         <!-- /Learn more button -->
                     </div>
                 </div>
