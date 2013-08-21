@@ -19,6 +19,7 @@
                 <li> <a href="www.glsconference.net">Conference</a> </li>
                 <!--<li> <a href="">Blog</a> </li>-->
                 <li> <a href="contact.php">Contact</a> </li>
+                <li> <a href="jobs.php">Jobs</a> </li>
             </ul>
             
         </div>
