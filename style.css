@@ -9,9 +9,21 @@ a{ text-decoration:none; }
     
     a img{ border:none;}
 
-p{  }
+p{ color: #42494f;
+        font-family: proxima-nova;
+        font-weight: 400; }
 
 ul{ list-style:none; }
+
+    .list_style_disc{
+        list-style:disc;
+        color: #42494f;
+        font-family: proxima-nova;
+        font-weight: 400;
+        margin-top:5px; 
+    }
+    
+        .list_style_disc li{ margin-left:40px; }
 
 hr{  }
 
@@ -69,6 +81,9 @@ h5{  }
         background:#e44f6d;
     }
     
+.pink_text{ color:#C5173A; }
+    a.pink_text:hover{ text-decoration:underline; }
+    
 .topmargin{ margin-top:15px; }
 
 .hidden{ display:none;}
@@ -98,7 +113,8 @@ h5{  }
       body#research_page .navigation li.research_page_link,
       body#people_page .navigation li.people_page_link,
       body#courses_page .navigation li.courses_page_link,
-      body#contact_page .navigation li.contact_page_link{ 
+      body#contact_page .navigation li.contact_page_link,
+      body#jobs_page .navigation li.jobs_page_link{ 
         background: #c5173a;
       }
     
@@ -127,6 +143,15 @@ h5{  }
     position:relative;
     
     background:url(images/banner_images/banner_image_contact.png) 50% 0%;
+}
+
+.banner_image_jobs{
+   height: 400px;
+    width:  100%;
+    z-index:5;
+    position:relative;
+    
+    background:url(images/banner_images/banner_image_jobs.png) 50% 0%;
 }
 
 .banner_image_people{
@@ -1376,7 +1401,7 @@ padding:10px 19px 10px 19px;
         background:url(images/footer_background.png) no-repeat;
     }
     
-    .footer_copyright{ width:400px; }
+    .footer_copyright{ width:425px; }
         .footer_copyright p{
             font-size:      13px;
             font-family:    proxima-nova;

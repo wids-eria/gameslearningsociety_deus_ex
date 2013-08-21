@@ -13,6 +13,7 @@
             <a href="http://glsconference.org/" target="_blank"> <li class="box floatleft">Conference</li> </a>
             <!--<a href=""> <li class="box floatleft">Blog</li> </a>-->
             <a href="contact.php"> <li class="box floatleft contact_page_link">Contact</li> </a>
+            <a href="jobs.php"> <li class="box floatleft jobs_page_link">Jobs</li> </a>
             
             <!-- Social Media Nav Links -->
             <a href="https://secure.flickr.com/photos/gls-conference" target="_blank">
