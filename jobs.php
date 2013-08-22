@@ -39,7 +39,7 @@
                 
                 
                     <div class="hp_course_link">
-                        <p class="course_title">Marketing / PR Interns</p>
+                        <p class="course_title">Marketing / PR Student Hourly Interns</p>
                         
                         <br />
                         
