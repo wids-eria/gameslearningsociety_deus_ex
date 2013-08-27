@@ -1,4 +1,4 @@
-<div class="navigation_wrap">
+<div class="navigation_wrap large_navigation">
     
     <div class="navigation_container">
         

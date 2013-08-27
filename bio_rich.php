@@ -17,7 +17,8 @@
 
 <body id="peopl_page">
     
-    
+<!-- analytics -->    
+<?php include_once("analyticstracking.php") ?>    
     
 <?php require "navigation.php";?>
 
