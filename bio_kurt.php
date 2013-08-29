@@ -17,7 +17,8 @@
 
 <body id="people_page">
     
-    
+<!-- analytics -->    
+<?php include_once("analyticstracking.php") ?>    
     
 <?php require "navigation.php";?>
 
@@ -55,27 +56,19 @@
                     <!--<a href="" class="pinklink floatright">View C.V.</a>-->
                 </p>
                 <p class="bio_paragraph floatleft">
-                    Kurt Squire is an assistant professor at the University of
-                    Wisconsin-Madison in the Educational Communications and
-                    Technology division of Curriculum and Instruction and a 
-                    esearch scientist a the Academic Advanced Distributed
-                    Learning Co-Lab. Squire is also a co-founder and current
-                    director of the Games, Learning, & Society Initiative,
-                    a group of over 50 faculty and students investigating
-                    game-based learning. Squire's research investigates the
-                    potential of video game-based technologies for systemic
-                    change in education. Squire's work integrates research
-                    and theory on digital media (particularly games) with
-                    theories of situated cognition in order to understand 
-                    ow to design educational environments in a digital age.
-                    Squire earned his doctorate in Instructional Systems Technology
-                    from Indiana University and is a former Montessori and primary
-                    school teacher. Before coming to Wisconsin, Squire was Research
-                    Manager of the Games-to-Teach Project at MIT, Co-Director of
-                    the Education Arcade, columnist for Computer Games magazine,
-                    and co-founder of Joystick101.org. In addition to writing over
-                    50 scholarly articles and book chapters, he has given dozens
-                    invited addresses in North America, Europe, and Asia.
+                    Kurt Squire is a Professor of Digital Media in the Department of
+                    Curriculum & Instruction, and Co-Director of the Games+Learning+Society
+                    Center in the Wisconsin Institute for Discovery. Squire is the author or
+                    editor of three books, and over 75 scholarly publications on learning
+                    with technology. Squire has directed several game-based learning projects,
+                    ranging from ARIS, a tool for place-based mobile app development, to ProgenitorX,
+                    a game about saving the world from zombies through stem cell technology.
+                    Squire's research has been supported by nearly $10 million in grants and
+                    gifts from the MacArthur Foundation, National Science Foundation, National
+                    Institute for Health, The Gates Foundation, the Department of Education,
+                    The AMD Foundation, and Microsoft. Squire is also a co-founder of joystick101.org,
+                    a former columnist for Computer Games magazine, and a former Montessori teacher.
+                    He lives in Madison, Wisconsin with his wife and two sons.
                 </p>
                 
             </div>
