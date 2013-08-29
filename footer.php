@@ -5,10 +5,14 @@
         <div class="footer_copyright floatleft">
 
                 <p class="floatleft">Copyright &copy; 2013 Games Learning Society</p>
-                <a href="https://www.facebook.com/glsconference" target="_blank"> <div class="footer_facebook floatleft"></div> </a>
-                <a href="https://twitter.com/glscenter" target="_blank"> <div class="footer_twitter floatleft"></div> </a>
-                <a href="https://secure.flickr.com/photos/gls-conference" target="_blank"> <div class="footer_flickr floatleft"></div> </a>
-
+                
+                <div class="center_social_media_container">
+                    <div class="center_social_media">
+                        <a href="https://www.facebook.com/glsconference" target="_blank"> <div class="footer_facebook floatleft"></div> </a>
+                        <a href="https://twitter.com/glscenter" target="_blank"> <div class="footer_twitter floatleft"></div> </a>
+                        <a href="https://secure.flickr.com/photos/gls-conference" target="_blank"> <div class="footer_flickr floatleft"></div> </a>
+                    </div>
+                </div>
             
             <ul class="footer_nav_links floatleft">
                 <li> <a href="about.php">About</a> </li>
@@ -24,10 +28,14 @@
             
         </div>
         
-        <div class="footer_logos floatright">
-            <a href="http://www.education.wisc.edu/" target="_blank"> <div class="footer_logo_soe floatright"></div> </a>
-            <a href="http://www.learninggamesnetwork.org/" target="_blank"> <div class="footer_logo_lgn floatright"></div> </a>
-            <a href="http://wid.wisc.edu/" target="_blank"> <div class="footer_logo_wid floatright"></div> </a>       
+        <div class="center_partners_container">
+            <div class="center_partners">
+                <div class="footer_logos floatright">
+                    <a href="http://www.education.wisc.edu/" target="_blank"> <div class="footer_logo_soe floatright"></div> </a>
+                    <a href="http://www.learninggamesnetwork.org/" target="_blank"> <div class="footer_logo_lgn floatright"></div> </a>
+                    <a href="http://wid.wisc.edu/" target="_blank"> <div class="footer_logo_wid floatright"></div> </a>       
+                </div>
+            </div>
         </div>
         
     </div>

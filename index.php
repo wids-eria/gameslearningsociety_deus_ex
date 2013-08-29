@@ -37,8 +37,7 @@
 
 <body id="">
     
-<!-- analytics -->    
-<?php include_once("analyticstracking.php") ?>    
+    
     
 <?php require "navigation.php";?>
 
@@ -90,6 +89,7 @@
     
     <div class="body_content">
         
+        <!-- browser tagline -->
         <div class="tagline_container">
             <p class="tagline_header">
                 We design games for learning & we study <br />
@@ -100,162 +100,222 @@
                 to transform learning, and what this engaging medium means for society. 
             </p>
         </div>
+        
+        <!-- responsive tagline -->
+        <div class="tagline_container_resp">
+            <p class="tagline_header">
+                We design games for learning & we study
+                game-centered learning systems.
+            </p>
+            <p class="tagline_description">
+                GLS delves into how videogames capture our imaginations, how their power can be used
+                to transform learning, and what this engaging medium means for society. 
+            </p>
+        </div>
     
     </div><!-- end body content -->
     
-    <div class="home_page_grid_container">
+<!-- large home page grid -->
+
+    <div class="large_home_page_grid">
         
-        <div class="home_page_grid">
+        <div class="home_page_grid_container">
             
-            
-            <a href="games.php">
-                <div class="hpgrid_innovative_video_games floatleft">
-                    
-                    <div class="hpgrid_content floatleft">
-                        
-                        <div class="hpgrid_label_container_two_lines floatright">
-                                <p class="hpgrid_label floatright">Innovative</p>
-                                <p class="hpgrid_label floatright">Video Games</p>
-                            </div>
-                        
-                        <div class="hpgrid_hover_content">
-                            <p>GLS has produced over a dozen games designed around a range of content models.
-                       Our games promote engaging ways of learning about biological systems, civic activism,
-                       pro-social behavior, programming, and many other STEM domains.
-                            </p>
-                        </div>   
-                            
-                    </div>
-                    
-                </div>
-            </a>
-            
-            
-            <a href="research.php">
-                <div class="hpgrid_cutting_edge_research floatright">
-                    
-                    <div class="hpgrid_content floatleft">
-                        
-                        <div class="hpgrid_label_container_two_lines floatright">
-                                <p class="hpgrid_label floatright">Cutting Edge</p>
-                                <p class="hpgrid_label floatright">Research</p>
-                            </div>
-                        
-                        <div class="hpgrid_hover_content">
-                            <p>By working in house with game artists, designers, programmers, and researchers, 
-                            GLS is able to tie together innovative game mechanics, data analysis, and assessment 
-                            methods in a way that is unique in the field.
-                            </p>
-                        </div>   
-                            
-                    </div>
-                    
-                </div>
-            </a>
-            
-            
-            <a href="people.php">
-                <div class="hpgrid_industry_leaders floatleft">
-                    
-                    <div class="hpgrid_content floatleft">
-                        
-                        <div class="hpgrid_label_container_two_lines floatright">
-                                <p class="hpgrid_label floatright">Industry</p>
-                                <p class="hpgrid_label floatright">Leaders</p>
-                            </div>
-                        
-                        <div class="hpgrid_hover_content">
-                            <p>Research at GLS is supported by leaderships and partners from the
-                            industry, such as game designer Doug Church and neuroscientist Richard
-                            Davidson, as well as groups like Microsoft Research.
-                            </p>
-                        </div>   
-                            
-                    </div>
-                    
-                </div>
-            </a>
-            
-            
-            <a href="about.php">
-                <div class="hpgrid_unique_culture floatright">
-                    
-                    <div class="hpgrid_content floatleft">
-                        
-                        <div class="hpgrid_label_container_two_lines floatright">
-                                <p class="hpgrid_label floatright">Unique</p>
-                                <p class="hpgrid_label floatright">Culture</p>
-                            </div>
-                        
-                        <div class="hpgrid_hover_content">
-                            <p>Staff at the GLS Center maintain a healthy balance between work and play, hosting 
-                            cooperative and collaborative gameplay sessions in between projects.
-                            </p>
-                        </div>   
-                            
-                    </div>
-                    
-                </div>
-            </a>
-            
-            
-            <a href="contact.php">
-                <div class="hpgrid_contact floatleft">
-                    
-                    <div class="hpgrid_content floatleft">
-                        
-                        <div class="hpgrid_label_container_one_line floatright">
-                                <p class="hpgrid_label floatright">Contact</p>
-                            </div>
-                        
-                        <div class="hpgrid_hover_content">
-                            <p>1401 University Ave <br />
-                            2nd Floor<br />
-                            Madison, WI 53715
-                            </p>
-                            
-                            <p>Ph: ( 608 ) 265-8739</p>
-                            
-                            <p>Fax: ( 608 ) 265-6483</p>
-                            
-                            <p>glsadmin@discovery.wisc.edu</p>
-                        </div>   
-                            
-                    </div>
-                    
-                </div>
-            </a>
-            
-            
-            <a href="http://www.glsconference.org" target="_blank">
+            <div class="home_page_grid">
                 
-                <div class="hpgrid_gls_conference floatright">
+                <a href="games.php">
                     
-                    <div class="hpgrid_content floatleft">
+                    <div class="hpgrid_innovative_video_games floatleft">
                         
-                        <div class="hpgrid_label_container_two_lines floatright">
-                                <p class="hpgrid_label floatright">GLS</p>
-                                <p class="hpgrid_label floatright">Conference</p>
-                            </div>
-                        
-                        <div class="hpgrid_hover_content">
-                            <p>The GLS Conference, held annually in Madison, provides a forum for games
-                        researchers, game designers, and educators from around the world to share
-                        results from research and game design efforts. 
-                            </p>
-                        </div>   
+                        <div class="hpgrid_content floatleft">
                             
+                            <div class="hpgrid_label_container_two_lines floatright">
+                                    <p class="hpgrid_label floatright">Innovative</p>
+                                    <p class="hpgrid_label floatright">Video Games</p>
+                                </div>
+                            
+                            <div class="hpgrid_hover_content">
+                                <p>GLS has produced over a dozen games designed around a range of content models.
+                           Our games promote engaging ways of learning about biological systems, civic activism,
+                           pro-social behavior, programming, and many other STEM domains.
+                                </p>
+                            </div>   
+                                
+                        </div>
+                        
+                    </div>
+                </a>
+                
+                
+                <a href="research.php">
+                    <div class="hpgrid_cutting_edge_research floatright">
+                        
+                        <div class="hpgrid_content floatleft">
+                            
+                            <div class="hpgrid_label_container_two_lines floatright">
+                                    <p class="hpgrid_label floatright">Cutting Edge</p>
+                                    <p class="hpgrid_label floatright">Research</p>
+                                </div>
+                            
+                            <div class="hpgrid_hover_content">
+                                <p>By working in house with game artists, designers, programmers, and researchers, 
+                                GLS is able to tie together innovative game mechanics, data analysis, and assessment 
+                                methods in a way that is unique in the field.
+                                </p>
+                            </div>   
+                                
+                        </div>
+                        
+                    </div>
+                </a>
+                
+                
+                <a href="people.php">
+                    <div class="hpgrid_industry_leaders floatleft">
+                        
+                        <div class="hpgrid_content floatleft">
+                            
+                            <div class="hpgrid_label_container_two_lines floatright">
+                                    <p class="hpgrid_label floatright">Industry</p>
+                                    <p class="hpgrid_label floatright">Leaders</p>
+                                </div>
+                            
+                            <div class="hpgrid_hover_content">
+                                <p>Research at GLS is supported by leaderships and partners from the
+                                industry, such as game designer Doug Church and neuroscientist Richard
+                                Davidson, as well as groups like Microsoft Research.
+                                </p>
+                            </div>   
+                                
+                        </div>
+                        
+                    </div>
+                </a>
+                
+                
+                <a href="about.php">
+                    <div class="hpgrid_unique_culture floatright">
+                        
+                        <div class="hpgrid_content floatleft">
+                            
+                            <div class="hpgrid_label_container_two_lines floatright">
+                                    <p class="hpgrid_label floatright">Unique</p>
+                                    <p class="hpgrid_label floatright">Culture</p>
+                                </div>
+                            
+                            <div class="hpgrid_hover_content">
+                                <p>Staff at the GLS Center maintain a healthy balance between work and play, hosting 
+                                cooperative and collaborative gameplay sessions in between projects.
+                                </p>
+                            </div>   
+                                
+                        </div>
+                        
+                    </div>
+                </a>
+                
+                
+                <a href="contact.php">
+                    <div class="hpgrid_contact floatleft">
+                        
+                        <div class="hpgrid_content floatleft">
+                            
+                            <div class="hpgrid_label_container_one_line floatright">
+                                    <p class="hpgrid_label floatright">Contact</p>
+                                </div>
+                            
+                            <div class="hpgrid_hover_content">
+                                <p>1401 University Ave <br />
+                                2nd Floor<br />
+                                Madison, WI 53715
+                                </p>
+                                
+                                <p>Ph: ( 608 ) 265-8739</p>
+                                
+                                <p>Fax: ( 608 ) 265-6483</p>
+                                
+                                <p>glsadmin@discovery.wisc.edu</p>
+                            </div>   
+                                
+                        </div>
+                        
+                    </div>
+                </a>
+                
+                
+                <a href="http://www.glsconference.org" target="_blank">
+                    
+                    <div class="hpgrid_gls_conference floatright">
+                        
+                        <div class="hpgrid_content floatleft">
+                            
+                            <div class="hpgrid_label_container_two_lines floatright">
+                                    <p class="hpgrid_label floatright">GLS</p>
+                                    <p class="hpgrid_label floatright">Conference</p>
+                                </div>
+                            
+                            <div class="hpgrid_hover_content">
+                                <p>The GLS Conference, held annually in Madison, provides a forum for games
+                            researchers, game designers, and educators from around the world to share
+                            results from research and game design efforts. 
+                                </p>
+                            </div>   
+                                
+                        </div>
+                        
                     </div>
                     
-                </div>
+                </a>
                 
-            </a>
-            
-            
+                
+                
+            </div>
             
         </div>
         
-    </div>
+    </div><!-- end large home page grid -->
+    
+
+<!-- small home page grid -->
+    <div class="small_home_page_grid">
+        
+        <a href="games.php">
+            <div class="small_grid_container">
+                <img src="images/hp_grid/hpgrid_innovative_video_games_resp.png"/>
+            </div>
+        </a>
+        
+        <a href="research.php">
+            <div class="small_grid_container">
+                <img src="images/hp_grid/hpgrid_cutting_edge_research_resp.png"/>
+            </div>
+        </a>
+        
+        <a href="people.php">
+            <div class="small_grid_container">
+                <img src="images/hp_grid/hpgrid_industry_leaders_resp.png"/>
+            </div>
+        </a>
+        
+        <a href="about.php">
+            <div class="small_grid_container">
+                <img src="images/hp_grid/hpgrid_unique_culture_resp.png"/>
+            </div>
+        </a>
+        
+        <a href="contact.php">
+            <div class="small_grid_container">
+                <img src="images/hp_grid/hpgrid_contact_resp.png"/>
+            </div>
+        </a>
+        
+        <a href="http://www.glsconference.org" target="_blank">
+            <div class="small_grid_container">
+                <img src="images/hp_grid/hpgrid_gls_conference_resp.png"/>
+            </div>
+        </a>
+        
+    </div><!-- end small home page grid -->
     
 </div>
 
