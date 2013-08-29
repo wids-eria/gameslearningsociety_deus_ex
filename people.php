@@ -17,8 +17,7 @@
 
 <body id="people_page">
     
-<!-- analytics -->    
-<?php include_once("analyticstracking.php") ?>    
+    
     
 <?php require "navigation.php";?>
 
@@ -31,129 +30,181 @@
 <div class="body_content_container">
     
     <div class="body_content">
+
+    <div class="large_leadership">
         
         <div class="full_width floatleft">
             
             <div class="people_header">
                 <p class="people_header_type"> Leadership </p>
             </div>
+            
+            
+            <div class="center_bio_pics">        
+                <!-- Kurt -->
+                <a href="bio_kurt.php">
                     
-            <!-- Kurt -->
-            <a href="bio_kurt.php">
-                
-                <div class="people_kurt floatleft">
-                    
-                    <div class="arrow_leadership floatright"></div>
-                    
-                    <div class="people_label_container floatleft">
+                    <div class="people_kurt floatleft">
                         
-                        <p class="people_label floatleft">Kurt</p>
-                        <p class="people_label floatleft">Squire</p>
+                        <div class="arrow_leadership floatright"></div>
+                        
+                        <div class="people_label_container floatleft">
+                            
+                            <p class="people_label floatleft">Kurt</p>
+                            <p class="people_label floatleft">Squire</p>
+                            
+                        </div>
                         
                     </div>
                     
-                </div>
-                
-            </a>
+                </a>
+            </div>
             
             
-            <!-- Constance -->
-            <a href="bio_constance.php">
-                
-                <div class="people_constance floatleft">
+            <div class="center_bio_pics"> 
+                <!-- Constance -->
+                <a href="bio_constance.php">
                     
-                    <div class="arrow_leadership floatright"></div>
-                    
-                    <div class="people_label_container floatleft">
+                    <div class="people_constance floatleft">
                         
-                        <p class="people_label floatleft">Constance</p>
-                        <p class="people_label floatleft">Steinkuehler</p>
+                        <div class="arrow_leadership floatright"></div>
                         
-                    </div>
-                    
-                </div>
-                
-            </a>
-            
-            
-            <!-- Rich -->
-            <a href="bio_rich.php">
-                
-                <div class="people_rich floatright">
-                    
-                    <div class="arrow_leadership floatright"></div>
-                    
-                    <div class="people_label_container floatleft">
-                        
-                        <p class="people_label floatleft">Rich</p>
-                        <p class="people_label floatleft">Halverson</p>
+                        <div class="people_label_container floatleft">
+                            
+                            <p class="people_label floatleft">Constance</p>
+                            <p class="people_label floatleft">Steinkuehler</p>
+                            
+                        </div>
                         
                     </div>
                     
-                </div>
-                
-            </a>
+                </a>
+            </div>
             
             
-            <!-- Matthew -->
-            <a href="bio_matthew.php">
-                
-                <div class="people_matthew floatleft">
+            <div class="center_bio_pics"> 
+                <!-- Rich -->
+                <a href="bio_rich.php">
                     
-                    <div class="arrow_leadership floatright"></div>
-                    
-                    <div class="people_label_container floatleft">
+                    <div class="people_rich floatright">
                         
-                        <p class="people_label floatleft">Matthew</p>
-                        <p class="people_label floatleft">Berland</p>
+                        <div class="arrow_leadership floatright"></div>
                         
-                    </div>
-                    
-                </div>
-                
-            </a>
-            
-            
-            <!-- Brian -->
-            <a href="bio_brian.php">
-                
-                <div class="people_brian floatleft">
-                    
-                    <div class="arrow_leadership floatright"></div>
-                    
-                    <div class="people_label_container floatleft">
-                        
-                        <p class="people_label floatleft">Brian</p>
-                        <p class="people_label floatleft">Pelletier</p>
+                        <div class="people_label_container floatleft">
+                            
+                            <p class="people_label floatleft">Rich</p>
+                            <p class="people_label floatleft">Halverson</p>
+                            
+                        </div>
                         
                     </div>
                     
-                </div>
-                
-            </a>
+                </a>
+            </div>
             
             
-            <!-- Becky -->
-            <a href="bio_becky.php">
-                
-                <div class="people_becky floatright">
+            <div class="center_bio_pics"> 
+                <!-- Matthew -->
+                <a href="bio_matthew.php">
                     
-                    <div class="arrow_leadership floatright"></div>
-                    
-                    <div class="people_label_container floatleft">
+                    <div class="people_matthew floatleft">
                         
-                        <p class="people_label floatleft">Becky</p>
-                        <p class="people_label floatleft">Torrisi</p>
+                        <div class="arrow_leadership floatright"></div>
+                        
+                        <div class="people_label_container floatleft">
+                            
+                            <p class="people_label floatleft">Matthew</p>
+                            <p class="people_label floatleft">Berland</p>
+                            
+                        </div>
                         
                     </div>
                     
-                </div>
-                
-            </a>
+                </a>
+            </div>
+            
+            
+            <div class="center_bio_pics"> 
+                <!-- Brian -->
+                <a href="bio_brian.php">
+                    
+                    <div class="people_brian floatleft">
+                        
+                        <div class="arrow_leadership floatright"></div>
+                        
+                        <div class="people_label_container floatleft">
+                            
+                            <p class="people_label floatleft">Brian</p>
+                            <p class="people_label floatleft">Pelletier</p>
+                            
+                        </div>
+                        
+                    </div>
+                    
+                </a>
+            </div>
+            
+            
+            <div class="center_bio_pics"> 
+                <!-- Becky -->
+                <a href="bio_becky.php">
+                    
+                    <div class="people_becky floatright">
+                        
+                        <div class="arrow_leadership floatright"></div>
+                        
+                        <div class="people_label_container floatleft">
+                            
+                            <p class="people_label floatleft">Becky</p>
+                            <p class="people_label floatleft">Torrisi</p>
+                            
+                        </div>
+                        
+                    </div>
+                    
+                </a>
+            </div>
   
         </div>
         
-        <div class="people_everybody_contaienr floatleft">
+    </div><!-- end large leadership -->
+    
+    <div class="small_leadership floatleft">
+        <div class="full_width">
+            
+            <!-- small leadership -->
+                <div class="small_home_page_grid">
+                    
+                    <a href="bio_kurt.php" class="floatleft">
+                        <img src="images/people/people_kurt_resp.png"/>
+                    </a>
+                    
+                    <a href="bio_constance.php" class="floatleft">
+                        <img src="images/people/people_constance_resp.png"/>
+                    </a>
+                    
+                    <a href="bio_rich.php" class="floatleft">
+                        <img src="images/people/people_rich_resp.png"/>
+                    </a>
+                    
+                    <a href="bio_matthew.php" class="floatleft">
+                        <img src="images/people/people_matthew_resp.png"/>
+                    </a>
+                    
+                    <a href="bio_brian.php" class="floatleft">
+                        <img src="images/people/people_brian_resp.png"/>
+                    </a>
+                    
+                    <a href="bio_becky.php" class="floatleft">
+                        <img src="images/people/people_becky_resp.png"/>
+                    </a>
+                    
+                </div><!-- end small leadership -->
+            
+        </div>
+    </div>
+        
+        <div class="people_everybody_container floatleft">
             
             <div class="one_third floatleft"><!-- first column -->
     

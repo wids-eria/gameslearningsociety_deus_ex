@@ -57,8 +57,7 @@
 
 <body id="research_page">
     
-<!-- analytics -->    
-<?php include_once("analyticstracking.php") ?>    
+    
     
 <?php require "navigation.php";?>
 
@@ -76,6 +75,10 @@
         
             <div class="research_image">
                 <div class="research_popcosmo"></div>
+            </div>
+            
+            <div class="research_image_resp">
+                <img src="images/research/research_popcosmo.png"/>
             </div>
             
             <div class="research_description">

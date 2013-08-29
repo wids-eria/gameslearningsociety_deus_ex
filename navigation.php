@@ -38,3 +38,29 @@
     </div>
 
 </div>  <!-- end nav wrap -->
+
+
+
+<!-- responsive nav -->
+<input type="checkbox" class="main-nav-check" id="main-nav-check" />
+<nav class="main-nav" id="main-nav">
+  <a href="index.php">GLS Home</a>
+  <a href="about.php">About</a>
+  <a href="games.php">Games</a>
+  <a href="research.php">Research</a>
+  <a href="people.php">People</a>
+  <a href="courses.php">Courses</a>
+  <a href="http://www.glsconference.org" target="_blank">Conference</a>
+  <a href="contact.php">Contact</a>
+  <a href="jobs.php">Jobs</a>
+</nav>
+
+
+<!-- responsive nav header -->
+<header class="main-header">
+   <label for="main-nav-check" class="toggle-menu">
+     <img src="images/responsive_menu_icon.png"/>
+   </label>
+   
+   <h1>GLS</h1>
+ </header>

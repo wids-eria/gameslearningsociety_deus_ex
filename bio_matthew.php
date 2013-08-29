@@ -17,8 +17,7 @@
 
 <body id="people_page">
     
-<!-- analytics -->    
-<?php include_once("analyticstracking.php") ?>    
+    
     
 <?php require "navigation.php";?>
 
@@ -48,7 +47,7 @@
         <div class="one_third floatleft">
             <div class="matthew_collage floatleft"></div>
             
-            <div class="bio_links center_text">
+            <div class="bio_links matthew_links_large center_text">
                 <a href="http://ci.education.wisc.edu/ci/people/faculty/matthew-berland" target="_blank"> Matthew's UW Madison Page</a>
                 <a href="http://wisc.academia.edu/MatthewBerland" target="_blank"> Matthew's academia.edu Page</a>
             </div>
@@ -154,6 +153,11 @@
                     </p>
                 </div>
                 
+            </div>
+            
+            <div class="bio_links matthew_links_resp center_text">
+                <a href="http://ci.education.wisc.edu/ci/people/faculty/matthew-berland" target="_blank"> Matthew's UW Madison Page</a>
+                <a href="http://wisc.academia.edu/MatthewBerland" target="_blank"> Matthew's academia.edu Page</a>
             </div>
             
             
