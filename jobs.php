@@ -17,7 +17,8 @@
 
 <body id="jobs_page">
     
-    
+<!-- analytics -->    
+<?php include_once("analyticstracking.php") ?>    
     
 <?php require "navigation.php";?>
 
@@ -84,7 +85,7 @@
                                 <li>Writing various types of articles on a wide range of topics for our blog.</li>
                                 <li>Optimizing content for search engines.</li>
                                 <li>Conducting analytical projects to improve blog strategies/tactics.</li>
-                                <li>Growing blog subscribers and expanding the overall blog’s reach.</li>
+                                <li>Growing blog subscribers and expanding the overall blog's reach.</li>
                             </ul>
                             
                             <br />
