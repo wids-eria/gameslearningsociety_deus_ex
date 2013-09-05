@@ -338,6 +338,9 @@
                     
                     <div class="people_links">
 
+                        <p>Eric Bauman</p>
+                        <p>Muhammet Demirbilek</p>
+                        <p>Alex Games</p>
                         <a href="http://www.regardingjohn.com/blog/" target="_blank">John Martin</a>
                         
                     </div>
