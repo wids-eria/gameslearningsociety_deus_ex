@@ -24,6 +24,14 @@ ul{ list-style:none; }
     }
     
         .list_style_disc li{ margin-left:40px; }
+        
+ol{
+    color: #42494f;
+    font-family: proxima-nova;
+    font-weight: 400;
+    margin:10px 0 10px 0;
+}
+    ol li{ margin-left:40px; }
 
 hr{  }
 

@@ -39,120 +39,130 @@
                 
                 
                     <div class="hp_course_link">
-                        <p class="course_title">C&I 277: Video games and Learning</p>
-                        <p class="course_instructor bold">Instructor: Kurt Squire</p>
+                        <p class="course_title">C&I 277  Videogames & Learning</p>
+                        <p class="course_instructor bold">Professor: Constance Steinkuehler</p>
                         
                         <br />
                         
                         <p class="course_instructor">
-                            Videogames have become one of the hottest topics in media, education,
-                            and technology. Recent research across fields as disparate as science,
-                            literacy, history, visual processing, curriculum, and computer science
-                            suggests that videogames aren't just fun - they're actually good for
-                            your mind as well. In this three-credit course, we will discuss current
-                            research on the kinds of thinking and learning that goes into videogames
-                            and gaming culture. We'll investigate the benefits and drawbacks of this
-                            digital gameplay, covering everything from perception and attention in
-                            Left 4 Dead 2 to the development of historical understanding in
-                            Civilization, from socialization in massively multiplayer online
-                            games like World of Warcraft to issues of violence and racial
-                            representation in titles like Call of Duty: Modern Warfare 3,
-                            from the inherent tensions between contemporary youth culture
-                            and traditional education to new developments in games for
-                            learning intended to bridge that growing divide.
+                            Videogames have captured much national attention as a powerful learning technology.
+                            Research across areas as disparate as perception, attention, science, literacy,
+                            language learning, history, computer science, and curriculum design suggests that
+                            videogames are not only engaging but, if designed well and placed in the right
+                            context, good for thinking and learning as well. In this three-credit course, we
+                            will discuss current research on the kinds of intellectual work that goes into
+                            videogaming; how games and their culture foster complex forms of knowledge, skills,
+                            and dispositions; and how games can be designed to capitalize on this capacity for
+                            educational ends. We’ll investigate the benefits and drawbacks of this digital gameplay,
+                            covering everything from perception and attention in first person shooters to the development
+                            of historical understanding in games like the Civilization series, from sociocultural
+                            learning in massively multiplayer online games like World of Warcraft to computational
+                            reasoning in titles like Kodu, from the inherent tensions between contemporary youth
+                            culture and traditional education to new developments in games for learning intended
+                            to bridge that growing divide.
+                        </p>
+                        
+                        <p>
+                            The goals of this course are:
+                        </p>
+                        
+                        <ol>
+                            <li>To engage students in thinking deeply and critically about their everyday videogame play,</li>
+                            <li>To strengthen students’ critical thinking about research & media reports on games, and</li>
+                            <li>To foster students’ reflection on the ways in which learning is a vital part of everyday life,
+                            relevant not only to formal educational contexts but also to everyday work, socialization, and play.</li>
+                        </ol>
+                        
+                        <p>
+                            This course meets Comm B requirements, so it is writing intensive. Throughout the semester, you will
+                            gain familiarity with current research on course topics, develop a language for reflection on the
+                            cognitive and educational merits and drawbacks of growing up on games and gaming culture, and gain
+                            new insights into the ways in which your digital playspaces and pastimes shape how you (and your peers)
+                            think and learn.
+                        </p>
+                        
+                    </div>
+                
+                    <div class="hp_course_link">
+                        <p class="course_title">C&I 975 Discourse Analysis</p>
+                        <p class="course_instructor bold">Professor: Constance Steinkuehler</p>
+                        
+                        <br />
+                        
+                        <p class="course_instructor">
+                            Discourse analysis is a method of closely examining language in order to connect the micro-dynamics
+                            of language-in-use with the macro-dynamics of culture and society. Discourse analysis approaches
+                            language as action and affiliation, attending to both the content of what is said as well as its
+                            structure or the way in which it is said (which is, in fact, also part of its content) across
+                            the idea unit (clause), the sentence, the paragraph, and even longer pieces of text. By unveiling
+                            the work that is done through language in social interaction, discourse analysis functions as a
+                            particularly powerful means for examining, for example, the actual activities that participants
+                            are involved in, the value structures in play, and the identities that are being performed. 
+                        </p>
+                        
+                        <p>
+                            The goal of this course is to develop a deeper understanding of and facility with Discourse Analysis
+                            as a means for analyzing language in use, particularly in the context of teaching and learning in
+                            both formal and informal contexts. Throughout the semester, we will apply a range of discourse
+                            analysis techniques that enable the researcher to empirically document and assess the mechanisms
+                            by which individuals collaborate, establish intersubjectivity, share their understandings, and
+                            learn from one another. Students in the course will engage in weekly data analysis sessions
+                            as a way to develop their own skills in the methods covered which will culminate in a final
+                            course project.
+                        </p>
+                        
+                    </div>
+                
+                    <div class="hp_course_link">
+                        <a href="https://www.coursera.org/course/videogameslearning" target="_blank" title="View this course on Coursera"><div class="arrow floatright"></div></a>
+                        <p class="course_title">Video Games and Learning</p>
+                        <p class="course_instructor bold">Professors: Constance Steinkuehler and Kurt Squire</p>
+                        
+                        
+                        <br />
+                        
+                        <p class="course_instructor">
+                            Videogames aren’t just fun, they can be powerful vehicles for learning as well. In this course,
+                            we discuss research on the kinds of thinking and learning that goes into videogames and gaming
+                            culture, benefits and drawbacks of digital gameplay, tensions between youth culture and traditional
+                            education, and new developments intended to bridge that growing divide.
                         </p>
                     </div>
                 
                     <div class="hp_course_link">
-                        <p class="course_title">C&I 675: Game Communities & Learning</p>
-                        <p class="course_instructor bold">Instructor: Constance Steinkuehler</p>
+                        <p class="course_title">ELPA 844 - Technology and School Leadership</p>
+                        <p class="course_instructor bold">Professor: Richard Halverson</p>
                         
                         <br />
                         
                         <p class="course_instructor">
-                            Games are both designed object but also emergent social practice,
-                            and it is both aspects of games that make them a powerful "sociotechnical"
-                            means of learning. In this course, we will examine how game communities
-                            function as naturally occurring, self-sustaining, indigenous online
-                            communities of learning and practice, the conditions under which such
-                            learning happens, its means, and its ends. Throughout the semester, we
-                            review sociocultural theories of learning, current research on game
-                            communities, and methodologies for their investigation. Final project
-                            for the course is a pilot study of a game community of one's choice.
-                            Student will leave this course sufficiently prepared to conduct
-                            theoretically grounded, empirical research on game communities and
-                            their function for learning.
+                            This course investigates how school leaders develop and use technologies to improve student learning.
+                            The role of technology in school leadership has changed in recent years from supporting the technologies
+                            school leaders and teachers use in their work to how leaders develop and manage complex technological
+                            systems to effect change in schools.
                         </p>
-                    </div>
-                
-                    <div class="hp_course_link">
-                        <p class="course_title">C&I 975: Games and National Policy</p>
-                        <p class="course_instructor bold">Instructor: Constance Steinkuehler</p>
                         
-                        <br />
-                        
-                        <p class="course_instructor">
-                            At the TechBoston event in March 2011, President Obama issued a call to
-                            action, stating "I'm calling for investments in educational technology
-                            that will help create...educational software that's as compelling as the
-                            best video game." A growing number of universities, companies, and
-                            philanthropic organizations have risen to the challenge, establishing
-                            programs not only in game studies but also in game design and development.
-                            In this seminar, students review the state of play in the games for impact
-                            area, the role of various stakeholders (federal government, universities,
-                            philanthropy, and industry) in this domain, and both opportunities and
-                            challenges to the movement. The course will function as a "do tank" (to
-                            borrow a term from Beth Noveck), where students do actual domain work
-                            of immediate relevance for various stakeholders including a landscape
-                            analysis of the various subareas within the games for impact domain.
-                            The course is based on an apprenticeship model that assumes that learning
-                            arises through joint activity with an expert. Students should expert to
-                            engage in collaborative work with an audience that extends beyond the
-                            classroom walls. By the end of this course, students have a better
-                            understanding of how various White House offices and federal agencies
-                            work, and how they as emerging scholars might contribute to those agency
-                            initiatives and policies.
+                        <p>
+                            The course will be organized around two central issues: how learning technologies are used and developed
+                            in the world, and how learning technologies fit into schools. The first issue will address the radical
+                            changes that digital technologies have made in the daily lives of students, teachers and citizens – ranging
+                            from video gaming and mobile, to social networking and media design. The second addresses the technological
+                            challenges faced by leaders interested in creating the schools of tomorrow – how leaders build on the
+                            technological capacity of existing schools to improve learning for students.
                         </p>
-                    </div>
-                
-                    <div class="hp_course_link">
-                        <p class="course_title">C&I 975: Analyzing Online Social Interaction</p>
-                        <p class="course_instructor bold">Instructor: Constance Steinkuehler</p>
                         
-                        <br />
-                        
-                        <p class="course_instructor">
-                            Online tools allow interaction across a range of modalities, enabling not only
-                            asynchronous and synchronous text as interaction but also voice-over-IP,
-                            video-chatting, and even avatar mediated joint activity in fully rendered
-                            online 3D worlds. The goal of this course is to develop a wider repertoire
-                            and deeper understanding of research methods for analyzing the forms of
-                            social interaction enabled by such tools. The focus of this course is on
-                            the development of methodological chops, with weekly seminars organized
-                            as data analysis sessions and the final course project consisting of an
-                            in-depth analysis if one's own data.
+                        <p>
+                            Course activities and readings will focus on recent research on technology, learning and leadership
+                            and hands-on investigations of the technologies that shape schools and learning. We will study and use
+                            technologies to facilitate planning, promote and measure student learning, and administrative technologies
+                            to assess and organize student learning. We will also examine how technologies such as virtual schools,
+                            video games, mobile and wireless technologies will reframe the future of schooling and learning. Our
+                            investigations will take account of the ways technologies frame and are framed by institutional cultures.
+                            The seminar format will emphasize the experiences of participants in the conduct and topics addressed
+                            in the course.
                         </p>
-                    </div>
-                
-                    <div class="hp_course_link">
-                        <p class="course_title">LIS 301: Information Literacies in Online Spaces</p>
-                        <p class="course_instructor bold">Digital Studies Fig: Internet & Society</p>
-                        <p class="course_instructor bold">Instructor: Rebekah Willett</p>
                         
-                        <br />
-                        
-                        <p class="course_instructor">
-                            This course explores information and digital literacies needed by today's online
-                            consumers and producers.  Topics include 'new literacies', media education,
-                            digital divides, information quality, and online risks. To investigate these
-                            issues, we complete four case studies: Wikipedia, blogs, online video, and
-                            online videogames. Issues to be covered include access (digital divides,
-                            power relations in online communities, regulation), analysis (assessing
-                            credibility, evaluating risks, analyzing representation) and production
-                            (video making, blogging, game making).
-                        </p>
                     </div>
-                
                 
             </div>
             

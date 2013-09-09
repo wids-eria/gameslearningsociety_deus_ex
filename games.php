@@ -570,7 +570,7 @@
                     <div class="project_description_paragraph">
                         <p>
                             Studio K is a game design curriculum, online community, and set of teacher-support
-                            tools intended to enable teachers to help learners how to make their own video games
+                            tools intended to enable teachers to help learners make their own video games
                             using Microsoft Kodu. Kodu is a powerful 3D game design and programming tool that
                             enables users to focus on creating compelling games for their friends.
                         </p>
