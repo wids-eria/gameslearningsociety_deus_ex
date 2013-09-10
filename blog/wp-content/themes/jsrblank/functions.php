@@ -29,5 +29,8 @@
     		'after_title'   => '</h2>'
     	));
     }
+    
+    // Support Custom Headers
+    add_theme_support( 'custom-header' );
 
 ?>
