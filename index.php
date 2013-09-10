@@ -359,6 +359,13 @@
                     <p class="course_instructor">Professor: Richard Halverson</p>
                 </div>
             </a>
+            
+            <a href="courses.php">
+                <div class="hp_course_link">
+                    <p class="course_title">C&I 675: Design-Based Research</p>
+                    <p class="course_instructor">Professor: Kurt Squire</p>
+                </div>
+            </a>
 
             
         </div>
