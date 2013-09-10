@@ -163,6 +163,42 @@
                         </p>
                         
                     </div>
+                    
+                    <div class="hp_course_link">
+                        <p class="course_title">C&I 675: Design-Based Research</p>
+                        <p class="course_instructor bold">Professor: Kurt Squire</p>
+                        
+                        <br />
+                        
+                        <p class="course_instructor">
+                            Design-based research (DBR), first articulated in the 90s, is an educational research methodology (or a
+                            family of affiliated methods) that addresses unique challenges in education. DBR evolved in response to
+                            the complex nature of learning in situated contexts, the “applied” (or design) nature of education as a
+                            field, and a recognition of the political dimensions of research, such as the necessity to include teachers’
+                            and students’ voices. It has been a guiding methodology for several major programs of research, and has led
+                            to pedagogies such as Learning By Design and products such as Quest Atlantis. Researchers in games often use
+                            it as a framework for developing and researching technologies and pedagogies in complex learning ecologies.
+                        </p>
+                        
+                        <p>
+                            DBR is not without its critics. Debates on the success of DBR can be traced to differing models of inquiry,
+                            differing notions of what constitutes knowledge and how findings are best presented and communicated, and
+                            perhaps most importantly, differing theories of change for how social systems operate. Critics of DBR claim
+                            that it isn’t a methodology, that hasn’t produced compelling findings, isn’t a science, and hasn’t led to
+                            changes in education. Meanwhile, DBR practitioners often believe that education is a complex system that
+                            requires multi-dimensional and multi-faceted approaches to change. Many DBR practitioners believe that
+                            change occurs through proof of concept products as much as research papers, and that researchers might benefit
+                            by creating the change they wish to study. After 20 years, DBR should be critically analyzed to understand
+                            its success and failures as a method. 
+                        </p>
+                        
+                        <p>
+                            In this course, we will examine DBR in its philosophical and historical contexts. We will examine
+                            examples of DBR and tackle DBR projects of our own. Through the course, you will gain better understanding
+                            of DBR, the issues and challenges facing DBR researchers, and issues in educational research more generally.
+                        </p>
+                        
+                    </div>
                 
             </div>
             
