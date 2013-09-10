@@ -1,7 +1,5 @@
 <?php get_header(); ?>
-
-	<div class="main_post_content_container">
-
+<br />
 		<?php if (have_posts()) : ?>
 
  			<?php $post = $posts[0]; // Hack. Set $post so that the_date() works. ?>
@@ -35,13 +33,10 @@
 			
 				<div <?php post_class() ?>>
 				
-						<h2 id="post-<?php the_ID(); ?>"><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h2>
-					
-						<?php include (TEMPLATEPATH . '/inc/meta.php' ); ?>
-
-						<div class="entry">
-							<?php the_content(); ?>
-						</div>
+					<div class="archive_container">
+						<h3><a href="<?php the_permalink() ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h3>
+					<p class="datetime"><?php the_time('l, F j, Y'); ?></p>  
+					</div>
 
 				</div>
 
@@ -55,14 +50,6 @@
 	
 		<?php endif; ?>
 		
-		
-		<!-- If you want to display just the excerpt for each post,
-		comment out or delete the php above this line-->
-		
-		<?php /* the_excerpt() */ ;?>
-	
 	</div>
-
-<?php get_sidebar(); ?>
 
 <?php get_footer(); ?>
