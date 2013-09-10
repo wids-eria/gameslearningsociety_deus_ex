@@ -1,17 +1,33 @@
+<?php
+/*
+ Template Name: Art Page
+*/
+?>
+
+<!-- This page template has one large container that takes up the entire width
+of the #page_wrap, followed by three small containers underneath -->
+
 <?php get_header(); ?>
-<<<<<<< HEAD
-<br />
-=======
 
-	<div class="main_post_content_container">
+<div class="content_container">
 
->>>>>>> Add blog files
-		<?php if (have_posts()) : ?>
+<div class="page_wrap">
 
- 			<?php $post = $posts[0]; // Hack. Set $post so that the_date() works. ?>
+<div class="static_container floatleft">
+	<br />
+	<h2 class="center_text"> Games and Art Exhibit CFP</h2>
+	<h3 class="center_text">Games and Art Exhibition CFP - Madison, WI - June 12-14, 2013</h3>
+	
+	<br />
+
+	<?php query_posts('category_name=art');?>
+	
+	<?php if (have_posts()) : ?>
+
+			<?php $post = $posts[0]; // Hack. Set $post so that the_date() works. ?>
 
 			<?php /* If this is a category archive */ if (is_category()) { ?>
-				<h2>Archive for the &#8216;<?php single_cat_title(); ?>&#8217; Category</h2>
+				
 
 			<?php /* If this is a tag archive */ } elseif( is_tag() ) { ?>
 				<h2>Posts Tagged &#8216;<?php single_tag_title(); ?>&#8217;</h2>
@@ -33,32 +49,22 @@
 			
 			<?php } ?>
 
-			<?php include (TEMPLATEPATH . '/inc/nav.php' ); ?>
+			
 
 			<?php while (have_posts()) : the_post(); ?>
 			
 				<div <?php post_class() ?>>
-				
-<<<<<<< HEAD
-					<div class="archive_container">
-						<h3><a href="<?php the_permalink() ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h3>
-					<p class="datetime"><?php the_time('l, F j, Y'); ?></p>  
-					</div>
-=======
-						<h2 id="post-<?php the_ID(); ?>"><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h2>
-					
-						<?php include (TEMPLATEPATH . '/inc/meta.php' ); ?>
 
-						<div class="entry">
-							<?php the_content(); ?>
-						</div>
->>>>>>> Add blog files
+					<div class="basic_container_art floatleft">
+						<?php the_content(); ?>
+						<br />
+					</div>
 
 				</div>
 
 			<?php endwhile; ?>
 
-			<?php include (TEMPLATEPATH . '/inc/nav.php' ); ?>
+			
 			
 		<?php else : ?>
 	
@@ -66,19 +72,16 @@
 	
 		<?php endif; ?>
 		
-<<<<<<< HEAD
-	</div>
-
-=======
 		
 		<!-- If you want to display just the excerpt for each post,
 		comment out or delete the php above this line-->
 		
 		<?php /* the_excerpt() */ ;?>
-	
+
 	</div>
 
-<?php get_sidebar(); ?>
+</div> <!-- end page wrap -->
+	
+</div> <!-- end content container -->
 
->>>>>>> Add blog files
 <?php get_footer(); ?>

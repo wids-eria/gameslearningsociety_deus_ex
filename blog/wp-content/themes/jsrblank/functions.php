@@ -29,8 +29,11 @@
     		'after_title'   => '</h2>'
     	));
     }
+<<<<<<< HEAD
     
     // Support Custom Headers
     add_theme_support( 'custom-header' );
+=======
+>>>>>>> Add blog files
 
 ?>
