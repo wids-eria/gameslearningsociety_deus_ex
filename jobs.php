@@ -17,8 +17,7 @@
 
 <body id="jobs_page">
     
-<!-- analytics -->    
-<?php include_once("analyticstracking.php") ?>    
+    
     
 <?php require "navigation.php";?>
 
@@ -85,7 +84,7 @@
                                 <li>Writing various types of articles on a wide range of topics for our blog.</li>
                                 <li>Optimizing content for search engines.</li>
                                 <li>Conducting analytical projects to improve blog strategies/tactics.</li>
-                                <li>Growing blog subscribers and expanding the overall blog's reach.</li>
+                                <li>Growing blog subscribers and expanding the overall blog’s reach.</li>
                             </ul>
                             
                             <br />
@@ -108,7 +107,7 @@
                             
                             <br />
                             
-                            <p>If this sounds like your cup of tea, send your resume to Wade Berger at <a href="mailto:iuswade@gmail.com" class="pink_text">iuswade@gmail.com</a>.</p>
+                            <p>If this sounds like your cup of tea, send your resume to Becky Torrisi at <a href="mailto:btorrisi@wisc.edu" class="pink_text">btorrisi@wisc.edu</a>.</p>
                             
                         </p>
                     </div>
