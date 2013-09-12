@@ -53,7 +53,7 @@
                             will discuss current research on the kinds of intellectual work that goes into
                             videogaming; how games and their culture foster complex forms of knowledge, skills,
                             and dispositions; and how games can be designed to capitalize on this capacity for
-                            educational ends. We’ll investigate the benefits and drawbacks of this digital gameplay,
+                            educational ends. We'll investigate the benefits and drawbacks of this digital gameplay,
                             covering everything from perception and attention in first person shooters to the development
                             of historical understanding in games like the Civilization series, from sociocultural
                             learning in massively multiplayer online games like World of Warcraft to computational
@@ -68,8 +68,8 @@
                         
                         <ol>
                             <li>To engage students in thinking deeply and critically about their everyday videogame play,</li>
-                            <li>To strengthen students’ critical thinking about research & media reports on games, and</li>
-                            <li>To foster students’ reflection on the ways in which learning is a vital part of everyday life,
+                            <li>To strengthen students' critical thinking about research & media reports on games, and</li>
+                            <li>To foster students' reflection on the ways in which learning is a vital part of everyday life,
                             relevant not only to formal educational contexts but also to everyday work, socialization, and play.</li>
                         </ol>
                         
@@ -122,7 +122,7 @@
                         <br />
                         
                         <p class="course_instructor">
-                            Videogames aren’t just fun, they can be powerful vehicles for learning as well. In this course,
+                            Videogames aren't just fun, they can be powerful vehicles for learning as well. In this course,
                             we discuss research on the kinds of thinking and learning that goes into videogames and gaming
                             culture, benefits and drawbacks of digital gameplay, tensions between youth culture and traditional
                             education, and new developments intended to bridge that growing divide.
@@ -145,9 +145,9 @@
                         <p>
                             The course will be organized around two central issues: how learning technologies are used and developed
                             in the world, and how learning technologies fit into schools. The first issue will address the radical
-                            changes that digital technologies have made in the daily lives of students, teachers and citizens – ranging
+                            changes that digital technologies have made in the daily lives of students, teachers and citizens - ranging
                             from video gaming and mobile, to social networking and media design. The second addresses the technological
-                            challenges faced by leaders interested in creating the schools of tomorrow – how leaders build on the
+                            challenges faced by leaders interested in creating the schools of tomorrow - how leaders build on the
                             technological capacity of existing schools to improve learning for students.
                         </p>
                         
@@ -174,8 +174,8 @@
                             Design-based research (DBR), first articulated in the 90s, is an educational research methodology (or a
                             family of affiliated methods) that addresses unique challenges in education. DBR evolved in response to
                             the complex nature of learning in situated contexts, the “applied” (or design) nature of education as a
-                            field, and a recognition of the political dimensions of research, such as the necessity to include teachers’
-                            and students’ voices. It has been a guiding methodology for several major programs of research, and has led
+                            field, and a recognition of the political dimensions of research, such as the necessity to include teachers'
+                            and students' voices. It has been a guiding methodology for several major programs of research, and has led
                             to pedagogies such as Learning By Design and products such as Quest Atlantis. Researchers in games often use
                             it as a framework for developing and researching technologies and pedagogies in complex learning ecologies.
                         </p>
@@ -184,7 +184,7 @@
                             DBR is not without its critics. Debates on the success of DBR can be traced to differing models of inquiry,
                             differing notions of what constitutes knowledge and how findings are best presented and communicated, and
                             perhaps most importantly, differing theories of change for how social systems operate. Critics of DBR claim
-                            that it isn’t a methodology, that hasn’t produced compelling findings, isn’t a science, and hasn’t led to
+                            that it isn't a methodology, that hasn't produced compelling findings, isn't a science, and hasn't led to
                             changes in education. Meanwhile, DBR practitioners often believe that education is a complex system that
                             requires multi-dimensional and multi-faceted approaches to change. Many DBR practitioners believe that
                             change occurs through proof of concept products as much as research papers, and that researchers might benefit

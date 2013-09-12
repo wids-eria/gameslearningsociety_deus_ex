@@ -56,7 +56,7 @@
     
     <div class="navigation_container">
         
-        <a href="index.php" class="navigation_logo_link_box"></a>
+        <a href="http://www.gameslearningsociety.org" class="navigation_logo_link_box"></a>
         
         <ul class="navigation">
             <a href="http://www.gameslearningsociety.org/about.php"> <li class="box floatleft about_page_link">About</li> </a>
