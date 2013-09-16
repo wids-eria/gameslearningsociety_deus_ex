@@ -237,7 +237,7 @@
                         </li>
                     </a>
                     
-                    <a class="fancybox trailer" href="http://www.youtube.com/watch?v=3SES8EKUbCM=1&autoplay-1">
+                    <a class="fancybox trailer" href="http://www.youtube.com/watch?v=_BmktJ_Atvk&feature=youtu.be">
                         <li class="view_trailer_button">
                             <div class="trailer_icon"></div>
                             Trailer
@@ -320,7 +320,7 @@
                         </li>
                     </a>
                     
-                    <a class="fancybox trailer" href="http://youtu.be/cEUWpCgiXdM=1&autoplay-1">
+                    <a class="fancybox trailer" href="http://www.youtube.com/watch?v=Nns6hiy8xzE&feature=youtu.be">
                         <li class="view_trailer_button">
                             <div class="trailer_icon"></div>
                             Trailer
@@ -512,7 +512,7 @@
                         </li>
                     </a>
                     
-                    <a class="fancybox trailer" href="http://youtu.be/HE4gLs57jHo=1&autoplay-1">
+                    <a class="fancybox trailer" href="http://www.youtube.com/watch?v=I-ICdm1xu7U&feature=youtu.be">
                         <li class="view_trailer_button">
                             <div class="trailer_icon"></div>
                             Trailer
