@@ -173,7 +173,7 @@
                         <p class="course_instructor">
                             Design-based research (DBR), first articulated in the 90s, is an educational research methodology (or a
                             family of affiliated methods) that addresses unique challenges in education. DBR evolved in response to
-                            the complex nature of learning in situated contexts, the “applied” (or design) nature of education as a
+                            the complex nature of learning in situated contexts, the "applied" (or design) nature of education as a
                             field, and a recognition of the political dimensions of research, such as the necessity to include teachers'
                             and students' voices. It has been a guiding methodology for several major programs of research, and has led
                             to pedagogies such as Learning By Design and products such as Quest Atlantis. Researchers in games often use
