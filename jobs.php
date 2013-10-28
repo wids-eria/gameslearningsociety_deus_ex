@@ -13,12 +13,14 @@
     <script type="text/javascript" src="//use.typekit.net/mpl0sio.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
     
+    <!-- mobile nav -->
+    <link rel="stylesheet" href="sidr/stylesheets/jquery.sidr.dark.css">
+    
 </head>
 
 <body id="jobs_page">
     
-<!-- analytics -->    
-<?php include_once("analyticstracking.php") ?>    
+    
     
 <?php require "navigation.php";?>
 
@@ -38,9 +40,12 @@
             
             <div class="hp_courses_containter floatleft">
                 
+                <p>There are currently no positions available.</p>
+                <br />
                 
+                <!--
                     <div class="hp_course_link">
-                        <p class="course_title">Marketing / PR Student Hourly Interns ( Part-Time )</p>
+                        <p class="course_title">Marketing / PR Student Hourly Interns</p>
                         
                         <br />
                         
@@ -85,7 +90,7 @@
                                 <li>Writing various types of articles on a wide range of topics for our blog.</li>
                                 <li>Optimizing content for search engines.</li>
                                 <li>Conducting analytical projects to improve blog strategies/tactics.</li>
-                                <li>Growing blog subscribers and expanding the overall blog's reach.</li>
+                                <li>Growing blog subscribers and expanding the overall blog’s reach.</li>
                             </ul>
                             
                             <br />
@@ -112,6 +117,7 @@
                             
                         </p>
                     </div>
+            -->
                     
             </div>
             
