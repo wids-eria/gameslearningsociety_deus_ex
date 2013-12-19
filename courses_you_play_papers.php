@@ -41,7 +41,7 @@
                     <div class="hp_course_link floatleft">
                         
                         <div class="you_play_picture">
-                                <img src="you_play_files/pics/you_play_kyrie.png"/>
+                                <div class="you_play_kyrie"></div>
                         </div>
                         
                         <div class="you_play_title">

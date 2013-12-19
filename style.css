@@ -624,6 +624,11 @@ p.subhead_type{
         float:left;
         margin:5px 10px 5px 5px;
     }
+        .you_play_kyrie{
+            height:116px;
+            width:116px;
+            background:url(you_play_files/pics/you_play_kyrie.png);
+        }
 
 
 /*------------------------------------------------------ About Page ------------------------------------*/
