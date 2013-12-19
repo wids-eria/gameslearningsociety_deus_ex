@@ -574,7 +574,7 @@ p.subhead_type{
 
     .hp_course_link{
         background:rgba(255,255,255,.70);
-        
+        width:99%;
         padding:5px;
         margin: 0 0 10px 0;
     }
@@ -591,6 +591,38 @@ p.subhead_type{
         color:          #42494f;
         font-family:    proxima-nova;
         font-weight:    400;
+    }
+    
+    .in_course_link{
+        color:          #c5173a;
+        font-family:    proxima-nova;
+        font-weight:    700;
+        font-size:      17px;
+        float:          right;
+        margin:         -20px 10px 0 0;
+    }
+        .in_course_link:hover{ text-decoration:underline; }
+        
+        
+    .you_play_title{  }
+        .you_play_title .course_title,
+        .you_play_title .course_instructor{ font-size:25px; font-weight:700; text-align:center; }
+    
+    .course_pdf{
+        color: #74838d;
+        font-family: proxima-nova;
+        font-weight: 500;
+        font-size: 15px;
+        text-align:center;
+        margin-top:10px;
+    }
+        .course_pdf:hover{ text-decoration:underline;}
+        
+    .you_play_picture{
+        height:116px;
+        width:116px;
+        float:left;
+        margin:5px 10px 5px 5px;
     }
 
 
