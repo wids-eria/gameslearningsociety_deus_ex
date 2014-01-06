@@ -629,7 +629,18 @@ p.subhead_type{
             width:116px;
             background:url(you_play_files/pics/you_play_kyrie.png);
         }
+        
+        .you_play_bossler{
+            height:116px;
+            width:116px;
+            background:url(you_play_files/pics/you_play_bossler.png);
+        }
 
+        .you_play_brooks{
+            height:116px;
+            width:116px;
+            background:url(you_play_files/pics/you_play_brooks.png);
+        }
 
 /*------------------------------------------------------ About Page ------------------------------------*/
 
