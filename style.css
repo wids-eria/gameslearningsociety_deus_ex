@@ -615,6 +615,7 @@ p.subhead_type{
         font-size: 15px;
         text-align:center;
         margin-top:10px;
+        margin-bottom:15px; 
     }
         .course_pdf:hover{ text-decoration:underline;}
         
@@ -640,6 +641,13 @@ p.subhead_type{
             height:116px;
             width:116px;
             background:url(you_play_files/pics/you_play_brooks.png);
+        }
+        
+        .you_play_neuwirth{
+            height:116px;
+            width:116px;
+            background:url(you_play_files/pics/you_play_neuwirth.png);
+            margin-top:13px;
         }
 
 /*------------------------------------------------------ About Page ------------------------------------*/
