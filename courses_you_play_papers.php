@@ -49,7 +49,7 @@
                         <p class="course_title">DEFCON: Everybody Dies</p>
                         <p class="course_instructor">Andrew Bossler</p>
                         <a href="you_play_files/pdfs/Andrew_Bossler_YOU_PLAY_final.pdf" target="_blank">
-                            <p class="course_pdf">Dowload the PDF</p>
+                            <p class="course_pdf">Download the PDF</p>
                         </a>
                     </div>
                 </div>
@@ -70,7 +70,7 @@
                         <p class="course_title">Command and Conker: Drunk Alert</p>
                         <p class="course_instructor">Travis Brooks</p>
                         <a href="you_play_files/pdfs/Travis_Books_YOU_PLAY_final.pdf" target="_blank">
-                            <p class="course_pdf">Dowload the PDF</p>
+                            <p class="course_pdf">Download the PDF</p>
                         </a>
                     </div>
                 </div>
@@ -90,7 +90,7 @@
                         <p class="course_title">“You Play”: A Study of the Learning System in Half-Life 2</p>
                         <p class="course_instructor">Kyrie Eleison H. Caldwell</p>
                         <a href="you_play_files/pdfs/Caldwell_You_Play_Revision.pdf" target="_blank">
-                            <p class="course_pdf">Dowload the PDF</p>
+                            <p class="course_pdf">Download the PDF</p>
                         </a>
                     </div>
                 </div>
@@ -108,10 +108,10 @@
                     
                     <div class="you_play_title">
                         <br />
-                        <p class="course_title">Video Games as Vehicles of Learning: <br />The Use of Assasin's Creed 3 as a Developmental Tool</p>
+                        <p class="course_title">Video Games as Vehicles of Learning: <br />The Use of Assassin's Creed 3 as a Developmental Tool</p>
                         <p class="course_instructor">Greg Neuwirth</p>
                         <a href="you_play_files/pdfs/Greg_Neuwirth_paper.pdf" target="_blank">
-                            <p class="course_pdf">Dowload the PDF</p>
+                            <p class="course_pdf">Download the PDF</p>
                         </a>
                     </div>
                 </div>
