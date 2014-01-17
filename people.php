@@ -234,9 +234,9 @@
                     <div class="people_links">
                         
                         <p>Aaron Bahr <span class="bold floatright">Sr. Software Engineer</span></p>
-                        <p>John Karczewski</a>
-                        <p>Ted Lauterbach</a>
-                        <p>Allison Salmon <span class="bold floatright">Sr. Software Engineer</span></p>
+                        <p>John Karczewski</p>
+                        <p>Ted Lauterbach</p>
+                        <a href="https://twitter.com/codecrafty" target="_blank">Allison Salmon <span class="bold floatright">Sr. Software Engineer</span></a>
                         <p>Greg Vaughan <span class="bold floatright">Sr. Software Engineer</span></p>
                         
                     </div>
@@ -252,6 +252,7 @@
                     <div class="people_links">
                         
                         <p>Devon Klompmaker</p>
+                        <a href="https://twitter.com/ilgoodi" target="_blank">Isaac Goodin</a>
                         
                     </div>
                     
@@ -265,14 +266,13 @@
                     
                     <div class="people_links">
                         
-                        <a href="https://twitter.com/a_cheeseberger" target="_blank">Wade Berger <span class="bold floatright">Research</span></a>
                         <p>Sterling Pempe <span class="bold floatright">Software Engineering</span></p>
                         <p>Stefan Slater <span class="bold floatright">Research</span></p>
                         
                     </div>
                     
                 </div>
-            
+                
             </div>
             
             
@@ -289,6 +289,7 @@
                         
                         <p>Gabriella Anton <span class="bold floatright">Assoc Res Specialist</span></p>
                         <a href="http://www.sarahchu.com/" target="_blank">Sarah Chu</a>
+                        <p>Brian Danielak</p>
                         <p>Matt Gaydos</p>
                         <p>Shannon Harris</p>
                         <p>Craig Kasemodel</p>
@@ -351,19 +352,6 @@
             
             
             <div class="one_third floatright"><!-- third column -->
-
-                <!-- Admin Assistant -->
-                <div class="one_third floatleft">
-                    <div class="grey_header_one_third">
-                        <p class="grey_header_type">Administrative Assistant</p>
-                    </div>
-                    
-                    <div class="people_links">
-            
-                        <p>Mark Ahrens</p>
-                        
-                    </div>
-                </div>
                 
                 <!-- Student Hourly -->
                 <div class="one_third floatleft">
@@ -412,6 +400,20 @@
                         <p>Mark DeLoura</p>
                         
                     </div>
+                </div>
+                
+                <!-- Faculty -->
+                <div class="one_third floatleft">
+                    <div class="grey_header_one_third">
+                        <p class="grey_header_type">Faculty</p>
+                    </div>
+                    
+                    <div class="people_links">
+                        
+                        <p>Molly Wright Steenson</p>
+                        
+                    </div>
+                    
                 </div>
 
             </div>
