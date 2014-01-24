@@ -5,13 +5,21 @@
     <title>Games Learning Society</title>
     <meta name="description"
           content="">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <script type="text/javascript" src="http://www.brainpop.com/js/swfobject.js"></script>
     
     <!-- Typekit -->
+    
+    <style type="text/css" media="screen"> 
+			html, body	{ height:100%; }
+			body { margin:0; padding:0; overflow:auto; text-align:center; 
+			       background-color: #000000; }   
+			object:focus { outline:none; }
+			#flashContent { display:none; }
+     </style>
+    
+    <script type="text/javascript" src="http://www.brainpop.com/js/swfobject.js"></script>
     <script src="http://www.brainpop.com/games/assets/js/cameraProxy.js" type="text/javascript"></script>
-    
-    
 		
 		 <!-- Run Flash Player -->
         <script language="JavasScript" type="text/javascript" src="cs_build/AC_RunActiveContent.js"></script>
@@ -19,9 +27,9 @@
 
 <body id="game_page">
 
-          <script type="text/javascript" defer="defer">
+          <script type="text/javascript" >
                        //Your values here:
-                       var gameFile="Main.swf";
+                       var gameFile="cs_build/Main.swf";
                        var gameWidth="881";
                        var gameHeight="600";
                        //-----------------------------------
@@ -47,13 +55,8 @@
         </script> 
 
 
-
-        <object type="application/x-shockwave-flash" id="game" name="game"
-         align="middle" data="cs_build/Main.swf" width="881" height="600"><param name="wmode" value="opaque">
-        <param name="quality" value="high"><param name="bgcolor" value="#ffffff">
-        <param name="allowscriptaccess" value="always"><param name="allowfullscreen" value="true">
-        <param name="flashvars" value="brainPop=advanced">
-        </object>
+        <div id="flashContent">
+       </div>
  
 </body>
 
