@@ -17,7 +17,34 @@
 		
 		 <!-- Run Flash Player -->
         <script language="JavasScript" type="text/javascript" src="cs_build/AC_RunActiveContent.js"></script>
-    
+        <script type="text/javascript" src="http://www.brainpop.com/js/swfobject.js"></script>
+        <script src="http://www.brainpop.com/games/assets/js/cameraProxy.js" type="text/javascript"></script>
+        <script type="text/javascript">
+                       //Your values here:
+                       var gameFile="cs_build/Main.swf";
+                       var gameWidth="881";
+                       var gameHeight="600";
+                       //-----------------------------------
+           var swfVersionStr = "10.2.0";
+           var xiSwfUrlStr = "playerProductInstall.swf";
+           var flashvars = {};
+           var params = {};
+                       params.wmode = "opaque";
+           params.quality = "high";
+           params.bgcolor = "#ffffff";
+           params.allowscriptaccess = "always";
+           params.allowfullscreen = "true";
+           var attributes = {};
+           attributes.id = "game";
+           attributes.name = "game";
+           attributes.align = "middle";
+           swfobject.embedSWF(
+               gameFile, "flashContent",gameWidth, gameHeight, 
+               swfVersionStr, xiSwfUrlStr, 
+               flashvars, params, attributes);
+                       swfobject.createCSS("#flashContent", "display:block;text-align:left;");
+                       
+       </script> 
 </head>
 
 <body id="game_page">
