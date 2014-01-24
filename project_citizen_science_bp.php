@@ -44,7 +44,7 @@
 		
 		 <!-- Run Flash Player -->
         <script language="JavasScript" type="text/javascript" src="cs_build/AC_RunActiveContent.js"></script>
-        <script type="text/javascript" src="http://www.brainpop.com/js/swfobject.js"></script>
+        <script type="text/javascript" src="http://www.brainpop.com/js/swfobject.js" defer="defer"></script>
 </head>
 
 <body id="game_page">
