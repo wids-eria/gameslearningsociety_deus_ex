@@ -7,11 +7,8 @@
           content="">
     
     <script type="text/javascript" src="http://www.brainpop.com/js/swfobject.js"></script>
-    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     
     <!-- Typekit -->
-    <script type="text/javascript" src="//use.typekit.net/mpl0sio.js"></script>
-    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
     <script src="http://www.brainpop.com/games/assets/js/cameraProxy.js" type="text/javascript"></script>
     
     
