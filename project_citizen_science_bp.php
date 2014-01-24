@@ -55,7 +55,7 @@
                 WIDTH="800"
                 HEIGHT="600"
                 MARGIN-LEFT="50"
-                id="Main" ALIGN="">
+                id="game" name="game" ALIGN="">
 
                 <PARAM NAME=movie
                 VALUE="Main">
