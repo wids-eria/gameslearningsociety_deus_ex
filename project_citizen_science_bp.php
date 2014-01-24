@@ -12,16 +12,10 @@
     <!-- Typekit -->
     <script type="text/javascript" src="//use.typekit.net/mpl0sio.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-
-    
-		
-		 <!-- Run Flash Player -->
-        <script language="JavasScript" type="text/javascript" src="cs_build/AC_RunActiveContent.js"></script>
-        <script type="text/javascript" src="http://www.brainpop.com/js/swfobject.js"></script>
-        <script src="http://www.brainpop.com/games/assets/js/cameraProxy.js" type="text/javascript"></script>
-        <script type="text/javascript">
+    <script src="http://www.brainpop.com/games/assets/js/cameraProxy.js" type="text/javascript"></script>
+    <script type="text/javascript">
                        //Your values here:
-                       var gameFile="cs_build/Main.swf";
+                       var gameFile="Main.swf";
                        var gameWidth="881";
                        var gameHeight="600";
                        //-----------------------------------
@@ -44,7 +38,14 @@
                flashvars, params, attributes);
                        swfobject.createCSS("#flashContent", "display:block;text-align:left;");
                        
-       </script> 
+    </script> 
+
+
+    
+		
+		 <!-- Run Flash Player -->
+        <script language="JavasScript" type="text/javascript" src="cs_build/AC_RunActiveContent.js"></script>
+        <script type="text/javascript" src="http://www.brainpop.com/js/swfobject.js"></script>
 </head>
 
 <body id="game_page">
