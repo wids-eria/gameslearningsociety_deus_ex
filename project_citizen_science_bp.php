@@ -6,13 +6,23 @@
     <meta name="description"
           content="">
     
+    <script type="text/javascript" src="http://www.brainpop.com/js/swfobject.js"></script>
     <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     
     <!-- Typekit -->
     <script type="text/javascript" src="//use.typekit.net/mpl0sio.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
     <script src="http://www.brainpop.com/games/assets/js/cameraProxy.js" type="text/javascript"></script>
-    <script type="text/javascript" defer="defer">
+    
+    
+		
+		 <!-- Run Flash Player -->
+        <script language="JavasScript" type="text/javascript" src="cs_build/AC_RunActiveContent.js"></script>
+</head>
+
+<body id="game_page">
+
+          <script type="text/javascript" defer="defer">
                        //Your values here:
                        var gameFile="Main.swf";
                        var gameWidth="881";
@@ -37,17 +47,9 @@
                flashvars, params, attributes);
                        swfobject.createCSS("#flashContent", "display:block;text-align:left;");
                        
-    </script> 
+        </script> 
 
 
-    
-		
-		 <!-- Run Flash Player -->
-        <script language="JavasScript" type="text/javascript" src="cs_build/AC_RunActiveContent.js"></script>
-        <script type="text/javascript" src="http://www.brainpop.com/js/swfobject.js"></script>
-</head>
-
-<body id="game_page">
 
         <object type="application/x-shockwave-flash" id="game" name="game"
          align="middle" data="cs_build/Main.swf" width="881" height="600"><param name="wmode" value="opaque">
