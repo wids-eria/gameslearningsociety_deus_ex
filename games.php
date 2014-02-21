@@ -301,11 +301,10 @@
                     <div class="project_description_paragraph">
                         <p>
                             Fair Play spans five chapters during which you will navigate through the challenges
-                            inherent to graduate school, such as securing funding, writing publications,
-                            and much more. As Jamal, an African American, you will also experience common
-                            racial biases on your journey. On your journey to become a renowned professor,
-                            you will interact with varies people from academia, some of whom will change
-                            depending on your decisions.
+                            inherent to graduate school, such as securing funding, writing publications, and much
+                            more. As Jamal, an African American, you will experience common racial biases on your
+                            journey. It will be a difficult path to navigate, but an experience that will change
+                            your view on the world forever.
                         </p>
                     </div>
                     
@@ -927,12 +926,11 @@
                     
                     <div class="project_description_paragraph">
                         <p>
-                            Fair Play spans five chapters during which you will navigate through the challenges
-                            inherent to graduate school, such as securing funding, writing publications,
-                            and much more. As Jamal, an African American, you will also experience common
-                            racial biases on your journey. On your journey to become a renowned professor,
-                            you will interact with varies people from academia, some of whom will change
-                            depending on your decisions.
+                            Fair Play spans five chapters during which you will navigate through the challenges inherent
+                            to graduate school, such as securing funding, writing publications, and much more. As
+                            Jamal, an African American, you will experience common racial biases on your journey.
+                            It will be a difficult path to navigate, but an experience that will change your view
+                            on the world forever.
                         </p>
                     </div>
                     
