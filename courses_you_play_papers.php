@@ -97,6 +97,27 @@
             </div>
             
             
+            <!-- Will Foy -->
+            <div class="hp_courses_containter floatleft">
+                
+                <div class="hp_course_link floatleft">
+                    
+                    <div class="you_play_picture">
+                            <div class="you_play_foy"></div>
+                    </div>
+                    
+                    <div class="you_play_title">
+                        <br />
+                        <p class="course_title">Skyrim, J.P. Gee, and Introductory Economics</p>
+                        <p class="course_instructor">Will Foy</p>
+                        <a href="you_play_files/pdfs/Will_Foy_Skyrim.pdf" target="_blank">
+                            <p class="course_pdf">Download the PDF</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            
             <!-- Greg Neuwirth -->
             <div class="hp_courses_containter floatleft">
                 

@@ -649,6 +649,12 @@ p.subhead_type{
             background:url(you_play_files/pics/you_play_neuwirth.png);
             margin-top:13px;
         }
+        
+        .you_play_foy{
+            height:116px;
+            width:116px;
+            background:url(you_play_files/pics/you_play_foy.png);
+        }
 
 /*------------------------------------------------------ About Page ------------------------------------*/
 
