@@ -56,7 +56,7 @@
             </div>
 
             
-            <!-- Travis Brooks -->
+            <!-- Travis Books -->
             <div class="hp_courses_containter floatleft">
             
                 <div class="hp_course_link floatleft">
@@ -68,7 +68,7 @@
                     <div class="you_play_title">
                         <br />
                         <p class="course_title">Command and Conker: Drunk Alert</p>
-                        <p class="course_instructor">Travis Brooks</p>
+                        <p class="course_instructor">Travis Books</p>
                         <a href="you_play_files/pdfs/Travis_Books_YOU_PLAY_final.pdf" target="_blank">
                             <p class="course_pdf">Download the PDF</p>
                         </a>
