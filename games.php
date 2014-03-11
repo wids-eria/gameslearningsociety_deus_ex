@@ -13,6 +13,9 @@
     <script type="text/javascript" src="//use.typekit.net/mpl0sio.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
     
+    <!-- mobile nav -->
+    <link rel="stylesheet" href="sidr/stylesheets/jquery.sidr.dark.css">
+    
     
     <!-- FancyBox -->
         <!-- Add jQuery library -->
@@ -237,7 +240,7 @@
                         </li>
                     </a>
                     
-                    <a class="fancybox trailer" href="http://www.youtube.com/watch?v=_BmktJ_Atvk&feature=youtu.be">
+                    <a class="fancybox trailer" href="http://www.youtube.com/watch?v=3SES8EKUbCM=1&autoplay-1">
                         <li class="view_trailer_button">
                             <div class="trailer_icon"></div>
                             Trailer
@@ -300,11 +303,12 @@
                     
                     <div class="project_description_paragraph">
                         <p>
-                            Fair Play spans five chapters during which you will navigate through the challenges
-                            inherent to graduate school, such as securing funding, writing publications, and much
-                            more. As Jamal, an African American, you will experience common racial biases on your
-                            journey. It will be a difficult path to navigate, but an experience that will change
-                            your view on the world forever.
+                            In Fair Play, players assume the role of Jamal, a young African
+                            American graduate student, on his journey to become a renowned professor.
+                            To succeed in the game, players must maintain a diverse academic social
+                            network while running a research lab. Over the course of the game, players
+                            will interact with a diversity of people from academia who can assist Jamal
+                            with the ultimate goal of becoming a renowned professor.
                         </p>
                     </div>
                     
@@ -312,14 +316,14 @@
                 
                 <ul class="project_nav_container">
                     
-                    <a href="project_fair_play.php">
+                    <a href="project_fair_play_choose_game_type.php">
                         <li class="view_trailer_button">
                             <div class="play_icon"></div>
                             Play Now
                         </li>
                     </a>
                     
-                    <a class="fancybox trailer" href="http://www.youtube.com/watch?v=Nns6hiy8xzE&feature=youtu.be">
+                    <a class="fancybox trailer" href="http://youtu.be/cEUWpCgiXdM=1&autoplay-1">
                         <li class="view_trailer_button">
                             <div class="trailer_icon"></div>
                             Trailer
@@ -511,7 +515,7 @@
                         </li>
                     </a>
                     
-                    <a class="fancybox trailer" href="http://www.youtube.com/watch?v=I-ICdm1xu7U&feature=youtu.be">
+                    <a class="fancybox trailer" href="http://youtu.be/HE4gLs57jHo=1&autoplay-1">
                         <li class="view_trailer_button">
                             <div class="trailer_icon"></div>
                             Trailer
@@ -569,7 +573,7 @@
                     <div class="project_description_paragraph">
                         <p>
                             Studio K is a game design curriculum, online community, and set of teacher-support
-                            tools intended to enable teachers to help learners make their own video games
+                            tools intended to enable teachers to help learners how to make their own video games
                             using Microsoft Kodu. Kodu is a powerful 3D game design and programming tool that
                             enables users to focus on creating compelling games for their friends.
                         </p>
@@ -926,11 +930,12 @@
                     
                     <div class="project_description_paragraph">
                         <p>
-                            Fair Play spans five chapters during which you will navigate through the challenges inherent
-                            to graduate school, such as securing funding, writing publications, and much more. As
-                            Jamal, an African American, you will experience common racial biases on your journey.
-                            It will be a difficult path to navigate, but an experience that will change your view
-                            on the world forever.
+                            In Fair Play, players assume the role of Jamal, a young African
+                            American graduate student, on his journey to become a renowned professor.
+                            To succeed in the game, players must maintain a diverse academic social
+                            network while running a research lab. Over the course of the game, players
+                            will interact with a diversity of people from academia who can assist Jamal
+                            with the ultimate goal of becoming a renowned professor.
                         </p>
                     </div>
                     

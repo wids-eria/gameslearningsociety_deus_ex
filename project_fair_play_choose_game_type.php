@@ -35,77 +35,6 @@
         <link rel="stylesheet" href="/GLS/fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
         <script type="text/javascript" src="/GLS/fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
     
-    <!-- unity stff -->
-        <script type="text/javascript">
-		<!--
-		var unityObjectUrl = "http://webplayer.unity3d.com/download_webplayer-3.x/3.0/uo/UnityObject2.js";
-		if (document.location.protocol == 'https:')
-			unityObjectUrl = unityObjectUrl.replace("http://", "https://ssl-");
-		document.write('<script type="text\/javascript" src="' + unityObjectUrl + '"><\/script>');
-		-->
-	</script>
-        <script type="text/javascript">
-		var params = {
-			backgroundcolor: "ffffff",
-			bordercolor: "ffffff",
-			textcolor: "FFFFFF",
-			logoimage: "images/loading_screens/fairplay_loading_screen.png",
-		};
-		var u = new UnityObject2({ params: params });
-		u.observeProgress(function (progress) {
-			var $missingScreen = jQuery(progress.targetEl).find(".missing");
-			switch(progress.pluginStatus) {
-				case "unsupported":
-					showUnsupported();
-				break;
-				case "broken":
-					alert("You will need to restart your browser after installation.");
-				break;
-				case "missing":
-					$missingScreen.find("a").click(function (e) {
-						e.stopPropagation();
-						e.preventDefault();
-						u.installPlugin();
-						return false;
-					});
-					$missingScreen.show();
-				break;
-				case "installed":
-					$missingScreen.remove();
-				break;
-				case "first":
-				break;
-			}
-		});
-		jQuery(function(){
-			u.initPlugin(jQuery("#unityPlayer")[0], "builds/fair_play/FairPlay-Web/FairPlay-Web.unity3d");
-		});
-        </script>
-		<style type="text/css">
-		<!--
-
-		div.missing {
-			margin: auto;
-			position: relative;
-			top: 50%;
-			width: 193px;
-		}
-		div.missing a {
-			height: 63px;
-			position: relative;
-			top: -31px;
-		}
-		div.missing img {
-			border-width: 0px;
-		}
-		div#unityPlayer {
-			cursor: default;
-			height: 600px;
-			width: 800px;
-		}
-		-->
-		</style>
-    
 </head>
 
 <body id="game_page">
@@ -125,14 +54,27 @@
     
     <div class="body_content">
         
-        <div class="unity_embed_container">
-            <div id="unityPlayer">
-            <div class="missing">
-                    <a href="http://unity3d.com/webplayer/" title="Unity Web Player. Install now!">
-                        <img alt="Unity Web Player. Install now!" src="http://webplayer.unity3d.com/installation/getunity.png" width="193" height="63" />
-                    </a>
-            </div>
-        </div>   
+        <div class="fp_choice_container">
+	    
+	    <div class="choose_your_play_header_container">
+		<p>Choose your Fair Play experience</p>
+	    </div>
+	    
+            <div class="choose_your_play_type_container floatleft">
+		<br />
+		<br />
+		<p class="choose_subhead">Play the two-chapter demo</p>
+		<a href="project_fair_play.php"><div class="play_now_button">Play The Demo Now</div></a>
+	    </div>
+	    
+	    <div class="choose_your_play_type_container floatleft">
+		<br />
+		<p class="choose_subhead">Download the full game <br /> for your PC or Mac</p>
+		
+		<a href="builds/fair_play/Windows/FairPlay-win.zip"><div class="download_game_button"><div class="windows_small"></div></div></a>
+		<a href="builds/fair_play/Mac/Fairplay-mac.app"><div class="download_game_button"><div class="apple_small"></div></div></a>
+	    </div>
+	    
         </div>
         
         <!-- Fair Play -->
@@ -145,7 +87,7 @@
             <div class="project_description">
                 
                 <div class="project_description_header">
-                    <p>Fair Play Demo</p>
+                    <p>Fair Play</p>
                 </div>
                 
                 <div class="project_description_paragraph">
