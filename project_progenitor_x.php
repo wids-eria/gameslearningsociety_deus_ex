@@ -13,6 +13,9 @@
     <script type="text/javascript" src="//use.typekit.net/mpl0sio.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
     
+    <!-- mobile nav -->
+    <link rel="stylesheet" href="sidr/stylesheets/jquery.sidr.dark.css">
+    
     <!-- FancyBox -->
         <!-- Add jQuery library -->
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>

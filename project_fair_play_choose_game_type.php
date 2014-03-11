@@ -72,7 +72,7 @@
 		<p class="choose_subhead">Download the full game <br /> for your PC or Mac</p>
 		
 		<a href="builds/fair_play/Windows/FairPlay-win.zip"><div class="download_game_button"><div class="windows_small"></div></div></a>
-		<a href="builds/fair_play/Mac/Fairplay-mac.app"><div class="download_game_button"><div class="apple_small"></div></div></a>
+		<a href="builds/fair_play/Mac/Mac.zip"><div class="download_game_button"><div class="apple_small"></div></div></a>
 	    </div>
 	    
         </div>
