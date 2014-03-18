@@ -150,12 +150,11 @@
                 
                 <div class="project_description_paragraph">
                     <p>
-                        In Fair Play, players assume the role of Jamal, a young African
-                        American graduate student, on his journey to become a renowned professor.
-                        To succeed in the game, players must maintain a diverse academic social
-                        network while running a research lab. Over the course of the game, players
-                        will interact with a diversity of people from academia who can assist Jamal
-                        with the ultimate goal of becoming a renowned professor.
+                        Fair Play spans five chapters during which you will navigate through the
+			challenges inherent to graduate school, such as securing funding, writing
+			publications, and much more. As Jamal, an African American, you will experience
+			common racial biases on your journey. It will be a difficult path to navigate,
+			but an experience that will change your view on the world forever.
                     </p>
                 </div>
                 
