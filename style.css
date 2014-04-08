@@ -24,6 +24,14 @@ ul{ list-style:none; }
     }
     
         .list_style_disc li{ margin-left:40px; }
+        
+ol{
+    color: #42494f;
+    font-family: proxima-nova;
+    font-weight: 400;
+    margin:10px 0 10px 0;
+}
+    ol li{ margin-left:40px; }
 
 hr{  }
 
@@ -584,6 +592,58 @@ p.subhead_type{
         font-family:    proxima-nova;
         font-weight:    400;
     }
+    
+.you_play_title{  }
+        .you_play_title .course_title,
+        .you_play_title .course_instructor{ font-size:25px; font-weight:700; text-align:center; }
+    
+    .course_pdf{
+        color: #74838d;
+        font-family: proxima-nova;
+        font-weight: 500;
+        font-size: 15px;
+        text-align:center;
+        margin-top:10px;
+        margin-bottom:15px; 
+    }
+        .course_pdf:hover{ text-decoration:underline;}
+        
+    .you_play_picture{
+        height:116px;
+        width:116px;
+        float:left;
+        margin:5px 10px 5px 5px;
+    }
+        .you_play_kyrie{
+            height:116px;
+            width:116px;
+            background:url(you_play_files/pics/you_play_kyrie.png);
+        }
+        
+        .you_play_bossler{
+            height:116px;
+            width:116px;
+            background:url(you_play_files/pics/you_play_bossler.png);
+        }
+
+        .you_play_brooks{
+            height:116px;
+            width:116px;
+            background:url(you_play_files/pics/you_play_brooks.png);
+        }
+        
+        .you_play_neuwirth{
+            height:116px;
+            width:116px;
+            background:url(you_play_files/pics/you_play_neuwirth.png);
+            margin-top:13px;
+        }
+        
+        .you_play_foy{
+            height:116px;
+            width:116px;
+            background:url(you_play_files/pics/you_play_foy.png);
+        }
 
 
 /*------------------------------------------------------ About Page ------------------------------------*/
@@ -594,6 +654,17 @@ p.subhead_type{
     width:100%;
     background:url(images/footer_background.png) no-repeat;
 }
+
+.in_course_link{
+        color:          #c5173a;
+        font-family:    proxima-nova;
+        font-weight:    700;
+        font-size:      17px;
+        float:          right;
+        margin:         -20px 10px 0 0;
+    }
+        .in_course_link:hover{ text-decoration:underline; }
+
 
     .about_header .arrow{ margin-top:8px;}
 
