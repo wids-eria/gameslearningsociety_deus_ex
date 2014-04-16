@@ -154,7 +154,9 @@
 			challenges inherent to graduate school, such as securing funding, writing
 			publications, and much more. As Jamal, an African American, you will experience
 			common racial biases on your journey. It will be a difficult path to navigate,
-			but an experience that will change your view on the world forever.
+			but an experience that will change your view on the world forever. <br /> <br />
+			
+			Project funded by NIH.
                     </p>
                 </div>
                 
