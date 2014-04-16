@@ -97,7 +97,7 @@
 			common racial biases on your journey. It will be a difficult path to navigate,
 			but an experience that will change your view on the world forever.<br /><br />
 			
-			Project funded by NIH.
+			Project funded by the NIH (DP4-GM096822-01)
                     </p>
                 </div>
                 
