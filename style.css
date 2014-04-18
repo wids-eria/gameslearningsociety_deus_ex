@@ -1346,14 +1346,18 @@ p.contact_header_type{
 
         }
 
-
+    .view_lesson_plan_button{
+        padding:10px 14px 10px 14px;
+        float:left;
+    }
+    
     .view_trailer_button{
         padding:10px 19px 10px 19px;
         float:left;
     }
     
     .view_screenshots_button{
-padding:10px 19px 10px 19px;
+        padding:10px 19px 10px 19px;
         float:left;
     }
     
@@ -1395,6 +1399,14 @@ padding:10px 19px 10px 19px;
     background: url(images/game_nav.png) no-repeat -68px -7px;
     width: 18px;
     height: 15px;
+}
+
+.lesson_plan_icon{
+    margin:0px 6px 0 0;
+    float:left;
+    background: url(images/lesson_plan_icon.png);
+    width: 18px;
+    height: 20px;
 }
 
 .apple_icon{
@@ -1931,6 +1943,7 @@ p.tagline_header{ font-size:22px; line-height:25px; margin-bottom:10px;   }
     .project_description_header p{ font-size:27px; text-align:center;  }
     
 .view_screenshots_button,
+.view_lesson_plan_button,
 .view_trailer_button{ padding:10px 5px 10px 10px; }
 
 .view_resources_button,
