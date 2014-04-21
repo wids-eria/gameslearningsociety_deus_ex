@@ -22,7 +22,7 @@
 <?php require "navigation.php";?>
 
 
-<div class="banner_image_courses">
+<div class="banner_image_lesson_plan">
     <div class="banner_text_container">
     </div>
 </div>

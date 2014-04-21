@@ -180,6 +180,15 @@ h5{  }
     background:url(images/banner_images/banner_image_courses.png) 50% 0%;
 }
 
+.banner_image_lesson_plan{
+   height: 400px;
+    width:  100%;
+    z-index:5;
+    position:relative;
+    
+    background:url(images/banner_images/banner_image_lesson_plan.png) 50% 0%;
+}
+
 .banner_image_research{
    height: 400px;
     width:  100%;
