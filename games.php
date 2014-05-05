@@ -718,6 +718,14 @@
                         </li>
                     </a>
                     
+                    <a href="http://citizenscience.gameslearningsociety.org/" target="_blank">
+                        <li class="visit_microsite_button">
+                            <div class="microsite_icon"></div>
+                            Visit Microsite
+                        </li>
+                    </a>
+
+                    
                     <!--Gallery-->
                     <a class="fancybox" rel="cs_gallery" href="images/projects/screenshots/cs/CitizenScience_Screenshot_2.png"></a>
                     <a class="fancybox" rel="cs_gallery" href="images/projects/screenshots/cs/CitizenScience_Screenshot_3.png"></a>
@@ -1297,6 +1305,12 @@
                     <a href="pdfs/CS2.pdf" target="_blank">
                         <li class="view_resources_button">
                             <img src="images/resources_icon.png"/>
+                        </li>
+                    </a>
+                    
+                    <a href="http://citizenscience.gameslearningsociety.org/" target="_blank">
+                        <li class="visit_microsite_button">
+                            <img src="images/microsite_icon.png"/>
                         </li>
                     </a>
                     
