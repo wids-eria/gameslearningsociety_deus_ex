@@ -72,6 +72,11 @@
                 <p class="grey_header_type lesson_header">Citizen Science</p>
                 
                 <div class="hp_course_link">
+                    <a href="lesson_plans/citizen_science/cs_getting_started.pdf" target="_blank" title=""><div class="arrow floatright"></div></a>
+                    <p class="course_title">Getting Started with Citizen Science - How To</p>
+                </div>
+                
+                <div class="hp_course_link">
                     <a href="lesson_plans/citizen_science/CitizenScienceLessonPlan-CauseandEffect.pdf" target="_blank" title=""><div class="arrow floatright"></div></a>
                     <p class="course_title">Citizen Science - Cause and Effect Lesson Plan</p>
                 </div>
