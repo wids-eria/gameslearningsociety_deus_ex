@@ -1,0 +1,344 @@
+
+/*------------------------------------------------------------------
+
+STYLESHEET CONTENTS
+
+    -- GLOBAL STYLES
+    -- TYPEKIT
+    -- MIXINS
+    -- MISC CLASSES
+    -- ACTIVE PAGE
+    -- CONTAINERS
+    -- NAVIGATION
+    -- ELEMENTS
+    -- FOOTER
+    
+-------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------
+
+    Global Styles
+
+-------------------------------------------------------------------*/
+
+* {
+    margin:0; padding:0;
+
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    }
+
+html{
+    overflow:scroll;
+    background:url(../images/ms_bg_image.png) 50% 0% black no-repeat;
+}
+
+body{ font-family:verdana; font-size:12px; }
+
+a{ text-decoration:none; }
+    a:hover{  }
+
+p{
+    font-family:verdana;
+    color:#bbd9c6;
+    font-size:14px;
+}
+    p.header{
+        font-size:70px;
+        font-family:komu-a;
+        color:#d4e5b1;
+    }
+
+ul{ list-style:none; }
+
+hr{  }
+
+h1{  }
+h2{  }
+h3{  }
+h4{  }
+h5{  }
+
+::selection{ background:#4F6C5D; color:white; }
+
+/* End Global Styles */
+
+
+
+/*------------------------------------------------------------------
+
+    Typekit
+
+-------------------------------------------------------------------*/
+
+    /* font-family:komu-a; */
+
+/* End Typekit */
+
+
+
+/*------------------------------------------------------------------
+
+    Mixins
+
+-------------------------------------------------------------------*/
+
+@mixin center{ margin:0 auto; }
+
+@mixin full { width:100%; float:left; }
+
+@mixin transition{
+    -webkit-transition: all 0.5s ease;
+       -moz-transition: all 0.5s ease;
+        -ms-transition: all 0.5s ease;
+         -o-transition: all 0.5s ease;
+}
+
+@mixin rounded_corners{
+    -webkit-border-radius: 8px;
+       -moz-border-radius: 8px;
+            border-radius: 8px;
+}
+
+
+/* End Mixins */
+
+
+/*------------------------------------------------------------------
+
+    Misc Classes
+
+-------------------------------------------------------------------*/
+
+.clear{ clear: both; }
+
+.left{ float:left; }
+.right{ float:right; }
+
+.bold{ font-weight:bold;}
+.italic{ font-style: italic; }
+.underline{ text-decoration:underline; }
+
+.center_text{ text-align:center; }
+.all_caps{ text-transform:uppercase; }
+.lower_case{ text-transform:lowercase; }
+
+/* End Misc Classes */
+
+
+
+/*------------------------------------------------------------------
+
+    Active Page
+
+-------------------------------------------------------------------*/
+
+    /*
+      body#ID_NAME_HERE .Navigation_Name li.List_Item_Class_Here{ Style for active Nav button }
+    */
+
+/* End Active Page */
+
+
+
+/*------------------------------------------------------------------
+
+    Containers
+
+-------------------------------------------------------------------*/
+
+.one_eigth{ width:12.5%; }
+.one_sixth{ width:16.66%;}
+.one_fourth{ width:25%; }
+.one_third{ width:33.33%; }
+.one_half{ width:50%; }
+.two_thirds{ width:66.66%; }
+.full{ @include full; }
+
+.container{  }
+
+.page_wrap{ width:980px; padding-top:20px; @include center; }
+
+.main_content{ @include full; }
+
+.new_spiecies_container{
+    width:638px;
+    float:right;
+    margin:425px 0 0 0;
+}
+
+.video_container{
+    height:399px;
+    width:1094px;
+    margin:0 0 0 -100px;
+    float:left;
+    background:url(../images/green_block_section.png);
+    
+    .video{
+        height:293px;
+        width:520px;
+        float:right;
+        margin:60px 80px 0 0;
+    }
+}
+
+
+.three_pics_container{
+    height:293px;
+    width:1015px;
+    margin:15px 0 0 -20px;
+    float:left;
+    background:url(../images/three_pics.png);
+}
+
+.scientists_container{
+    @include full;
+    
+    .scientists_header{
+        
+        h5.title{
+            width:425px;
+            float:left;
+            
+            font-size:70px;
+            font-weight:100;
+            font-family:komu-a;
+            color:#57605b;   
+        }
+        
+        p{
+            width:555px;
+            float:right;
+            padding:9px;
+            
+            font-family:verdana;
+            color:#bbd9c6;
+            font-size:14px;  
+        }
+    }
+    
+    .scientists{
+        @include full;
+        
+        height:218px;
+        background:url(../images/scientists.png) no-repeat;
+        margin:8px 0 0 0;
+    }
+}
+
+/* End Containers */
+
+
+
+/*------------------------------------------------------------------
+
+    Navigation
+
+-------------------------------------------------------------------*/
+
+header{  }
+
+.nav{
+    
+    li{
+        
+        a{
+            
+        }
+    }
+}
+
+
+/* End Navigation */
+
+
+
+/*------------------------------------------------------------------
+
+    Elements
+
+-------------------------------------------------------------------*/
+  
+.element{  }
+
+/* End Elements */
+
+
+
+/*------------------------------------------------------------------
+
+    Footer
+
+-------------------------------------------------------------------*/
+footer{
+    height:257px;
+    width:1208px;
+    background:url(../images/footer_bg.png);
+    float:left;
+    margin:0 0 0 -140px;
+}
+
+    .nsf{
+        background: url(../images/footer_logo_sprite.png) no-repeat 0 0;
+	width: 98px;
+	height: 98px;
+        float:left;
+        margin:70px 0 0 310px;
+        
+        &:hover{
+            background: url(../images/footer_logo_sprite.png) no-repeat 0 -120px;
+        }
+        
+    }
+    
+    .nysci{
+        background: url(../images/footer_logo_sprite.png) no-repeat -135px -19px;
+	width: 99px;
+	height: 60px;
+        float:left;
+        margin:85px 0 0 60px;
+        
+        &:hover{
+            background: url(../images/footer_logo_sprite.png) no-repeat -135px -139px;
+        }
+    }
+    
+    .uw{
+        background: url(../images/footer_logo_sprite.png) no-repeat -275px -24px;
+	width: 148px;
+	height: 51px;
+        float:left;
+        margin:90px 0 0 60px;
+        
+       &:hover{
+            background: url(../images/footer_logo_sprite.png) no-repeat -275px -144px;
+        } 
+    }
+    
+    .lgn{
+        background: url(../images/footer_logo_sprite.png) no-repeat -461px -23px;
+	width: 92px;
+	height: 55px;
+        float:left;
+        margin:95px 0 0 60px;
+        
+        &:hover{
+            background: url(../images/footer_logo_sprite.png) no-repeat -461px -143px;
+        }
+    }
+
+/* End Footer */
+
+
+
+
+
+
+
+
+
+
+
+
