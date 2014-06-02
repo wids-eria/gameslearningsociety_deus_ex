@@ -3,9 +3,9 @@
 
 STYLESHEET CONTENTS
 
+    -- MIXINS
     -- GLOBAL STYLES
     -- TYPEKIT
-    -- MIXINS
     -- MISC CLASSES
     -- ACTIVE PAGE
     -- CONTAINERS
@@ -14,6 +14,39 @@ STYLESHEET CONTENTS
     -- FOOTER
     
 -------------------------------------------------------------------*/
+
+
+
+
+
+/*------------------------------------------------------------------
+
+    Mixins
+
+-------------------------------------------------------------------*/
+
+@mixin center{ margin:0 auto; }
+
+@mixin full { width:100%; float:left; }
+
+@mixin transition{
+    -webkit-transition: all 0.5s ease;
+       -moz-transition: all 0.5s ease;
+        -ms-transition: all 0.5s ease;
+         -o-transition: all 0.5s ease;
+}
+
+@mixin rounded_corners{
+    -webkit-border-radius: 8px;
+       -moz-border-radius: 8px;
+            border-radius: 8px;
+}
+
+
+/* End Mixins */
+
+
+
 
 
 /*------------------------------------------------------------------
@@ -53,13 +86,32 @@ p{
 
 ul{ list-style:none; }
 
+ol{
+    li{
+        @include full;
+        
+        margin:5px 0 5px 20px;
+        
+        font-family:verdana;
+        color:#bbd9c6;
+        font-size:14px;
+    }
+}
+
 hr{  }
 
 h1{  }
 h2{  }
 h3{  }
 h4{  }
-h5{  }
+
+h5.title{
+    font-size:70px;
+    font-weight:100;
+    font-family:komu-a;
+    color:#57605b;
+}
+
 
 ::selection{ background:#4F6C5D; color:white; }
 
@@ -76,34 +128,6 @@ h5{  }
     /* font-family:komu-a; */
 
 /* End Typekit */
-
-
-
-/*------------------------------------------------------------------
-
-    Mixins
-
--------------------------------------------------------------------*/
-
-@mixin center{ margin:0 auto; }
-
-@mixin full { width:100%; float:left; }
-
-@mixin transition{
-    -webkit-transition: all 0.5s ease;
-       -moz-transition: all 0.5s ease;
-        -ms-transition: all 0.5s ease;
-         -o-transition: all 0.5s ease;
-}
-
-@mixin rounded_corners{
-    -webkit-border-radius: 8px;
-       -moz-border-radius: 8px;
-            border-radius: 8px;
-}
-
-
-/* End Mixins */
 
 
 /*------------------------------------------------------------------
@@ -200,12 +224,7 @@ h5{  }
         
         h5.title{
             width:425px;
-            float:left;
-            
-            font-size:70px;
-            font-weight:100;
-            font-family:komu-a;
-            color:#57605b;   
+            float:left; 
         }
         
         p{
@@ -215,7 +234,8 @@ h5{  }
             
             font-family:verdana;
             color:#bbd9c6;
-            font-size:14px;  
+            font-size:16px;
+            font-weight:600;
         }
     }
     

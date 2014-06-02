@@ -2,9 +2,9 @@
 
 STYLESHEET CONTENTS
 
+    -- MIXINS
     -- GLOBAL STYLES
     -- TYPEKIT
-    -- MIXINS
     -- MISC CLASSES
     -- ACTIVE PAGE
     -- CONTAINERS
@@ -13,6 +13,12 @@ STYLESHEET CONTENTS
     -- FOOTER
     
 -------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+
+    Mixins
+
+-------------------------------------------------------------------*/
+/* End Mixins */
 /*------------------------------------------------------------------
 
     Global Styles
@@ -49,6 +55,20 @@ p.header {
 ul {
   list-style: none; }
 
+ol li {
+  width: 100%;
+  float: left;
+  margin: 5px 0 5px 20px;
+  font-family: verdana;
+  color: #bbd9c6;
+  font-size: 14px; }
+
+h5.title {
+  font-size: 70px;
+  font-weight: 100;
+  font-family: komu-a;
+  color: #57605b; }
+
 ::selection {
   background: #4F6C5D;
   color: white; }
@@ -61,12 +81,6 @@ ul {
 -------------------------------------------------------------------*/
 /* font-family:komu-a; */
 /* End Typekit */
-/*------------------------------------------------------------------
-
-    Mixins
-
--------------------------------------------------------------------*/
-/* End Mixins */
 /*------------------------------------------------------------------
 
     Misc Classes
@@ -174,18 +188,15 @@ ul {
   float: left; }
   .scientists_container .scientists_header h5.title {
     width: 425px;
-    float: left;
-    font-size: 70px;
-    font-weight: 100;
-    font-family: komu-a;
-    color: #57605b; }
+    float: left; }
   .scientists_container .scientists_header p {
     width: 555px;
     float: right;
     padding: 9px;
     font-family: verdana;
     color: #bbd9c6;
-    font-size: 14px; }
+    font-size: 16px;
+    font-weight: 600; }
   .scientists_container .scientists {
     width: 100%;
     float: left;
