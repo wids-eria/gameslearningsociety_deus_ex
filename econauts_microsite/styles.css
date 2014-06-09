@@ -38,12 +38,16 @@ html {
   height: 430px; }
 
 .site-footer {
+  min-width: 960px;
+  width: 100%;
   background-image: url("images/econauts_footer.png");
   background-position: center;
   background-repeat: no-repeat; }
 
 /* Main Containers */
 .site-header {
+  width: 100%;
+  min-width: 960px;
   height: 662px;
   background-image: url("images/top_header.png");
   background-repeat: no-repeat;
@@ -53,13 +57,17 @@ html {
   position: relative;
   margin: 0 auto;
   background-image: url("images/econauts_about.png");
-  height: 369px;
+  background-repeat: no-repeat;
+  height: 365px;
   width: 960px; }
 
 #slide_holder {
   position: relative;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
   background-image: url("images/econauts_slide_background.png");
+  background-repeat: no-repeat;
   height: 484px;
   width: 960px; }
 
@@ -67,44 +75,55 @@ html {
   position: relative;
   margin: 0 auto;
   background-image: url("images/development_details.png");
+  background-repeat: no-repeat;
   height: 360px;
   width: 960px; }
 
+#collect_game_data {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  background-image: url("images/collect_game_data.png");
+  background-repeat: no-repeat;
+  height: 265px;
+  width: 961px; }
+
 #space_filler {
-  height: 100px;
+  height: 25px;
   width: 960px; }
 
 /* Extra Containers */
 #about_content {
   overflow: hidden;
   position: absolute;
-  top: 125px;
-  left: 45px;
-  width: 540px;
-  height: 180px; }
+  top: 135px;
+  left: 83px;
+  width: 485px;
+  height: 170px; }
 
 #about_content p {
   color: white;
-  font-size: 12px;
-  line-height: 20px;
+  font-size: 15px;
+  line-height: 28px;
   font-style: normal;
-  font-weight: 100;
+  font-weight: 300;
   letter-spacing: .02em; }
 
 #development_content {
   overflow: hidden;
   position: absolute;
-  top: 125px;
-  left: 379px;
-  width: 540px;
-  height: 180px; }
+  top: 135px;
+  left: 415px;
+  width: 450px;
+  height: 170px; }
 
 #development_content p {
   color: white;
-  font-size: 12px;
-  line-height: 20px;
+  font-size: 15px;
+  line-height: 28px;
   font-style: normal;
-  font-weight: 100;
+  font-weight: 300;
   letter-spacing: .02em; }
 
 #slider_content {
@@ -113,6 +132,28 @@ html {
   left: 24px;
   width: 914px;
   height: 443px; }
+
+#collect_game_data_content {
+  position: absolute;
+  height: 90px;
+  width: 600px;
+  left: 280px;
+  top: 55px; }
+
+#collect_game_data_content p {
+  color: white;
+  font-size: 15px;
+  line-height: 28px;
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: .02em; }
+
+.linkto {
+  color: white;
+  font-style: italic; }
+
+.linkto:hover {
+  color: #ffdd14; }
 
 /* bottom_logos */
 #bottom_logos_holder {
@@ -210,6 +251,45 @@ html {
   height: 59px;
   opacity: 1; }
 
+/* Download Buttons */
+#download_button_container {
+  width: 960px;
+  height: 100px;
+  margin: 0 auto; }
+
+#download_button {
+  margin: 0 auto;
+  width: 600px;
+  height: 100px; }
+
+#download_button ul {
+  list-style: none; }
+
+ul#buttons li {
+  margin: 5px;
+  display: inline;
+  float: left; }
+
+#pc_button {
+  background: url("images/pc_mac_sprites_shadows.png") no-repeat -6px -19px;
+  width: 275px;
+  height: 91px; }
+
+#pc_button:hover {
+  background: url("images/pc_mac_sprites_shadows.png") no-repeat -6px -118px;
+  width: 275px;
+  height: 91px; }
+
+#mac_button {
+  background: url("images/pc_mac_sprites_shadows.png") no-repeat -290px -20px;
+  width: 275px;
+  height: 90px; }
+
+#mac_button:hover {
+  background: url("images/pc_mac_sprites_shadows.png") no-repeat -290px -119px;
+  width: 275px;
+  height: 90px; }
+
 /* unslider */
 .banner {
   position: relative;
@@ -238,7 +318,7 @@ html {
   width: 10px;
   height: 10px;
   margin: 0 4px;
-  border: 2px solid #fff;
+  border: 2px solid #000000;
   border-radius: 6px;
   cursor: pointer;
   display: inline-block;
@@ -248,14 +328,15 @@ html {
   transition: background .5s, opacity .5s; }
 
 .dots li.active {
-  background: #fff;
+  background: #ffdd14;
   opacity: 1; }
 
 .slider.slide_one {
   background-image: url("images/screenshot_1.jpg");
+  background-position: center top;
   width: 913px;
   height: 442px;
-  opacity: .45;
+  opacity: .55;
   -webkit-transition: opacity ease-in .5s;
   -moz-transition: opacity ease-in .5s;
   transition: opacity ease-in .5s; }
@@ -270,7 +351,7 @@ html {
   background-image: url("images/screenshot_2.jpg");
   width: 913px;
   height: 442px;
-  opacity: .45;
+  opacity: .55;
   -webkit-transition: opacity ease-in .5s;
   -moz-transition: opacity ease-in .5s;
   transition: opacity ease-in .5s; }
@@ -285,7 +366,22 @@ html {
   background-image: url("images/screenshot_3.jpg");
   width: 913px;
   height: 442px;
-  opacity: .45;
+  opacity: .55;
+  -webkit-transition: opacity ease-in .5s;
+  -moz-transition: opacity ease-in .5s;
+  transition: opacity ease-in .5s; }
+
+.slider.slide_three:hover {
+  opacity: .85;
+  -webkit-transition: opacity .5s;
+  -moz-transition: opacity .5s;
+  transition: opacity .5s; }
+
+.slider.slide_four {
+  background-image: url("images/screenshot_4.jpg");
+  width: 913px;
+  height: 442px;
+  opacity: .55;
   -webkit-transition: opacity ease-in .5s;
   -moz-transition: opacity ease-in .5s;
   transition: opacity ease-in .5s; }
@@ -304,3 +400,5 @@ html {
   color: white;
   font-weight: 100;
   text-shadow: 2px 2px #000000; }
+
+/* Mobile */

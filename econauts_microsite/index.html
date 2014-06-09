@@ -5,35 +5,57 @@
     
     <title>Econauts</title>
     
+    <meta charset="UTF-8">
+    
     <link rel="stylesheet" type="text/css" href="styles.css" />
     
-    <!-- typekit -->
+    <!-- Typekit -->
     
     <script type="text/javascript" src="//use.typekit.net/bmc1hjz.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
     
-    <!-- unslider -->
+    <!-- Jquery-->
     
     <script src="//code.jquery.com/jquery-latest.min.js"></script>
+    
+    <!-- Unslider -->
+    
     <script src="//unslider.com/unslider.min.js"></script>
     
 </head>
 
 <body>
     
-    <div class="pagewrap">
+<div class="pagewrap">
     
     <header class="site-header"></header>
+    
+        <div id="download_button_container">
+        
+        <div id="download_button">
+            
+            <ul id="buttons">
+                
+                <li><a href="EcoNauts_PC.zip"><div id="pc_button"></div></a></li>
+                
+                <li><a href="EcoNauts_OSX.zip"><div id="mac_button"></div></a></li>
+                
+            </ul><!--end buttons-->
+            
+        </div><!--end download_buttons-->
+        
+        </div><!--end download_container-->
     
     <div id="econauts_about">
         
         <div id="about_content">
             
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce mollis quis felis dignissim tristique. Ut a justo eleifend, feugiat magna in, dignissim diam. Pellentesque sagittis convallis dolor nec bibendum. Aliquam quis ante sed neque accumsan aliquam. Morbi fringilla aliquet mi, quis lobortis turpis condimentum vitae. Etiam feugiat mauris id turpis consectetur sodales. Nulla convallis dolor erat, eget aliquet ante rutrum et. Aliquam at dui adipiscing, aliquet dui id, egestas ante. Sed aliquet, dui vel tristique condimentum, libero augue ornare urna, non volutpat enim nunc at purus.</p>
+            <p>Lakes are sometimes thought of as discrete ecological bodies, detached from surrounding landscapes and contained within basins bound by shorelines. However, lakes are dynamic systems with many abiotic and biotic variables affecting varied spatio-temporal scales. Video games have the potential to teach players how these systems operate.
+            </p>
             
         </div><!--end about_content-->
         
-    </div>
+    </div><!--end econauts_about-->
     
     <div id="slide_holder">
         
@@ -42,26 +64,42 @@
             <div class="banner">
                 
                 <ul>
+                    
                     <li><a href="images/screenshot_1_big.jpg" target="_blank"><div class="slider slide_one"><p>In-game&nbsp;Screenshots</p></div></a></li>
+                    
                     <li><a href="images/screenshot_2_big.jpg" target="_blank"><div class="slider slide_two"></div></a></li>
+                    
                     <li><a href="images/screenshot_3_big.jpg" target="_blank"><div class="slider slide_three"></div></a></li>
+                    
+                    <li><a href="images/screenshot_4_big.jpg" target="_blank"><div class="slider slide_four"></div></a></li>
+                    
                 </ul>
                 
             </div><!--end banner-->
                
         </div><!--end slider_content-->
         
-    </div>
+    </div><!--end slide_holder-->
     
     <div id="development_details">
         
         <div id="development_content">
             
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce mollis quis felis dignissim tristique. Ut a justo eleifend, feugiat magna in, dignissim diam. Pellentesque sagittis convallis dolor nec bibendum. Aliquam quis ante sed neque accumsan aliquam. Morbi fringilla aliquet mi, quis lobortis turpis condimentum vitae. Etiam feugiat mauris id turpis consectetur sodales. Nulla convallis dolor erat, eget aliquet ante rutrum et. Aliquam at dui adipiscing, aliquet dui id, egestas ante. Sed aliquet, dui vel tristique condimentum, libero augue ornare urna, non volutpat enim nunc at purus.</p>
+            <p>Econauts immerses players in a rich environment, making difficult-to-observe ecological phenomena visible in a living landscape that players explore and examine to explain the relationships between choices that humans make and their ecological consequences. </p>
             
         </div><!--end development_content-->
         
-    </div>
+    </div><!--end development_details-->
+    
+    <div id="collect_game_data">
+        
+        <div id="collect_game_data_content">
+            
+            <p>By leveraging the  <a href="http://adageapi.org" class="linkto" target="_blank">Assessment Data Aggregator for Gaming Environments (ADAGE)</a> system, Econauts can remotely log game data. Information regarding player choices and experiences are uploaded and stored so that players, educators, and researchers can examine real-time gameplay in an attempt to evaluate performance and refine techniques.</p>
+            
+        </div><!--end collect_game_data_content-->
+        
+    </div><!--end collect_game_data"-->
     
     <div id="space_filler"></div>
     
@@ -72,9 +110,13 @@
                 <div id="logos">
                     
                     <a href="http://www.gameslearningsociety.org/" target="_blank"><div class="gls left"></div></a>
+                    
                     <a href="http://www.learninggamesnetwork.org/" target="_blank"><div class="lgn left"></div></a>
+                    
                     <a href="http://discovery.wisc.edu/discovery" target="_blank"><div class="wid left"></div></a>
+                    
                     <a href="http://www.nsf.gov/" target="_blank"><div class="nsf left"></div></a>
+                    
                     <a href="http://www.education.wisc.edu/" target="_blank"><div class="uw left"></div></a>
                     
                 </div><!--end logos-->
@@ -83,7 +125,7 @@
         
     </footer><!--end footer-->
     
-    </div><!--end pagewrap-->
+</div><!--end pagewrap-->
     
 <!-- unslider script -->
 
@@ -95,7 +137,7 @@ $(function() {
         dots: true,
         keys: true,
         speed: 800,
-        delay: 4000,
+        delay: 6000,
         fluid: true
     });
 });
@@ -103,4 +145,5 @@ $(function() {
 </script>
 
 </body>
+
 </html>
