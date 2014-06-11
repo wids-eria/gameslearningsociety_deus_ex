@@ -6,7 +6,7 @@
         
         <ul class="navigation">
             <a href="about.php"> <li class="box floatleft about_page_link">About</li> </a>
-            <a href="games.php"> <li class="box floatleft game_page_link">Games</li> </a>
+            <a href="http://glsstudios.com/games.html"> <li class="box floatleft game_page_link">Games</li> </a>
             <a href="research.php"> <li class="box floatleft research_page_link">Research</li> </a>
             <a href="people.php"> <li class="box floatleft people_page_link">People</li> </a>
             <a href="courses.php"> <li class="box floatleft courses_page_link">Courses</li> </a>
