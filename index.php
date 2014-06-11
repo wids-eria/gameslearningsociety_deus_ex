@@ -126,7 +126,7 @@
             
             <div class="home_page_grid">
                 
-                <a href="http://gamesportal.gameslearningsociety.org/games/progx/play">
+                <a href="http://glsstudios.com/games.html">
                     
                     <div class="hpgrid_innovative_video_games floatleft">
                         

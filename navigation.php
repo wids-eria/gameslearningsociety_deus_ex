@@ -51,7 +51,7 @@
       <ul>
         <li><a href="index.php">GLS Home</a></li>
         <li><a href="about.php">About</a></li>
-        <li><a href="http://gamesportal.gameslearningsociety.org/games/progx/play">Games</a></li>
+        <li><a href="http://glsstudios.com/games.html">Games</a></li>
         <li><a href="research.php">Research</a></li>
         <li><a href="people.php">People</a></li>
         <li><a href="courses.php">Courses</a></li>
