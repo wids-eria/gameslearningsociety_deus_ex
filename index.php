@@ -13,6 +13,9 @@
     <script type="text/javascript" src="//use.typekit.net/mpl0sio.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
     
+    <!-- mobile nav -->
+    <link rel="stylesheet" href="sidr/stylesheets/jquery.sidr.dark.css">
+    
     <!-- Full Width Slider-->
     <meta charset="utf-8">
     <meta name="HandheldFriendly" content="True">
@@ -123,7 +126,7 @@
             
             <div class="home_page_grid">
                 
-                <a href="games.php">
+                <a href="http://gamesportal.gameslearningsociety.org/games/progx/play">
                     
                     <div class="hpgrid_innovative_video_games floatleft">
                         
@@ -333,40 +336,39 @@
             
             <a href="courses.php">
                 <div class="hp_course_link">
-                    <p class="course_title">C&I 277  Videogames & Learning</p>
-                    <p class="course_instructor">Professor: Constance Steinkuehler</p>
+                    <p class="course_title">C&I 277: Video games and Learning</p>
+                    <p class="course_instructor">Instructor: Kurt Squire</p>
                 </div>
             </a>
             
             <a href="courses.php">
                 <div class="hp_course_link">
-                    <p class="course_title">C&I 975 Discourse Analysis</p>
-                    <p class="course_instructor">Professor: Constance Steinkuehler</p>
+                    <p class="course_title">C&I 675: Game Communities & Learning</p>
+                    <p class="course_instructor">Instructor: Constance Steinkuehler</p>
                 </div>
             </a>
             
             <a href="courses.php">
                 <div class="hp_course_link">
-                    <a href="https://www.coursera.org/course/videogameslearning" target="_blank" title="View this course on Coursera"><div class="arrow floatright"></div></a>
-                    <p class="course_title">Video Games and Learning</p>
-                    <p class="course_instructor">Professors: Constance Steinkuehler and Kurt Squire</p>
+                    <p class="course_title">C&I 975: Games and National Policy</p>
+                    <p class="course_instructor">Instructor: Constance Steinkuehler</p>
                 </div>
             </a>
             
             <a href="courses.php">
                 <div class="hp_course_link">
-                    <p class="course_title">ELPA 844 - Technology and School Leadership</p>
-                    <p class="course_instructor">Professor: Richard Halverson</p>
+                    <p class="course_title">C&I 975: Analyzing Online Social Interaction</p>
+                    <p class="course_instructor">Instructor: Constance Steinkuehler</p>
                 </div>
             </a>
             
             <a href="courses.php">
                 <div class="hp_course_link">
-                    <p class="course_title">C&I 675: Design-Based Research</p>
-                    <p class="course_instructor">Professor: Kurt Squire</p>
+                    <p class="course_title">LIS 301: Information Literacies in Online Spaces</p>
+                    <p class="course_instructor">Digital Studies Fig: Internet & Society</p>
+                    <p class="course_instructor">Instructor: Rebekah Willett</p>
                 </div>
             </a>
-
             
         </div>
         

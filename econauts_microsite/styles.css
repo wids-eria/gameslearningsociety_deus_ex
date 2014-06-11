@@ -402,3 +402,9 @@ ul#buttons li {
   text-shadow: 2px 2px #000000; }
 
 /* Mobile */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  html {
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%; } }

@@ -337,7 +337,7 @@
                 
                 <ul class="project_nav_container">
                     
-                    <a href="project_fair_play.php">
+                    <a href="project_fair_play_choose_game_type.php">
                         <li class="view_trailer_button">
                             <div class="play_icon"></div>
                             Play Now

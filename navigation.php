@@ -40,27 +40,34 @@
 </div>  <!-- end nav wrap -->
 
 
-
-<!-- responsive nav -->
-<input type="checkbox" class="main-nav-check" id="main-nav-check" />
-<nav class="main-nav" id="main-nav">
-  <a href="index.php">GLS Home</a>
-  <a href="about.php">About</a>
-  <a href="games.php">Games</a>
-  <a href="research.php">Research</a>
-  <a href="people.php">People</a>
-  <a href="courses.php">Courses</a>
-  <a href="http://www.glsconference.org" target="_blank">Conference</a>
-  <a href="contact.php">Contact</a>
-  <a href="jobs.php">Jobs</a>
-</nav>
-
-
-<!-- responsive nav header -->
-<header class="main-header">
-   <label for="main-nav-check" class="toggle-menu">
-     <img src="images/responsive_menu_icon.png"/>
-   </label>
-   
-   <h1>GLS</h1>
- </header>
+<div class="responsive_nav">
+    
+    <div class="responsive_header_bar">
+        <a id="simple-menu" href="#sidr" class="floatleft"><img src="images/responsive_menu_icon.png"/></a>
+    </div>
+     
+    <div id="sidr">
+      <!-- Your content -->
+      <ul>
+        <li><a href="index.php">GLS Home</a></li>
+        <li><a href="about.php">About</a></li>
+        <li><a href="http://gamesportal.gameslearningsociety.org/games/progx/play">Games</a></li>
+        <li><a href="research.php">Research</a></li>
+        <li><a href="people.php">People</a></li>
+        <li><a href="courses.php">Courses</a></li>
+        <li><a href="http://www.glsconference.org" target="_blank">Conference</a></li>
+        <li><a href="contact.php">Contact</a></li>
+        <li><a href="jobs.php">Jobs</a></li>
+      </ul>
+    </div>
+     
+    <script>
+    $(document).ready(function() {
+      $('#simple-menu').sidr();
+    });
+    </script>
+    
+    <!-- Include the Sidr JS -->
+    <script src="sidr/jquery.sidr.min.js"></script> 
+    
+</div>
