@@ -47,6 +47,16 @@
 <div id="fwslider">
         <div class="slider_container">
             
+            <a href="pdfs/gls_game_design_competition.pdf" target="_blank">
+                <div class="slide"> 
+                    <img src="images/banner_images/banner_design_contest.png">
+                    <div class="slide_content">
+                        <div class="slide_content_wrap">
+                        </div>
+                    </div>
+                </div>
+            </a>
+            
             <div class="slide"> 
                 <img src="images/banner_images/banner_image_crystals_01.png">
                 <div class="slide_content">
