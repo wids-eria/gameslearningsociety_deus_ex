@@ -21,6 +21,12 @@ h3 {
 html {
   background: #000000; }
 
+a.emphasize {
+  color: red; }
+
+a.emphasize:hover {
+  color: white; }
+
 /* Main Containers */
 header {
   background: url("images/header-image.png");

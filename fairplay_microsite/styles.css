@@ -3,7 +3,8 @@
   padding: 0; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: #3b3b3b; }
 
 img {
   text-decoration: none;
@@ -12,6 +13,31 @@ img {
 p {
   font-family: "aktiv-grotesk-std", "sans-serif";
   font-size: 14px; }
+
+.emphasize {
+  color: #f5a692; }
+
+/* Navigation */
+#nav_bar {
+  width: 960px;
+  left: 60px;
+  position: absolute;
+  top: 85px; }
+  #nav_bar ul li {
+    font-family: "aktiv-grotesk-std", "sans-serif";
+    font-size: 14px;
+    background-color: #f5a692;
+    line-height: 22px;
+    height: 25px;
+    width: 180px;
+    text-align: center;
+    border: 4px solid #863623;
+    border-radius: 2%;
+    -webkit-box-shadow: 0px 5px 0px 0px #5d200d;
+    -moz-box-shadow: 0px 5px 0px 0px #5d200d;
+    box-shadow: 0px 5px 0px 0px #5d200d; }
+    #nav_bar ul li a:hover {
+      color: white; }
 
 /* Main Containers */
 header {
@@ -29,7 +55,7 @@ header {
 
 #tagline {
   left: 20px;
-  top: 110px;
+  top: 70px;
   position: absolute;
   width: 400px;
   height: 75px; }
@@ -38,7 +64,7 @@ header {
   font-family: "reenie-beanie";
   color: white;
   font-size: 40px;
-  line-height: 28px; }
+  line-height: 32px; }
 
 #tagline a {
   text-decoration: none;
@@ -51,6 +77,46 @@ header {
   transition: color .25s ease-in;
   -moz-transition: color .25s ease-in;
   -webkit-transition: color .25s ease-in; }
+
+/* Platform Logos */
+#platform_logos {
+  position: absolute;
+  left: 10px;
+  top: 130px;
+  width: 280px;
+  height: 72px; }
+  #platform_logos ul li {
+    margin: 15px; }
+
+.win {
+  background: url("images/platform_logos.png") no-repeat -3px -6px;
+  width: 50px;
+  height: 53px; }
+
+.win:hover {
+  background: url("images/platform_logos.png") no-repeat -3px -62px;
+  width: 50px;
+  height: 53px; }
+
+.mac {
+  background: url("images/platform_logos.png") no-repeat -68px -9px;
+  width: 47px;
+  height: 48px; }
+
+.mac:hover {
+  background: url("images/platform_logos.png") no-repeat -68px -65px;
+  width: 47px;
+  height: 48px; }
+
+.games_portal {
+  background: url("images/platform_logos.png") no-repeat -129px -14px;
+  width: 70px;
+  height: 43px; }
+
+.games_portal:hover {
+  background: url("images/platform_logos.png") no-repeat -129px -70px;
+  width: 70px;
+  height: 43px; }
 
 #trailer {
   position: absolute;

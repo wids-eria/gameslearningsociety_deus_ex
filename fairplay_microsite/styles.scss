@@ -7,7 +7,9 @@
     
 }
 
-a { text-decoration: none;}
+a { text-decoration: none;
+    color: #3b3b3b;
+}
 
 img {text-decoration: none; border: 0px}
 
@@ -16,12 +18,55 @@ p {
     font-size: 14px;
 }
 
+.emphasize {
+  color: #f5a692;
+}
+
+/* Navigation */
+
+#nav_bar {
+  width: 960px;
+  left: 60px;
+  position: absolute;
+  top:  85px;
+  
+  ul {
+    
+    li {
+      font-family: "aktiv-grotesk-std", "sans-serif";
+      font-size: 14px;
+      background-color: #f5a692;
+      line-height: 22px;
+      height: 25px;
+      width: 180px;
+      text-align: center;
+      border: 4px solid #863623;
+      border-radius: 2%;
+      -webkit-box-shadow: 0px 5px 0px 0px rgba(93,32,13,1);
+      -moz-box-shadow: 0px 5px 0px 0px rgba(93,32,13,1);
+      box-shadow: 0px 5px 0px 0px rgba(93,32,13,1);
+
+      
+      a {
+        
+      }
+      
+      a:hover {
+          color: white;
+        }
+      
+    }
+  }
+  
+}
+
 /* Main Containers */
 
 header {
     background: url('images/repeat_top_image.png');
     background-repeat: repeat-x;
     width: 100%;
+
 }
 
 #header_container {
@@ -35,7 +80,7 @@ header {
 
 #tagline {
   left: 20px;
-  top: 110px;
+  top: 70px;
   position: absolute;
   width: 400px;
   height: 75px;
@@ -45,7 +90,7 @@ header {
   font-family: "reenie-beanie";
   color: white;
   font-size: 40px;
-  line-height: 28px;
+  line-height: 32px;
 }
 
 #tagline {
@@ -69,6 +114,72 @@ header {
     
   }
   
+}
+
+/* Platform Logos */
+
+#platform_logos {
+  position: absolute;
+  left: 10px;
+  top: 130px;
+  width: 280px;
+  height: 72px;
+  
+  ul {
+    
+    li {
+    
+    margin: 15px;
+    
+      }
+      
+    li:hover {
+
+      }
+      
+    }
+  
+}
+
+.win { 
+  background: url('images/platform_logos.png') no-repeat -3px -6px;
+  width: 50px;
+  height: 53px;
+  
+}
+
+.win:hover {
+  background: url('images/platform_logos.png') no-repeat -3px -62px;
+  width: 50px;
+  height: 53px;
+}
+
+.mac {
+     background: url('images/platform_logos.png') no-repeat -68px -9px;
+  width: 47px;
+  height: 48px;
+}
+
+.mac:hover {
+ 
+
+  background: url('images/platform_logos.png') no-repeat -68px -65px;
+  width: 47px;
+  height: 48px;
+}
+
+.games_portal {
+   background: url('images/platform_logos.png') no-repeat -129px -14px;
+  width: 70px;
+  height: 43px;
+}
+
+.games_portal:hover {
+  
+
+   background: url('images/platform_logos.png') no-repeat -129px -70px;
+  width: 70px;
+  height: 43px;
 }
 
 #trailer {
@@ -321,9 +432,9 @@ footer {
 }
 
 #bottom_row {
-  position: absolute;
-  top: 120px;
-  left: 30px;
+    position: absolute;
+    top: 120px;
+    left: 30px;
 }
 
 ul.footer_logos {
@@ -340,7 +451,7 @@ ul li {
     float: left;
 }
 
-.gls {
+.gls {   
     background: url('images/footer_logo_sprites.png') no-repeat -25px -21px;
     width: 116px;
     height: 51px;
@@ -352,7 +463,7 @@ ul li {
     height: 51px;
 }
 
-.lgn {
+.lgn {   
     background: url('images/footer_logo_sprites.png') no-repeat -162px -25px;
     width: 76px;
     height: 43px;
@@ -365,7 +476,7 @@ ul li {
 }
 
 .wid {
-    background: url('images/footer_logo_sprites.png') no-repeat -261px -25px;
+     background: url('images/footer_logo_sprites.png') no-repeat -261px -25px;
     width: 97px;
     height: 45px;
 }
@@ -377,7 +488,7 @@ ul li {
 }
 
 .nsf {
-    background: url('images/footer_logo_sprites.png') no-repeat -69px -83px;
+     background: url('images/footer_logo_sprites.png') no-repeat -69px -83px;
     width: 57px;
     height: 56px;
 }
@@ -395,7 +506,7 @@ ul li {
 }
 
 .uw:hover {
-    background: url('images/footer_logo_sprites.png') no-repeat -148px -223px;
+     background: url('images/footer_logo_sprites.png') no-repeat -148px -223px;
     width: 172px;
     height: 51px;
 }
