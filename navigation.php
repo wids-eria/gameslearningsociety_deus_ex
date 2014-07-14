@@ -39,35 +39,3 @@
 
 </div>  <!-- end nav wrap -->
 
-
-<div class="responsive_nav">
-    
-    <div class="responsive_header_bar">
-        <a id="simple-menu" href="#sidr" class="floatleft"><img src="images/responsive_menu_icon.png"/></a>
-    </div>
-     
-    <div id="sidr">
-      <!-- Your content -->
-      <ul>
-        <li><a href="index.php">GLS Home</a></li>
-        <li><a href="about.php">About</a></li>
-        <li><a href="http://glsstudios.com/games.html">Games</a></li>
-        <li><a href="research.php">Research</a></li>
-        <li><a href="people.php">People</a></li>
-        <li><a href="courses.php">Courses</a></li>
-        <li><a href="http://www.glsconference.org" target="_blank">Conference</a></li>
-        <li><a href="contact.php">Contact</a></li>
-        <li><a href="jobs.php">Jobs</a></li>
-      </ul>
-    </div>
-     
-    <script>
-    $(document).ready(function() {
-      $('#simple-menu').sidr();
-    });
-    </script>
-    
-    <!-- Include the Sidr JS -->
-    <script src="sidr/jquery.sidr.min.js"></script> 
-    
-</div>

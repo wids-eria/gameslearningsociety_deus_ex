@@ -113,18 +113,6 @@
                 to transform learning, and what this engaging medium means for society. 
             </p>
         </div>
-        
-        <!-- responsive tagline -->
-        <div class="tagline_container_resp">
-            <p class="tagline_header">
-                We design games for learning & we study
-                game-centered learning systems.
-            </p>
-            <p class="tagline_description">
-                GLS delves into how videogames capture our imaginations, how their power can be used
-                to transform learning, and what this engaging medium means for society. 
-            </p>
-        </div>
     
     </div><!-- end body content -->
     
@@ -289,46 +277,6 @@
     </div><!-- end large home page grid -->
     
 
-<!-- small home page grid -->
-    <div class="small_home_page_grid">
-        
-        <a href="games.php">
-            <div class="small_grid_container">
-                <img src="images/hp_grid/hpgrid_innovative_video_games_resp.png"/>
-            </div>
-        </a>
-        
-        <a href="research.php">
-            <div class="small_grid_container">
-                <img src="images/hp_grid/hpgrid_cutting_edge_research_resp.png"/>
-            </div>
-        </a>
-        
-        <a href="people.php">
-            <div class="small_grid_container">
-                <img src="images/hp_grid/hpgrid_industry_leaders_resp.png"/>
-            </div>
-        </a>
-        
-        <a href="about.php">
-            <div class="small_grid_container">
-                <img src="images/hp_grid/hpgrid_unique_culture_resp.png"/>
-            </div>
-        </a>
-        
-        <a href="contact.php">
-            <div class="small_grid_container">
-                <img src="images/hp_grid/hpgrid_contact_resp.png"/>
-            </div>
-        </a>
-        
-        <a href="http://www.glsconference.org" target="_blank">
-            <div class="small_grid_container">
-                <img src="images/hp_grid/hpgrid_gls_conference_resp.png"/>
-            </div>
-        </a>
-        
-    </div><!-- end small home page grid -->
     
 </div>
 

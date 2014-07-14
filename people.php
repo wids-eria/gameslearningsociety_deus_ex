@@ -168,41 +168,6 @@
         </div>
         
     </div><!-- end large leadership -->
-    
-    <div class="small_leadership floatleft">
-        <div class="full_width">
-            
-            <!-- small leadership -->
-                <div class="small_home_page_grid">
-                    
-                    <a href="bio_kurt.php" class="floatleft">
-                        <img src="images/people/people_kurt_resp.png"/>
-                    </a>
-                    
-                    <a href="bio_constance.php" class="floatleft">
-                        <img src="images/people/people_constance_resp.png"/>
-                    </a>
-                    
-                    <a href="bio_rich.php" class="floatleft">
-                        <img src="images/people/people_rich_resp.png"/>
-                    </a>
-                    
-                    <a href="bio_matthew.php" class="floatleft">
-                        <img src="images/people/people_matthew_resp.png"/>
-                    </a>
-                    
-                    <a href="bio_brian.php" class="floatleft">
-                        <img src="images/people/people_brian_resp.png"/>
-                    </a>
-                    
-                    <a href="bio_becky.php" class="floatleft">
-                        <img src="images/people/people_becky_resp.png"/>
-                    </a>
-                    
-                </div><!-- end small leadership -->
-            
-        </div>
-    </div>
         
         <div class="people_everybody_container floatleft">
             
