@@ -77,10 +77,6 @@
                 <div class="research_popcosmo"></div>
             </div>
             
-            <div class="research_image_resp">
-                <img src="images/research/research_popcosmo.png"/>
-            </div>
-            
             <div class="research_description">
                 
                 <div class="research_description_header">
