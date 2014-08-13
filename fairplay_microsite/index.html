@@ -7,14 +7,21 @@
     
     <link rel="stylesheet" type="text/css" href="styles.css" />
     
+    <link href='http://fonts.googleapis.com/css?family=Muli:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
+    
     <!--Typekit-->
     
     <script type="text/javascript" src="//use.typekit.net/del8ujf.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
     
+    
     <!-- Add jQuery library -->
     
     <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    
+    <!-- Scroll Top -->
+    
+    <script type="text/javascript" src="scroll_top.js"></script>
     
     <!-- Add fancyBox -->
     
@@ -24,6 +31,19 @@
     <script type="text/javascript">
 	$(document).ready(function() {
 		$(".fancybox").fancybox();
+                
+                $(".various").fancybox({
+		maxWidth	: 800,
+		maxHeight	: 600,
+		fitToView	: false,
+		width		: '70%',
+		height		: '70%',
+		autoSize	: false,
+		closeClick	: false,
+		openEffect	: 'none',
+		closeEffect	: 'none'
+	});
+                
 	});
     </script>
     
@@ -37,7 +57,7 @@
         
         <div id="header_container">
             
-            <div id="tagline"><p>Do you <a href="http://gamesportal.gameslearningsociety.org/games/fairplay/play" target="_blank">"play"</a> fair?<br><span class="small_text">(Choose your preferred platform)</span></p></div>
+            <div id="tagline"><p>Do you <a href="http://gamesportal.gameslearningsociety.org/games/fairplay/play" target="_blank">"play"</a> fair?<br><span class="small_text">(choose your preferred platform)</span></p></div>
             
             <div id="platform_logos">
                 
@@ -51,13 +71,17 @@
                 
             </div><!--end platform_logos-->
             
-            <div id="trailer"><iframe width="200" height="150" src="//www.youtube.com/embed/Nns6hiy8xzE" frameborder="0" allowfullscreen></iframe></div>
+            <div id="trailer"><a class="various fancybox.iframe" href="http://www.youtube.com/embed/Nns6hiy8xzE?rel=0&autoplay=1"><div id="trailer_image"></div></a></div>
             
             <div id="logo"></div><!--end logo-->
             
         </div><!--end header_container-->
         
-    </header>
+        <a href="#" class="scrollToTop"></a>
+        
+    </header><!--end header-->
+    
+    
     
     <div id="section1_container">
         
@@ -67,10 +91,10 @@
                 
                 <ul>
 
-                    <li><a href="#section1_content">What is Fairplay?</a></li>
-                    <li><a href="#section1a_content">What are implicit biases?</a></li>
-                    <li><a href="#section2_right_content">Content of the Game</a></li>
-                    <li><a href="#section3_content">Am I implicitly biased?</a></li>   
+                    <a href="#section1_container"><li>What is Fairplay?</li></a>
+                    <a href="#section1a_container"><li>What are implicit biases?</li></a>
+                    <a href="#section2"><li>Content of the Game</li></a>
+                    <a href="#section3_container"><li>Am I implicitly biased?</li></a>  
                     
                 </ul>
                 
@@ -79,7 +103,7 @@
             <div id="section1_content">
                 
                 <p>In Fair Play, players take on the perspective of Jamal Davis, a young Black graduate student, on his way to becoming a renowned professor. As Jamal, players must conquer implicit bias, explore surroundings, and build Jamal's network to prove his full research potential. The game provides ample 
-opportunity for players to experience implicit biases, particularly in encounters with other characters, as they navigate the world of academia as Jamal. &nbsp; <a href="#header_container" class="emphasize">[ Return to Top ]</a></p>
+opportunity for players to experience implicit biases, particularly in encounters with other characters, as they navigate the world of academia as Jamal.</p>
                 
             </div><!--end section1_content-->
             
@@ -93,7 +117,7 @@ opportunity for players to experience implicit biases, particularly in encounter
             
             <div id="section1a_content">
                 
-                <p>Implicit biases are unconscious assumptions based on group stereotypes. Research has found that taking the cognitive perspective of an individual from a stigmatized group can reduce one's implicit bias. It is through social interactions with other characters, as a form of role-play, that Fair Play simulates real-life bias encounters to raise awareness about people's implicit biases. while challenging players to identify, and act on these biases, in real-time. &nbsp; <a href="#header_container" class="emphasize">[ Return to Top ]</a></p>
+                <p>Implicit biases are unconscious assumptions based on group stereotypes. Research has found that taking the cognitive perspective of an individual from a stigmatized group can reduce one's implicit bias. It is through social interactions with other characters, as a form of role-play, that Fair Play simulates real-life bias encounters to raise awareness about people's implicit biases. while challenging players to identify, and act on these biases, in real-time. &nbsp; </p>
                 
             </div><!--end section1a_content-->
             
@@ -119,7 +143,7 @@ opportunity for players to experience implicit biases, particularly in encounter
                 
                 <div id="section2_right_content">
                     
-                    <p>Throughout the game there are instances that exemplify several kinds of racial biases (Racial microaggressions, color blind attitude, etc.), to which the player is given a list of responses.  The player must choose the best response to these biases while trying to improve relationships with the game's characters to improve his academic career. <br/><br/><a href="#header_container" class="emphasize">[ Return to Top ]</a></p>
+                    <p>Throughout the game there are instances that exemplify several kinds of racial biases (Racial microaggressions, color blind attitude, etc.), to which the player is given a list of responses.  The player must choose the best response to these biases while trying to improve relationships with the game's characters to improve his academic career. <br/><br/></p>
                     
                 </div><!--end section2_right_content-->
                 
@@ -136,7 +160,7 @@ opportunity for players to experience implicit biases, particularly in encounter
             <div id="section3_content">
                 
                 <p>Unfortunately, we all are biased to some degree, and these biases stem from stereotypes we inherit from our culture. These biases, whether consciously endorsed or not, have a cumulative effect and contribute to the lack of diversity in academia. Fair Play draws from research in the field of game studies and implicit bias to create an immersive experience where players can see the impact of implicit bias, in an academic setting, first hand. What implicit biases do people have? 
-How do they affect one's academic career? If a person exhibits a racial bias, do I address it or ignore it? These are the kinds of questions at the heart of Fair Play. &nbsp; <a href="#header_container" class="emphasize">[ Return to Top ]</a></p>
+How do they affect one's academic career? If a person exhibits a racial bias, do I address it or ignore it? These are the kinds of questions at the heart of Fair Play. &nbsp; </p>
                 
             </div><!--end section3_content-->
             
@@ -150,7 +174,7 @@ How do they affect one's academic career? If a person exhibits a racial bias, do
             
             <div id="section3a_content">
                 
-            <p>Players will be able to understand different kinds of racial biases, and will be able to demonstrate different strategies to deal with biases which the players themselves may experience in their daily lives. &nbsp; <a href="#header_container" class="emphasize">[ Return to Top ]</a></p>    
+            <p>Players will be able to understand different kinds of racial biases, and will be able to demonstrate different strategies to deal with biases which the players themselves may experience in their daily lives. &nbsp; </p>    
             
             </div><!--end section3a_content-->
             

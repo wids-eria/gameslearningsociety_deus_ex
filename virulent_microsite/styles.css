@@ -33,7 +33,25 @@ header {
   background-repeat: no-repeat;
   margin: 0 auto;
   width: 1158px;
-  height: 149px; }
+  height: 149px;
+  position: relative; }
+
+#gamesportal_logo {
+  position: fixed;
+  background: url("images/gamesportal_logo_2.png");
+  width: 386px;
+  height: 222px;
+  left: 50%;
+  margin-left: -193px;
+  top: -158px;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  z-index: 999; }
+
+#gamesportal_logo:hover {
+  top: -115px; }
 
 #logo {
   background: url("images/logo-image.png");
@@ -235,3 +253,29 @@ ul li {
   transition: opacity .25s ease-in;
   -moz-transition: opacity .25s ease-in;
   -webkit-transition: opacity .25s ease-in; }
+
+/* Scroll Top Button */
+.scrollToTop {
+  width: 178px;
+  height: 102px;
+  text-align: center;
+  text-decoration: none;
+  position: fixed;
+  bottom: 30px;
+  left: 40px;
+  display: none;
+  background: url("images/backtotop.png") no-repeat 0px 20px;
+  z-index: 100;
+  -webkit-transition: background-image 0.2s ease-in-out;
+  -moz-transition: background-image 0.2s ease-in-out;
+  -ms-transition: background-image 0.2s ease-in-out;
+  -o-transition: background-image 0.2s ease-in-out;
+  transition: background-image 0.2s ease-in-out; }
+
+.scrollToTop:hover {
+  background: url("images/backtotop_b.png") no-repeat 0px 20px;
+  -webkit-transition: background-image 0.2s ease-in-out;
+  -moz-transition: background-image 0.2s ease-in-out;
+  -ms-transition: background-image 0.2s ease-in-out;
+  -o-transition: background-image 0.2s ease-in-out;
+  transition: background-image 0.2s ease-in-out; }

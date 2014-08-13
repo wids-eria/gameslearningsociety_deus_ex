@@ -12,7 +12,7 @@ a {
   text-decoration: none; }
 
 p {
-  font-family: "clavo",sans-serif; }
+  font-family: sans-serif; }
 
 html, body {
   height: 100%; }
@@ -65,10 +65,9 @@ html {
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 20px;
   background-image: url("images/econauts_slide_background.png");
   background-repeat: no-repeat;
-  height: 484px;
+  height: 553px;
   width: 960px; }
 
 #development_details {
@@ -104,11 +103,11 @@ html {
 
 #about_content p {
   color: white;
-  font-size: 15px;
-  line-height: 28px;
+  font-size: 16px;
+  line-height: 26px;
   font-style: normal;
   font-weight: 300;
-  letter-spacing: .02em; }
+  letter-spacing: .03em; }
 
 #development_content {
   overflow: hidden;
@@ -120,15 +119,15 @@ html {
 
 #development_content p {
   color: white;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 28px;
   font-style: normal;
   font-weight: 300;
-  letter-spacing: .02em; }
+  letter-spacing: .03em; }
 
 #slider_content {
   position: absolute;
-  top: 18px;
+  top: 85px;
   left: 24px;
   width: 914px;
   height: 443px; }
@@ -142,11 +141,11 @@ html {
 
 #collect_game_data_content p {
   color: white;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 28px;
   font-style: normal;
   font-weight: 300;
-  letter-spacing: .02em; }
+  letter-spacing: .03em; }
 
 .linkto {
   color: white;
@@ -335,62 +334,22 @@ ul#buttons li {
   background-image: url("images/screenshot_1.jpg");
   background-position: center top;
   width: 913px;
-  height: 442px;
-  opacity: .55;
-  -webkit-transition: opacity ease-in .5s;
-  -moz-transition: opacity ease-in .5s;
-  transition: opacity ease-in .5s; }
-
-.slider.slide_one:hover {
-  opacity: .85;
-  -webkit-transition: opacity .5s;
-  -moz-transition: opacity .5s;
-  transition: opacity .5s; }
+  height: 442px; }
 
 .slider.slide_two {
   background-image: url("images/screenshot_2.jpg");
   width: 913px;
-  height: 442px;
-  opacity: .55;
-  -webkit-transition: opacity ease-in .5s;
-  -moz-transition: opacity ease-in .5s;
-  transition: opacity ease-in .5s; }
-
-.slider.slide_two:hover {
-  opacity: .85;
-  -webkit-transition: opacity .5s;
-  -moz-transition: opacity .5s;
-  transition: opacity .5s; }
+  height: 442px; }
 
 .slider.slide_three {
   background-image: url("images/screenshot_3.jpg");
   width: 913px;
-  height: 442px;
-  opacity: .55;
-  -webkit-transition: opacity ease-in .5s;
-  -moz-transition: opacity ease-in .5s;
-  transition: opacity ease-in .5s; }
-
-.slider.slide_three:hover {
-  opacity: .85;
-  -webkit-transition: opacity .5s;
-  -moz-transition: opacity .5s;
-  transition: opacity .5s; }
+  height: 442px; }
 
 .slider.slide_four {
   background-image: url("images/screenshot_4.jpg");
   width: 913px;
-  height: 442px;
-  opacity: .55;
-  -webkit-transition: opacity ease-in .5s;
-  -moz-transition: opacity ease-in .5s;
-  transition: opacity ease-in .5s; }
-
-.slider.slide_three:hover {
-  opacity: .85;
-  -webkit-transition: opacity .5s;
-  -moz-transition: opacity .5s;
-  transition: opacity .5s; }
+  height: 442px; }
 
 .slider p {
   position: relative;
@@ -400,6 +359,32 @@ ul#buttons li {
   color: white;
   font-weight: 100;
   text-shadow: 2px 2px #000000; }
+
+/* Scroll Top Button */
+.scrollToTop {
+  width: 200px;
+  height: 125px;
+  text-align: center;
+  text-decoration: none;
+  position: fixed;
+  bottom: 0px;
+  left: 40px;
+  display: none;
+  background: url("images/backtotop.png") no-repeat 0px 20px;
+  z-index: 100;
+  -webkit-transition: background-image 0.2s ease-in-out;
+  -moz-transition: background-image 0.2s ease-in-out;
+  -ms-transition: background-image 0.2s ease-in-out;
+  -o-transition: background-image 0.2s ease-in-out;
+  transition: background-image 0.2s ease-in-out; }
+
+.scrollToTop:hover {
+  background: url("images/backtotop_b.png") no-repeat 0px 20px;
+  -webkit-transition: background-image 0.2s ease-in-out;
+  -moz-transition: background-image 0.2s ease-in-out;
+  -ms-transition: background-image 0.2s ease-in-out;
+  -o-transition: background-image 0.2s ease-in-out;
+  transition: background-image 0.2s ease-in-out; }
 
 /* Mobile */
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
