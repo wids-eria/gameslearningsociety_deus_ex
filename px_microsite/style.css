@@ -296,6 +296,14 @@ h5{  }
             width: 206px;
             height: 59px; 
         }
+	
+	
+.learn_more_link{
+    height:110px;
+    width:740px;
+    float:left;
+    margin:15px 0 0 16px;
+}
 
 
 
