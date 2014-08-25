@@ -1,0 +1,291 @@
+/*------------------------------------------------------------------
+
+STYLESHEET CONTENTS
+
+    -- GLOBAL STYLES
+    -- MIXINS
+    -- MISC CLASSES
+    -- ACTIVE PAGE
+    -- CONTAINERS
+    -- NAVIGATION
+    -- ELEMENTS
+    -- FOOTER
+    
+-------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+
+    Global Styles
+
+-------------------------------------------------------------------*/
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html {
+  overflow: scroll;
+  background: #010815; }
+
+body {
+  background: url(images/header_bg.png) 50% 0% no-repeat;
+  font-family: verdana;
+  font-size: 12px; }
+
+a {
+  text-decoration: none; }
+
+ul {
+  list-style: none; }
+
+::selection {
+  background: #061121;
+  color: white; }
+
+/* End Global Styles */
+/*------------------------------------------------------------------
+
+    Mixins
+
+-------------------------------------------------------------------*/
+/* End Mixins */
+/*------------------------------------------------------------------
+
+    Misc Classes
+
+-------------------------------------------------------------------*/
+.clear {
+  clear: both; }
+
+.left {
+  float: left; }
+
+.right {
+  float: right; }
+
+.bold {
+  font-weight: bold; }
+
+.italic {
+  font-style: italic; }
+
+.underline {
+  text-decoration: underline; }
+
+.center_text {
+  text-align: center; }
+
+.all_caps {
+  text-transform: uppercase; }
+
+.lower_case {
+  text-transform: lowercase; }
+
+.yellow {
+  font-weight: 800;
+  color: #eeb900;
+  letter-spacing: 2px; }
+
+/* End Misc Classes */
+/*------------------------------------------------------------------
+
+    Active Page
+
+-------------------------------------------------------------------*/
+/*
+  body#ID_NAME_HERE .Navigation_Name li.List_Item_Class_Here{ Style for active Nav button }
+*/
+/* End Active Page */
+/*------------------------------------------------------------------
+
+    Containers
+
+-------------------------------------------------------------------*/
+        /*------------------------------------------------------------------
+
+            Main Containers
+
+        -------------------------------------------------------------------*/
+.page_wrap {
+  margin: 0 auto;
+  width: 980px; }
+
+.main_content {
+  width: 100%;
+  float: left; }
+
+.screenshots {
+  width: 700px;
+  height: 70px;
+  float: left;
+  margin: 15px 0 0 712px; }
+  .screenshots .thumbnails {
+    width: 70px;
+    height: 70px; }
+  .screenshots .box1 {
+    float: left;
+    margin: 0 0 0 20px; }
+  .screenshots .box2 {
+    float: left;
+    margin: 0 0 0 31px; }
+  .screenshots .box3 {
+    float: left;
+    margin: 0 0 0 31px; }
+  .screenshots .box4 {
+    float: left;
+    margin: 0 0 0 31px; }
+  .screenshots .box5 {
+    float: left;
+    margin: 0 0 0 31px; }
+  .screenshots .box6 {
+    float: left;
+    margin: 0 0 0 31px; }
+  .screenshots .box7 {
+    float: left;
+    margin: 0 0 0 31px; }
+
+/* End Containers */
+/*------------------------------------------------------------------
+
+    Navigation
+
+-------------------------------------------------------------------*/
+/* End Navigation */
+/*------------------------------------------------------------------
+
+    Elements
+
+-------------------------------------------------------------------*/
+.top_three_sections {
+  height: 954px;
+  width: 1322px;
+  background: url(images/top_three_sections.png);
+  float: left;
+  margin: 290px 0 0 -190px;
+  z-index: 100;
+  position: relative; }
+
+.bottom_two_sections {
+  height: 889px;
+  width: 1727px;
+  background: url(images/bottom_two_sections.png);
+  float: left;
+  margin: -120px 0 0 -495px;
+  z-index: 100;
+  position: relative; }
+
+.textbox {
+  float: left; }
+  .textbox .heading {
+    float: left;
+    margin: 0 0 5px 0;
+    font-family: jaf-facitweb;
+    color: white;
+    font-size: 30px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px; }
+  .textbox .copy {
+    float: left;
+    margin: 0 0 0 0;
+    font-family: jaf-facitweb;
+    font-weight: 400;
+    color: #c1dafe;
+    letter-spacing: .5px;
+    font-size: 17px; }
+
+.complete_your_mission {
+  width: 760px;
+  margin: 140px 0 0 240px; }
+
+.a_collaborative_effort {
+  width: 465px;
+  margin: 85px 0 0 240px; }
+
+.ekman {
+  width: 377px;
+  float: right;
+  margin: 270px 205px 0 0;
+  color: #637ca2;
+  font-family: jaf-facitweb;
+  font-size: 12px; }
+
+.pro_social_training_with_games {
+  width: 663px;
+  margin: 80px 0 0 240px; }
+
+.the_art_of_science {
+  width: 430px;
+  margin: 155px 0 0 1010px; }
+
+.in_game_screenshots {
+  width: 700px;
+  margin: 75px 0 0 723px; }
+
+.press {
+  width: 700px;
+  margin: 35px 0 0 723px; }
+
+.edweek_press {
+  height: 131px;
+  width: 317px;
+  float: left;
+  margin: 13px 0 0 725px; }
+  .edweek_press .button {
+    height: 38px;
+    width: 162px;
+    background: url(images/button.png);
+    margin: 14px 0 14px 135px; }
+    .edweek_press .button p {
+      color: #637ca2;
+      font-family: jaf-facitweb;
+      font-size: 12px;
+      font-weight: 800;
+      color: #eeb900;
+      letter-spacing: 2px;
+      text-align: center;
+      line-height: 38px;
+      text-transform: uppercase; }
+    .edweek_press .button:hover {
+      background: url(images/button_hover.png); }
+
+.wid_press {
+  height: 131px;
+  width: 317px;
+  float: left;
+  margin: 13px 0 0 55px; }
+  .wid_press .button {
+    height: 38px;
+    width: 162px;
+    background: url(images/button.png);
+    margin: 40px 0 0 135px; }
+    .wid_press .button p {
+      color: #637ca2;
+      font-family: jaf-facitweb;
+      font-size: 12px;
+      font-weight: 800;
+      color: #eeb900;
+      letter-spacing: 2px;
+      text-align: center;
+      line-height: 38px;
+      text-transform: uppercase; }
+    .wid_press .button:hover {
+      background: url(images/button_hover.png); }
+
+/* End Elements */
+/*------------------------------------------------------------------
+
+    Footer
+
+-------------------------------------------------------------------*/
+.footer_container {
+  float: left;
+  height: 560px;
+  width: 1404px;
+  background: url(images/bottom_planet.png);
+  margin: -300px 0 0 -200px;
+  z-index: 0;
+  position: relative; }
+
+/* End Footer */
