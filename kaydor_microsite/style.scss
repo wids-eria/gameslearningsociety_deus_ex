@@ -36,10 +36,12 @@ body{   background: url(images/header_bg.png) 50% 0% no-repeat;
         font-size:12px;
 }
 
-a{ text-decoration:none; }
-    a:hover{  }
+a{ text-decoration:none; color:white; }
+    a:hover{ text-decoration:underline; }
 
-p{  }
+p{
+    
+}
 
 ul{ list-style:none; }
 
@@ -107,6 +109,7 @@ h5{  }
     color:#eeb900;
     letter-spacing:2px;
 }
+
 
 /* End Misc Classes */
 
@@ -253,17 +256,21 @@ header{  }
 }
 
     .complete_your_mission{ width:760px; margin:140px 0 0 240px; }
-    .a_collaborative_effort{ width:465px; margin:85px 0 0 240px; }
-    .ekman{
+    .a_collaborative_effort{ width:465px; margin:72px 0 0 240px; }
+    .collaberation{
         width:377px;
         float:right;
         margin: 270px 205px 0 0;
         
         color:#637ca2;
         font-family:jaf-facitweb;
-        font-size:12px;
+        font-size:15px;
+        
+        a{
+            color:#a0b6d6;
+        }
     }
-    .pro_social_training_with_games{ width:663px; margin:80px 0 0 240px; }
+    .pro_social_training_with_games{ width:663px; margin:70px 0 0 240px; }
     .the_art_of_science{ width:430px; margin:155px 0 0 1010px; }
     .in_game_screenshots{ width:700px; margin:75px 0 0 723px; }
     .press{ width:700px; margin:35px 0 0 723px; }
@@ -273,6 +280,8 @@ header{  }
     width:317px;
     float:left;
     margin:13px 0 0 725px;
+    
+    a:hover{ text-decoration:none; }
     
     .button{
         height:38px;
@@ -306,11 +315,15 @@ header{  }
     float:left;
     margin:13px 0 0 55px;
     
+    a:hover{ text-decoration:none; }
+    
     .button{
         height:38px;
         width:162px;
         background:url(images/button.png);
         margin:40px 0 0 135px;
+        
+        
         
         p{
             color:#637ca2;
@@ -351,7 +364,56 @@ header{  }
     position:relative;
     
     
-    footer{  }
+    .footer{
+        width:700px;
+        height:60px;
+        float:left;
+        margin:455px 0 0 350px;
+        
+        p{
+            @include full;
+            
+            margin:30px 0 30px 0;
+            
+            color: #637ca2;
+            font-family: jaf-facitweb;
+            font-size: 13px;
+        }
+        
+        .cihm_logo{
+            height:51px;
+            width:168px;
+            background:url(images/cihm_logo.png);
+            float:left;
+            margin:0 0 0 0;
+        }
+        
+        .gls_logo{
+            height:60px;
+            width:142px;
+            background:url(images/gls_logo.png);
+            float:left;
+            margin:0 0 0 50px;
+        }
+        
+        .lgn_logo{
+            height:47px;
+            width:83px;
+            background:url(images/lgn_logo.png);
+            float:left;
+            margin:0 0 0 53px;
+        }
+        
+        .wid_logo{
+            height:52px;
+            width:114px;
+            background:url(images/wid_logo.png);
+            float:left;
+            margin:0 0 0 68px;
+        }
+    }
+    
+    
 }
 
 /* End Footer */
