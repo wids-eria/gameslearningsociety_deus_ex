@@ -90,6 +90,25 @@
                         
                     </div>
                     
+                <!-- A3 -->
+                    <div class="hp_course_link">
+                        <a href="https://www.coursera.org/course/videogameslearning"
+                           target="_blank" title=""><div class="arrow floatright"></div></a>
+                        <p class="course_title">Video Games and Learning: Coursera MOOC</p>
+                        <p class="course_instructor bold">Professors: Kurt Squire & Constance Steinkuehler</p>
+                        
+                        <br />
+                        
+                        <p class="course_instructor">
+                            Video games aren’t just fun, they can be powerful vehicles for learning as well. In this course, we
+                            discuss research on the kinds of thinking and learning that go into video games and gaming culture,
+                            benefits and drawbacks of digital gameplay, tensions between youth culture and traditional education,
+                            and new developments intended to bridge that growing divide.
+                        </p>
+                        
+                        
+                    </div>
+                    
                 <!-- A2 -->    
                     <div class="hp_course_link">
                         <p class="course_title">C&I 675: Design-Based Research</p>
@@ -248,9 +267,8 @@
                 
                 <!-- A6 -->
                     <div class="hp_course_link">
-                        <a href="http://public.my.wisc.edu/portal/f/u124l1s4/p/CourseGuide-Browse-Courses.u124l1n31/detached/render.uP?pCm=view&pP_courseID=024100&pP_subjectId=272&pP_topicId=0&pP_action=courseDetail&pP_termCode=1154"
+                        <a href="http://public.my.wisc.edu/portal/f/u124l1s4/p/CourseGuide-Browse-Courses.u124l1n31/detached/render.uP?pCm=view&pP_courseID=024101&pP_subjectId=272&pP_topicId=0&pP_action=courseDetail&pP_termCode=1152"
                            target="_blank" title=""><div class="arrow floatright"></div></a>
-                        <a href="https://www.coursera.org/course/videogameslearning" target="_blank" title="View this course on Coursera"><div class="arrow floatright"></div></a>
                         <p class="course_title">C&I 821: Constructionism</p>
                         <p class="course_instructor bold">Professor: Matthew Berland</p>
                         
