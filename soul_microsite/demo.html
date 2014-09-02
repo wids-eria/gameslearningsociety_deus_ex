@@ -1,0 +1,142 @@
+<!DOCTYPE HTML >
+<html lang="en">
+<head>
+    
+    <title>Soul of a Place - Demo</title>
+    <meta name="description"
+          content="">
+    
+    <link rel="stylesheet" type="text/css" href="stylesheets/style.min.css"/>
+
+    <!-- Add jQuery library -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+
+    <!-- Typekit -->
+    <script type="text/javascript" src="//use.typekit.net/ouc8weu.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    
+    <script type='text/javascript' src='https://ssl-webplayer.unity3d.com/download_webplayer-3.x/3.0/uo/jquery.min.js'></script>
+    <script type="text/javascript">
+    <!--
+    var unityObjectUrl = "http://webplayer.unity3d.com/download_webplayer-3.x/3.0/uo/UnityObject2.js";
+    if (document.location.protocol == 'https:')
+            unityObjectUrl = unityObjectUrl.replace("http://", "https://ssl-");
+    document.write('<script type="text\/javascript" src="' + unityObjectUrl + '"><\/script>');
+    -->
+    </script>
+    <script type="text/javascript">
+    <!--
+            var config = {
+                    width: 900, 
+                    height: 500,
+                    params: { enableDebugging:"0" }
+                    
+            };
+            config.params["disableContextMenu"] = true;
+            var u = new UnityObject2(config);
+            
+            jQuery(function() {
+
+                    var $missingScreen = jQuery("#unityPlayer").find(".missing");
+                    var $brokenScreen = jQuery("#unityPlayer").find(".broken");
+                    $missingScreen.hide();
+                    $brokenScreen.hide();
+
+                    u.observeProgress(function (progress) {
+                            switch(progress.pluginStatus) {
+                                    case "broken":
+                                            $brokenScreen.find("a").click(function (e) {
+                                                    e.stopPropagation();
+                                                    e.preventDefault();
+                                                    u.installPlugin();
+                                                    return false;
+                                            });
+                                            $brokenScreen.show();
+                                    break;
+                                    case "missing":
+                                            $missingScreen.find("a").click(function (e) {
+                                                    e.stopPropagation();
+                                                    e.preventDefault();
+                                                    u.installPlugin();
+                                                    return false;
+                                            });
+                                            $missingScreen.show();
+                                    break;
+                                    case "installed":
+                                            $missingScreen.remove();
+                                    break;
+                                    case "first":
+                                    break;
+                            }
+                    });
+                    u.initPlugin(jQuery("#unityPlayer")[0], "soul_web_build.unity3d");
+            });
+    -->
+    </script>
+    
+</head>
+
+<body id="">
+    
+       
+<div class="page_wrap">
+    
+    <div class="soul_logo_container_demo">
+        <div class="soul_logo"></div>
+    </div>
+    
+<div class="divider"></div>
+
+<!-- Travel Back To 1930's America -->    
+<div class="travel_back_container">
+
+    <div id="unityPlayer">
+        <div class="missing">
+            <a href="http://unity3d.com/webplayer/" title="Unity Web Player. Install now!">
+                <img alt="Unity Web Player. Install now!" src="http://webplayer.unity3d.com/installation/getunity.png" width="193" height="63" />
+            </a>
+        </div>
+    </div>    
+    
+</div>
+    
+<div class="divider"></div>       
+
+
+<!-- Footer -->
+<div class="footer_container">
+    
+    <div class="footer_logo_container">
+        
+        <a href="http://www.learninggamesnetwork.org" target="_blank">
+            <div class="lgn_logo"></div>
+        </a>
+        
+        <a href="http://www.sparkmedia.org" target="_blank">
+            <div class="spark_media_logo"></div>
+        </a>
+        
+    </div>
+    
+</div><!-- End Footer -->        
+
+    
+</div><!-- End Page Wrap -->
+
+
+<!-- Initialize Fancybox -->
+<script type="text/javascript">
+	$(document).ready(function() {
+        $('a').fancybox({
+            'cyclic':true
+        });
+        
+    });
+</script>
+
+
+<div class="clear"></div>
+
+</body>
+
+</html>
