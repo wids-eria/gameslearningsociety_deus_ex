@@ -224,13 +224,19 @@ ul {
   .footer_container .footer_logo_container {
     margin: 0 auto;
     height: 74px;
-    width: 294px;
+    width: 535px;
     padding: 135px 0 0 0; }
     .footer_container .footer_logo_container .lgn_logo {
       height: 73px;
       width: 126px;
       background: url(../images/lgn_logo.png);
       float: left; }
+    .footer_container .footer_logo_container .stone_soup_productions_logo {
+      height: 60px;
+      width: 177px;
+      background: url(../images/stone_soup_productions_logo.png);
+      float: left;
+      margin: 0 0 0 50px; }
     .footer_container .footer_logo_container .spark_media_logo {
       height: 74px;
       width: 130px;
