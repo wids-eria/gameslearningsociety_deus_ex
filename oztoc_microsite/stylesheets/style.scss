@@ -190,7 +190,7 @@ h5.title{
 .new_spiecies_container{
     width:638px;
     float:right;
-    margin:425px 0 0 0;
+    margin:335px 0 0 0;
 }
 
 .video_container{
@@ -282,6 +282,22 @@ header{  }
 -------------------------------------------------------------------*/
   
 .element{  }
+
+.glss_container{
+    @include full;
+
+    .glss{
+        @include center;
+        
+        .glss_logo{
+            height:95px;
+            width:52px;
+            background:url(../images/glss_logo.png);
+            margin:0px 0 0 0;
+            float:right;
+        }
+    }
+}
 
 /* End Elements */
 
