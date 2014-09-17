@@ -2,6 +2,25 @@
   margin: 0;
   padding: 0; }
 
+/*------------------------------------------------------------------
+
+    Mixins
+
+-------------------------------------------------------------------*/
+.glss_container {
+  width: 100%;
+  float: left; }
+  .glss_container .glss {
+    margin: 0 auto;
+    width: 830px; }
+    .glss_container .glss .glss_logo {
+      height: 95px;
+      width: 52px;
+      background: url(images/glss_logo.png);
+      margin: 30px 0 0 0;
+      float: left; }
+
+/* End Mixins */
 .clear {
   clear: both; }
 
