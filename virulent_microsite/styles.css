@@ -10,7 +10,7 @@
 .glss_container {
   width: 100%;
   float: left;
-  z-index: 999999;
+  z-index: 99;
   position: relative; }
   .glss_container .glss {
     margin: 0 auto;
@@ -54,7 +54,8 @@ header {
   margin: 0 auto;
   width: 1158px;
   height: 149px;
-  position: relative; }
+  position: relative;
+  z-index: 999; }
 
 #gamesportal_logo {
   position: fixed;

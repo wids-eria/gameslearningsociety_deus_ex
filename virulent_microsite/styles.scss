@@ -28,7 +28,7 @@
 
 .glss_container{
     @include full;
-    z-index:999999;
+    z-index:99;
     position:relative;
     
     .glss{
@@ -90,6 +90,7 @@ header {
     width: 1158px;
     height: 149px;
     position: relative;
+    z-index:999;
 }
 
 #gamesportal_logo {
