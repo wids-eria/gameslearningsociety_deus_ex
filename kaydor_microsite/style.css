@@ -54,6 +54,19 @@ ul {
 
 -------------------------------------------------------------------*/
 /* End Mixins */
+.glss_container {
+  width: 100%;
+  float: left; }
+  .glss_container .glss {
+    margin: 0 auto;
+    width: 980px; }
+    .glss_container .glss .glss_logo {
+      height: 95px;
+      width: 52px;
+      background: url(images/glss_logo.png);
+      margin: 30px 0 0 0;
+      float: left; }
+
 /*------------------------------------------------------------------
 
     Misc Classes
@@ -166,7 +179,7 @@ ul {
   width: 1322px;
   background: url(images/top_three_sections.png);
   float: left;
-  margin: 290px 0 0 -190px;
+  margin: 150px 0 0 -190px;
   z-index: 100;
   position: relative; }
 
