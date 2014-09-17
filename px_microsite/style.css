@@ -306,6 +306,40 @@ h5{  }
 }
 
 
+.glss_container{
+    width:100%;
+    float:left; 
+}
+    
+    .glss{
+	margin:0 auto;
+	width:980px;
+    }
+
+	.glss_logo{
+	    height:95px;
+	    width:52px;
+	    background:url(images/glss_logo.png);
+	    margin:0px 0 0 0;
+	    float:right;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
