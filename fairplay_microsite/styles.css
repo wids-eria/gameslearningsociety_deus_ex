@@ -2,6 +2,18 @@
   margin: 0;
   padding: 0; }
 
+/*------------------------------------------------------------------
+
+    Mixins
+
+-------------------------------------------------------------------*/
+.glss_logo {
+  height: 95px;
+  width: 52px;
+  background: url(images/glss_logo.png);
+  margin: 80px 0 0 0;
+  float: left; }
+
 a {
   text-decoration: none;
   color: #fff; }
@@ -65,7 +77,7 @@ header {
   position: relative; }
 
 #tagline {
-  left: 20px;
+  left: 75px;
   top: 70px;
   position: absolute;
   width: 400px;
@@ -93,7 +105,7 @@ header {
 /* Platform Logos */
 #platform_logos {
   position: absolute;
-  left: 10px;
+  left: 60px;
   top: 130px;
   width: 280px;
   height: 72px; }

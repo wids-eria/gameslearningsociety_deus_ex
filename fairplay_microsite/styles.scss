@@ -3,6 +3,38 @@
   padding: 0;
 }
 
+
+/*------------------------------------------------------------------
+
+    Mixins
+
+-------------------------------------------------------------------*/
+
+@mixin center{ margin:0 auto; }
+
+@mixin full { width:100%; float:left; }
+
+@mixin transition{
+    -webkit-transition: all 0.5s ease;
+       -moz-transition: all 0.5s ease;
+        -ms-transition: all 0.5s ease;
+         -o-transition: all 0.5s ease;
+}
+
+@mixin rounded_corners{
+    -webkit-border-radius: 8px;
+       -moz-border-radius: 8px;
+            border-radius: 8px;
+}
+
+.glss_logo{
+    height:95px;
+    width:52px;
+    background:url(images/glss_logo.png);
+    margin:80px 0 0 0;
+    float:left;
+}
+
 .pagewrap {
     
 }
@@ -89,7 +121,7 @@ header {
 }
 
 #tagline {
-  left: 20px;
+  left: 75px;
   top: 70px;
   position: absolute;
   width: 400px;
@@ -131,7 +163,7 @@ header {
 
 #platform_logos {
 position: absolute;
-left: 10px;
+left: 60px;
 top: 130px;
 width: 280px;
 height: 72px;
