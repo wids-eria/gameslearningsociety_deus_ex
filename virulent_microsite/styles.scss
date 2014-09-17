@@ -3,6 +3,48 @@
     padding: 0;
 }
 
+/*------------------------------------------------------------------
+
+    Mixins
+
+-------------------------------------------------------------------*/
+
+@mixin center{ margin:0 auto; }
+
+@mixin full { width:100%; float:left; }
+
+@mixin transition{
+    -webkit-transition: all 0.5s ease;
+       -moz-transition: all 0.5s ease;
+        -ms-transition: all 0.5s ease;
+         -o-transition: all 0.5s ease;
+}
+
+@mixin rounded_corners{
+    -webkit-border-radius: 8px;
+       -moz-border-radius: 8px;
+            border-radius: 8px;
+}
+
+.glss_container{
+    @include full;
+    z-index:999999;
+    position:relative;
+    
+    .glss{
+        @include center;
+        width:830px;
+        
+        .glss_logo{
+            height:95px;
+            width:52px;
+            background:url(images/glss_logo.png);
+            margin:30px 0 0 0;
+            float:left;
+        }
+    }
+}
+
 .pagewrap {
     
 }
