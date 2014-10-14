@@ -54,19 +54,6 @@ ul {
 
 -------------------------------------------------------------------*/
 /* End Mixins */
-.glss_container {
-  width: 100%;
-  float: left; }
-  .glss_container .glss {
-    margin: 0 auto;
-    width: 980px; }
-    .glss_container .glss .glss_logo {
-      height: 95px;
-      width: 52px;
-      background: url(images/glss_logo.png);
-      margin: 30px 0 0 0;
-      float: left; }
-
 /*------------------------------------------------------------------
 
     Misc Classes
@@ -179,7 +166,16 @@ ul {
   width: 1322px;
   background: url(images/top_three_sections.png);
   float: left;
-  margin: 150px 0 0 -190px;
+  margin: 290px 0 0 -190px;
+  z-index: 100;
+  position: relative; }
+
+.top_three_sections_2 {
+  height: 1491px;
+  width: 1322px;
+  background: url(images/top_three_sections_2.png);
+  float: left;
+  margin: 290px 0 0 -190px;
   z-index: 100;
   position: relative; }
 
@@ -218,12 +214,12 @@ ul {
 
 .a_collaborative_effort {
   width: 465px;
-  margin: 72px 0 0 240px; }
+  margin: 30px 0 0 240px; }
 
 .collaberation {
   width: 377px;
   float: right;
-  margin: 270px 205px 0 0;
+  margin: 220px 205px 0 0;
   color: #637ca2;
   font-family: jaf-facitweb;
   font-size: 15px; }
@@ -232,7 +228,7 @@ ul {
 
 .pro_social_training_with_games {
   width: 663px;
-  margin: 70px 0 0 240px; }
+  margin: 75px 0 0 240px; }
 
 .the_art_of_science {
   width: 430px;
@@ -295,6 +291,12 @@ ul {
       text-transform: uppercase; }
     .wid_press .button:hover {
       background: url(images/button_hover.png); }
+
+.gameplay_video {
+  width: 100%;
+  float: left; }
+  .gameplay_video iframe {
+    margin: 98px 0 0 255px; }
 
 /* End Elements */
 /*------------------------------------------------------------------
