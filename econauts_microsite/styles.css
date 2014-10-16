@@ -89,6 +89,18 @@ html {
   height: 553px;
   width: 960px; }
 
+.video_container {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("images/video_container.png");
+  background-repeat: no-repeat;
+  height: 485px;
+  width: 960px; }
+  .video_container iframe {
+    float: left;
+    margin: 40px 0 0 140px; }
+
 #development_details {
   position: relative;
   margin: 0 auto;

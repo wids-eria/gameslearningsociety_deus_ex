@@ -130,6 +130,21 @@ background: url('images/background_wood_texture.jpg') no-repeat center center fi
     width: 960px;
 }
 
+.video_container {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url('images/video_container.png');
+    background-repeat: no-repeat;
+    height: 485px;
+    width: 960px;
+    
+    iframe{
+        float:left;
+        margin:40px 0 0 140px;
+    }
+}
+
 #development_details {
     position: relative;
     margin: 0 auto;
