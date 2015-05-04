@@ -18,8 +18,8 @@
 			#flashContent { display:none; }
      </style>
     
-    <script type="text/javascript" src="http://www.brainpop.com/js/swfobject.js"></script>
-    <script src="http://www.brainpop.com/games/assets/js/cameraProxy.js" type="text/javascript"></script>
+    <script type="text/javascript" src="https://www.brainpop.com/js/swfobject.js"></script>
+    <script src="https://www.brainpop.com/games/assets/js/cameraProxy.js" type="text/javascript"></script>
 		
 		 <!-- Run Flash Player -->
         <script language="JavasScript" type="text/javascript" src="cs_build/AC_RunActiveContent.js"></script>
