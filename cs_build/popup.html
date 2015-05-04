@@ -132,8 +132,7 @@ function SendAccessToken(token){
 }
 
 function requestAuthToken(){
-	// Please uncomment this!
-	// SendAuthToken(<%= current_user.auth_token.to_json.html_safe %>);
+	SendAuthToken(<%= current_user.auth_token.to_json.html_safe %>);
 }
 
 </script>
